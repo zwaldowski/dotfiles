@@ -12,6 +12,8 @@ then
   cd ~/Library/Application\ Support/Sublime\ Text\ 3/
   rm -rf Packages
   ln -s ~/.dotfiles/sublime-text/Packages Packages
+  rm -rf Installed\ Packages
+  ln -s ~/.dotfiles/sublime-text/Installed\ Packages Installed\ Packages
 fi
 
 exit 0
