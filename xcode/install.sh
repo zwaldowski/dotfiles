@@ -9,7 +9,7 @@ if [ "$(uname -s)" == "Darwin" ]
 then
   echo "  Symlinking Xcode preferences"
   mkdir -p ~/Library/Developer/Xcode/UserData/FontAndColorThemes
-  cd~/Library/Developer/Xcode/UserData
+  cd ~/Library/Developer/Xcode/UserData
   rm -rf FontAndColorThemes
   ln -s ~/.dotfiles/xcode/themes FontAndColorThemes
 fi
