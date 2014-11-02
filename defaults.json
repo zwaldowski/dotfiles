@@ -2,8 +2,7 @@
     "NSGlobalDomain": {
         "KeyRepeat": 0,
         "NSTableViewDefaultSizeMode": 1,
-        "AppleKeyboardUIMode": 3,
-        "AppleEnableSwipeNavigateWithScrolls": true,
+        "AppleEnableSwipeNavigateWithScrolls": 1,
         "com.apple.trackpad.threeFingerHorizSwipeGesture": 1,
         "NSPreferredWebServices": {
             "NSWebServicesProviderWebSearch": {
