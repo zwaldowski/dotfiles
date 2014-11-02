@@ -96,6 +96,12 @@
         "xcode/*": "~/Library/Developer/Xcode/UserData/",
         "zsh/.*": "~"
     },
+    "icons": {
+        "Sketch": "https://raw.githubusercontent.com/zwaldowski/dotfiles/master/icons/Sketch.icns",
+        "Spotify": "https://raw.githubusercontent.com/zwaldowski/dotfiles/master/icons/Spotify.icns",
+        "Steam": "https://raw.githubusercontent.com/zwaldowski/dotfiles/master/icons/Steam.icns",
+        "Sublime Text": "https://raw.githubusercontent.com/zwaldowski/dotfiles/master/icons/Sublime Text.icns"
+    },
     "taps": [
         "caskroom/fonts",
         "caskroom/versions"
