@@ -23,7 +23,7 @@ Temporary Items
 .apdisk
 
 # Custom
-Package Control.cache
-Package Control.last-run
+*.cache
+*.last-run
 fish_history
 fishd.*
