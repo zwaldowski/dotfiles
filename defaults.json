@@ -2,7 +2,6 @@
     "NSGlobalDomain": {
         "KeyRepeat": 0,
         "NSTableViewDefaultSizeMode": 1,
-        "AppleInterfaceStyle": "Dark",
         "AppleKeyboardUIMode": 3,
         "AppleEnableSwipeNavigateWithScrolls": true,
         "com.apple.trackpad.threeFingerHorizSwipeGesture": 1,
