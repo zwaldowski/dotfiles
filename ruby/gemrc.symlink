@@ -3,4 +3,4 @@
 :verbose: true
 :backtrace: false
 :benchmark: false
-gem: --no-document
+gem: --no-rdoc --no-ri --no-document
