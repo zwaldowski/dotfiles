@@ -4,17 +4,14 @@
 [hub]
         protocol = https
 [user]
-        name = AUTHORNAME
-        email = AUTHOREMAIL
+        name = Zachary Waldowski
+        email = zach@waldowski.me
 [push]
         default = current
 [credential]
-        helper = GIT_CREDENTIAL_HELPER
+        helper = osxkeychain
 [alias]
         co = checkout
-        promote = !$ZSH/bin/git-promote
-        wtf     = !$ZSH/bin/git-wtf
-        rank-contributors = !$ZSH/bin/git-rank-contributors
         count   = !git shortlog -sn
 [color]
         branch = auto
@@ -26,8 +23,8 @@
 [format]
         pretty = %Cblue%h%Creset %Cgreen[%ar]%Creset (%an) %s
 [core]
-        excludesfile = ~/.config/git/ignore
-        attributesfile = ~/.config/git/attributes
+        excludesfile = ~/.cider/git/ignore
+        attributesfile = ~/.cider/git/attributes
         editor = subl -n -w
         autocrlf = input
         pager = less -r
@@ -92,3 +89,9 @@
         pushInsteadOf = "git://gist.github.com/"
 [url "git://gist.github.com/"]
         insteadOf = "gist:"
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = /opt/homebrew-cask/Caskroom/sourcetree/2.0.2/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true

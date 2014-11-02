@@ -1,0 +1,65 @@
+{
+    "NSGlobalDomain": {
+        "KeyRepeat": 0,
+        "NSTableViewDefaultSizeMode": 1,
+        "AppleInterfaceStyle": "Dark",
+        "AppleKeyboardUIMode": 3,
+        "AppleEnableSwipeNavigateWithScrolls": true,
+        "com.apple.trackpad.threeFingerHorizSwipeGesture": 1,
+        "NSPreferredWebServices": "{NSWebServicesProviderWebSearch = { NSDefaultDisplayName = DuckDuckGo; NSProviderIdentifier = \"com.duckduckg\"; }; }';",
+        "WebKitDeveloperExtras": true
+    },
+    "com.apple.Safari": {
+        "IncludeDevelopMenu": true,
+        "WebKitDeveloperExtrasEnabledPreferenceKey": true,
+        "com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled": true
+    },
+    "com.apple.Terminal": {
+        "StringEncodings": [ 4 ]
+    },
+    "com.apple.dashboard": {
+        "enabled-state": 1
+    },
+    "com.apple.dock": {
+        "autohide": true,
+        "mineffect": "scale",
+        "tilesize": 48
+    },
+    "com.apple.finder": {
+        "FK_AppCentricViewStyle": "clmv",
+        "FXPreferredViewStyle": "Nlsv",
+        "FXArrangeGroupViewBy": "Name",
+        "FXPreferredGroupBy": "Name",
+        "ShowExternalHardDrivesOnDesktop": false,
+        "ShowHardDrivesOnDesktop": false,
+        "ShowMountedServersOnDesktop": false,
+        "ShowRemovableMediaOnDesktop": false,
+        "OpenWindowForNewRemovableDisk": true,
+        "FXDefaultSearchScope": "SCcf",
+        "CreateDesktop": false
+    },
+    "com.apple.driver.AppleBluetoothMultitouch.trackpad": {
+        "TrackpadThreeFingerHorizSwipeGesture": 1
+    },
+    "com.apple.screencapture": {
+        "disable-shadow": true
+    },
+    "com.apple.frameworks.diskimages": {
+        "auto-open-ro-root": true,
+        "auto-open-rw-root": true
+    },
+    "com.google.Chrome": {
+        "ExtensionInstallSources": [ "https://gist.githubusercontent.com/", "http://userscripts.org/*" ]
+    },
+    "com.google.Chrome.canary": {
+        "ExtensionInstallSources": [ "https://gist.githubusercontent.com/", "http://userscripts.org/*" ]
+    },
+    "org.m0k.transmission": {
+        "UseIncompleteDownloadFolder": true,
+        "IncompleteDownloadFolder": "~/Downloads/Torrents",
+        "DownloadAsk": false,
+        "DeleteOriginalTorrent": true,
+        "WarningDonate": false,
+        "WarningLegal": false
+    }
+}

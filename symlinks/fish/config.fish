@@ -15,8 +15,8 @@ function w
 end
 
 # Path to your oh-my-fish.
-set fish_path $HOME/.dotfiles/fish/oh-my-fish
-set fish_custom $HOME/.dotfiles/fish/custom
+set fish_path $HOME/.cider/fish/oh-my-fish
+set fish_custom $HOME/.cider/fish/custom
 
 # Theme
 set fish_theme zw
