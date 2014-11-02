@@ -99,7 +99,7 @@
     "icons": {
         "Spotify": "https://raw.githubusercontent.com/zwaldowski/dotfiles/master/icons/Spotify.icns",
         "Steam": "https://raw.githubusercontent.com/zwaldowski/dotfiles/master/icons/Steam.icns",
-        "Sublime Text": "https://raw.githubusercontent.com/zwaldowski/dotfiles/master/icons/Sublime%020Text.icns"
+        "Sublime Text": "https://raw.githubusercontent.com/zwaldowski/dotfiles/master/icons/SublimeText.icns"
     },
     "taps": [
         "caskroom/fonts",
