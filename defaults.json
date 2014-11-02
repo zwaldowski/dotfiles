@@ -5,7 +5,12 @@
         "AppleKeyboardUIMode": 3,
         "AppleEnableSwipeNavigateWithScrolls": true,
         "com.apple.trackpad.threeFingerHorizSwipeGesture": 1,
-        "NSPreferredWebServices": "{NSWebServicesProviderWebSearch = { NSDefaultDisplayName = DuckDuckGo; NSProviderIdentifier = \"com.duckduckg\"; }; }';",
+        "NSPreferredWebServices": {
+            "NSWebServicesProviderWebSearch": {
+                "NSDefaultDisplayName": "DuckDuckGo",
+                "NSProviderIdentifier": "com.duckduckgo"
+            }
+        },
         "WebKitDeveloperExtras": true
     },
     "com.apple.Safari": {
