@@ -25,3 +25,5 @@ Temporary Items
 # Custom
 Package Control.cache
 Package Control.last-run
+fish_history
+fishd.*
