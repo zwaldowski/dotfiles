@@ -1,15 +1,7 @@
 {
     "NSGlobalDomain": {
-        "KeyRepeat": 0,
         "NSTableViewDefaultSizeMode": 1,
         "AppleEnableSwipeNavigateWithScrolls": 1,
-        "com.apple.trackpad.threeFingerHorizSwipeGesture": 1,
-        "NSPreferredWebServices": {
-            "NSWebServicesProviderWebSearch": {
-                "NSDefaultDisplayName": "DuckDuckGo",
-                "NSProviderIdentifier": "com.duckduckgo"
-            }
-        },
         "WebKitDeveloperExtras": true
     },
     "com.apple.Safari": {
