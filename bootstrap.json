@@ -92,6 +92,7 @@
         "fish/*.fish": "~/.config/fish/",
         "fish/functions": "~/.config/fish/",
         "git/.*": "~",
+        "lldb/*": "~",
         "sh/.*": "~",
         "ruby/.*": "~",
         "sublime-text/*": "~/Library/Application Support/Sublime Text 3/",
