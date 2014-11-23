@@ -9,7 +9,6 @@
         "android-studio",
         "appcode-eap",
         "bartender",
-        "cyberduck",
         "daisydisk",
         "evernote-beta",
         "faux-pas",
@@ -48,15 +47,13 @@
         "sourcetree",
         "spotify",
         "spotifybeta",
-        "subler",
         "steam",
         "sublime-text3",
         "tower",
         "transmission",
         "transmit",
         "vmware-fusion",
-        "wineskin-winery",
-        "xld"
+        "wineskin-winery"
     ],
     "formulas": [
         "android-sdk",
