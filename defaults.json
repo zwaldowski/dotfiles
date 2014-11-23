@@ -71,6 +71,19 @@
     "com.google.Chrome.canary": {
         "ExtensionInstallSources": [ "https://gist.githubusercontent.com/", "http://userscripts.org/*" ]
     },
+    "org.eyebeam.SelfControl": {
+        "HostBlacklist": [
+            "facebook.com",
+            "twitter.com",
+            "reddit.com",
+            "tumblr.com",
+            "youtube.com",
+            "9gag.com",
+            "netflix.com",
+            "hulu.com",
+            "buzzfeed.com"
+        ]
+    },
     "org.m0k.transmission": {
         "UseIncompleteDownloadFolder": true,
         "IncompleteDownloadFolder": "~/Downloads/Torrents",
