@@ -85,6 +85,11 @@
         "zsh",
         "zsh-completions"
     ],
+    "icons": {
+        "Spotify": "https://raw.githubusercontent.com/zwaldowski/dotfiles/master/icons/Spotify.icns",
+        "Steam": "https://raw.githubusercontent.com/zwaldowski/dotfiles/master/icons/Steam.icns",
+        "Sublime Text": "https://raw.githubusercontent.com/zwaldowski/dotfiles/master/icons/SublimeText.icns"
+    },
     "symlinks": {
         "appcode/*": "~/Library/Preferences/appCode30/",
         "bin/*": "~/bin/",
@@ -93,18 +98,14 @@
         "fish/functions": "~/.config/fish/",
         "git/.*": "~",
         "lldb/*": "~",
-        "sh/.*": "~",
         "ruby/.*": "~",
+        "sh/.*": "~",
         "sublime-text/*": "~/Library/Application Support/Sublime Text 3/",
         "xcode/*": "~/Library/Developer/Xcode/UserData/",
         "zsh/.*": "~"
     },
-    "icons": {
-        "Spotify": "https://raw.githubusercontent.com/zwaldowski/dotfiles/master/icons/Spotify.icns",
-        "Steam": "https://raw.githubusercontent.com/zwaldowski/dotfiles/master/icons/Steam.icns",
-        "Sublime Text": "https://raw.githubusercontent.com/zwaldowski/dotfiles/master/icons/SublimeText.icns"
-    },
     "taps": [
+        "caskroom/cask",
         "caskroom/fonts",
         "caskroom/versions"
     ]
