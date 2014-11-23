@@ -74,6 +74,9 @@
     "com.google.Chrome.canary": {
         "ExtensionInstallSources": [ "https://gist.githubusercontent.com/", "http://userscripts.org/*" ]
     },
+    "com.webkit.nightly.WebKit": {
+        "StartPageDisabled": true
+    },
     "org.eyebeam.SelfControl": {
         "HostBlacklist": [
             "facebook.com",
