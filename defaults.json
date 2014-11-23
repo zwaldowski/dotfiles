@@ -2,7 +2,8 @@
     "NSGlobalDomain": {
         "NSTableViewDefaultSizeMode": 1,
         "AppleEnableSwipeNavigateWithScrolls": 1,
-        "WebKitDeveloperExtras": true
+        "WebKitDeveloperExtras": true,
+        "AppleEnableSwipeNavigateWithScrolls": 1
     },
     "com.apple.Safari": {
         "IncludeDevelopMenu": true,
