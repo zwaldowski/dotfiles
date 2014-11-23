@@ -62,6 +62,9 @@
         "auto-open-ro-root": true,
         "auto-open-rw-root": true
     },
+    "com.apple.Spotlight": {
+        "showedFTE": true
+    },
     "com.google.Chrome": {
         "ExtensionInstallSources": [ "https://gist.githubusercontent.com/", "http://userscripts.org/*" ]
     },
