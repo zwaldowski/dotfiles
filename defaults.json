@@ -3,6 +3,7 @@
         "NSTableViewDefaultSizeMode": 1,
         "AppleEnableSwipeNavigateWithScrolls": 1,
         "WebKitDeveloperExtras": true,
+        "AppleMiniaturizeOnDoubleClick": false,
         "AppleEnableSwipeNavigateWithScrolls": 1
     },
     "com.apple.Safari": {
