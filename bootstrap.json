@@ -1,7 +1,8 @@
 {
     "after-scripts": [
         "./script/update_ruby.sh",
-        "brew linkapps"
+        "brew linkapps",
+        "./script/duckduckgo.sh"
     ],
     "casks": [
         "alfred",
