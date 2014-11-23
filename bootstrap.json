@@ -61,7 +61,6 @@
     ],
     "formulas": [
         "android-sdk",
-        "caskroom/cask/brew-cask",
         "brew-cask",
         "cairo --without-x11",
         "class-dump --HEAD",
