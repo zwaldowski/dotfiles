@@ -74,7 +74,6 @@
         "keybase",
         "mercurial",
         "mobile-shell",
-        "nettle",
         "node",
         "pango --without-x11",
         "rbenv --HEAD",
