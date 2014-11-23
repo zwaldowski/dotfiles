@@ -33,8 +33,27 @@
         "FXDefaultSearchScope": "SCcf",
         "CreateDesktop": false
     },
+    "com.apple.AppleMultitouchTrackpad": {
+        "Clicking": 1,
+        "TrackpadFiveFingerPinchGesture": 2,
+        "TrackpadFourFingerHorizSwipeGesture": 2,
+        "TrackpadFourFingerPinchGesture": 2,
+        "TrackpadFourFingerVertSwipeGesture": 2,
+        "TrackpadThreeFingerDrag": 0,
+        "TrackpadThreeFingerHorizSwipeGesture": 1,
+        "TrackpadThreeFingerTapGesture": 2,
+        "TrackpadThreeFingerVertSwipeGesture": 2
+    },
     "com.apple.driver.AppleBluetoothMultitouch.trackpad": {
-        "TrackpadThreeFingerHorizSwipeGesture": 1
+        "Clicking": 1,
+        "TrackpadFiveFingerPinchGesture": 2,
+        "TrackpadFourFingerHorizSwipeGesture": 2,
+        "TrackpadFourFingerPinchGesture": 2,
+        "TrackpadFourFingerVertSwipeGesture": 2,
+        "TrackpadThreeFingerDrag": 0,
+        "TrackpadThreeFingerHorizSwipeGesture": 1,
+        "TrackpadThreeFingerTapGesture": 2,
+        "TrackpadThreeFingerVertSwipeGesture": 2
     },
     "com.apple.screencapture": {
         "disable-shadow": true
