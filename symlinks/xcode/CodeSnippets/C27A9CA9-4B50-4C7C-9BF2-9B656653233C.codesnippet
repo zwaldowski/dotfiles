@@ -6,7 +6,7 @@
 	<string>init</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>self = [super &lt;#init function#&gt;];
