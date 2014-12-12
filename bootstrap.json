@@ -85,7 +85,7 @@
         "Sublime Text": "https://raw.githubusercontent.com/zwaldowski/dotfiles/master/icons/SublimeText.icns"
     },
     "symlinks": {
-        "appcode/*": "~/Library/Preferences/appCode30/",
+        "appcode/*": "~/Library/Preferences/appCode31/",
         "bin/*": "~/bin/",
         "clang/.*": "~",
         "fish/*.fish": "~/.config/fish/",
