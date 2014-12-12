@@ -85,6 +85,7 @@
         "Sublime Text": "https://raw.githubusercontent.com/zwaldowski/dotfiles/master/icons/SublimeText.icns"
     },
     "symlinks": {
+        "android-studio/*": "~/Library/Preferences/AndroidStudio/",
         "appcode/*": "~/Library/Preferences/appCode31/",
         "bin/*": "~/bin/",
         "clang/.*": "~",
