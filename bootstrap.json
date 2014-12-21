@@ -62,10 +62,13 @@
     "formulas": [
         "android-sdk",
         "brew-cask",
+        "carthage",
         "class-dump --HEAD",
         "coreutils",
+        "fdk-aac",
         "ffmpeg --with-fdk-aac",
         "fish",
+        "gettext",
         "git",
         "git-flow",
         "jpeg",
