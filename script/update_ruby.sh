@@ -11,6 +11,6 @@ else
 fi
 
 echo "Updating Ruby"
-rbenv install 2.1.4 --skip-existing
-rbenv global 2.1.4
+rbenv install 2.1.5 --skip-existing
+rbenv global 2.1.5
 gem update --system
