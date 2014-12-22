@@ -57,8 +57,9 @@
         changed = green
         untracked = cyan
 [filter "media"]
-        clean = git-media-clean %f
-        smudge = git-media-smudge %f
+	clean = git media clean %f
+	smudge = git media smudge %f
+	required = true
 [difftool "Kaleidoscope"]
         cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
 [mergetool "Kaleidoscope"]
