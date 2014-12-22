@@ -104,6 +104,7 @@
         "mate/.*": "~",
         "mate/bundles": "~/Library/Application Support/TextMate/Managed/Bundles",
         "ruby/.*": "~",
+        "safari/*": "~/Library/Safari/",
         "sh/.*": "~",
         "sublime-text/*": "~/Library/Application Support/Sublime Text 3/",
         "xcode/*": "~/Library/Developer/Xcode/UserData/",
