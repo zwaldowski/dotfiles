@@ -101,6 +101,8 @@
         "fish/functions": "~/.config/fish/",
         "git/.*": "~",
         "lldb/*": "~",
+        "mate/.*": "~",
+        "mate/bundles": "~/Library/Application Support/TextMate/Managed/Bundles",
         "ruby/.*": "~",
         "sh/.*": "~",
         "sublime-text/*": "~/Library/Application Support/Sublime Text 3/",

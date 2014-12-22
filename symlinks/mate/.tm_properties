@@ -1,0 +1,64 @@
+# font
+fontName      = FiraMono-Regular
+fontSize      = 12
+
+# base16-default.dark
+theme         = 0A5EB01A-DA35-40B9-B925-D3033DE00F46
+
+# Omit .tm_properties
+include        = ".htaccess"
+
+# Variables
+TM_FULLNAME   = "Zachary Waldowski"
+TM_ORGANIZATION = "Big Nerd Ranch"
+
+# Configure Git and Mercurial
+TM_GIT        = "/usr/local/bin/git"
+TM_HG         = "/usr/local/bin/hg"
+
+# General Settings
+showInvisibles = false
+spellChecking  = true
+
+[ .git/COMMIT_EDITMSG ]
+spellChecking    = true
+spellingLanguage = 'en'
+
+[ *.{icns,ico,jpg,jpeg,m4v,nib,pdf,png,psd,pyc,rtf,tif,tiff,xib} ]
+binary           = true
+
+[ text ]
+softWrap       = false
+wrapColumn     = 80
+softTabs       = true
+tabSize        = 4
+
+[ text.html.markdown ]
+softWrap       = true
+wrapColumn     = "Use Window Frame"
+softTabs       = false
+tabSize        = 4
+
+[ text.plain ]
+softWrap       = true
+wrapColumn     = "Use Window Frame"
+softTabs       = false
+tabSize        = 4
+
+[ source.plist ]
+softTabs       = false
+tabSize        = 4
+
+[ swift ]
+softTabs       = true
+tabSize        = 4
+
+[ source.tm-properties ]
+spellChecking  = false
+
+[ "{README,INSTALL,LICENSE,TODO}" ]
+fileType       = "text.plain"
+
+[ ".{zshrc}"]
+fileType       = "shell"
+spellChecking  = false
