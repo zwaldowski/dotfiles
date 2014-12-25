@@ -1,4 +1,8 @@
 git/gitconfig.symlink
+symlinks/appcode/options/usage.statistics.xml
+symlinks/appcode/options/statistics.application.usages.xml
+symlinks/appcode/options/feature.usage.statistics.xml
+symlinks/appcode/options/find.xml
 
 .DS_Store
 .AppleDouble
