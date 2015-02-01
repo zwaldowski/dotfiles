@@ -10,7 +10,8 @@
         "IncludeDevelopMenu": true,
         "WebKitDeveloperExtrasEnabledPreferenceKey": true,
         "com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled": true,
-        "DomainsToNeverSetUp": [ "google.com", "facebook.com", "linkedin.com" ]
+        "DomainsToNeverSetUp": [ "google.com", "facebook.com", "linkedin.com" ],
+        "UniversalSearchFeatureNotificationHasBeenDisplayed": true
     },
     "com.apple.Terminal": {
         "StringEncodings": [ 4 ]
@@ -37,23 +38,23 @@
         "CreateDesktop": false
     },
     "com.apple.AppleMultitouchTrackpad": {
-        "Clicking": 1,
+        "Clicking": true,
         "TrackpadFiveFingerPinchGesture": 2,
         "TrackpadFourFingerHorizSwipeGesture": 2,
         "TrackpadFourFingerPinchGesture": 2,
         "TrackpadFourFingerVertSwipeGesture": 2,
-        "TrackpadThreeFingerDrag": 0,
+        "TrackpadThreeFingerDrag": false,
         "TrackpadThreeFingerHorizSwipeGesture": 1,
         "TrackpadThreeFingerTapGesture": 2,
         "TrackpadThreeFingerVertSwipeGesture": 2
     },
     "com.apple.driver.AppleBluetoothMultitouch.trackpad": {
-        "Clicking": 1,
+        "Clicking": true,
         "TrackpadFiveFingerPinchGesture": 2,
         "TrackpadFourFingerHorizSwipeGesture": 2,
         "TrackpadFourFingerPinchGesture": 2,
         "TrackpadFourFingerVertSwipeGesture": 2,
-        "TrackpadThreeFingerDrag": 0,
+        "TrackpadThreeFingerDrag": false,
         "TrackpadThreeFingerHorizSwipeGesture": 1,
         "TrackpadThreeFingerTapGesture": 2,
         "TrackpadThreeFingerVertSwipeGesture": 2
@@ -62,8 +63,8 @@
         "disable-shadow": true
     },
     "com.apple.frameworks.diskimages": {
-        "auto-open-ro-root": true,
-        "auto-open-rw-root": true
+        "auto-open-ro-root": 0,
+        "auto-open-rw-root": 0
     },
     "com.apple.Spotlight": {
         "showedFTE": true
@@ -75,7 +76,7 @@
         "ExtensionInstallSources": [ "https://gist.githubusercontent.com/", "http://userscripts.org/*" ]
     },
     "com.webkit.nightly.WebKit": {
-        "StartPageDisabled": true
+        "StartPageDisabled": 1
     },
     "org.eyebeam.SelfControl": {
         "HostBlacklist": [
@@ -91,11 +92,29 @@
         ]
     },
     "org.m0k.transmission": {
-        "UseIncompleteDownloadFolder": true,
+        "UseIncompleteDownloadFolder": 0,
         "IncompleteDownloadFolder": "~/Downloads/Torrents",
-        "DownloadAsk": false,
-        "DeleteOriginalTorrent": true,
-        "WarningDonate": false,
-        "WarningLegal": false
+        "DownloadAsk": 0,
+        "DeleteOriginalTorrent": 1,
+        "WarningDonate": 0,
+        "WarningLegal": 0
+    },
+    "com.evernote.Evernote": {
+        "ENNotebooksViewMode": 1,
+        "ENWKNoteEditorPrefsWebKitStandardFont": "Helvetica Neue",
+        "runHelperAtLogin": false,
+        "runHelperAtLoginPreserved": true,
+        "runHelperWithoutMainApp": false,
+        "runHelperWithoutMainAppPreserved": true,
+        "showsStatusBarItem": false
+    },
+    "com.evernote.EvernoteHelper": {
+        "showsStatusBarItem": false
+    },
+    "com.apple.airplay": {
+        "showInMenuBarIfPresent": false
+    },
+    "com.apple.dt.Xcode": {
+        "DVTDownloadableAutomaticUpdate": true
     }
 }
