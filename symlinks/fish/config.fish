@@ -1,8 +1,5 @@
-#set -x EDITOR "subl -n -w"
-#set -x GIT_EDITOR "subl -n -w"
-
-set -x EDITOR "mate -w"
-set -x GIT_EDITOR "mate -w"
+set -x EDITOR "subl -n -w"
+set -x GIT_EDITOR "subl -n -w"
 
 set -gx RBENV_ROOT /usr/local/opt/rbenv
 
