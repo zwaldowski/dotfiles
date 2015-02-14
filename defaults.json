@@ -35,7 +35,11 @@
         "ShowRemovableMediaOnDesktop": false,
         "OpenWindowForNewRemovableDisk": true,
         "FXDefaultSearchScope": "SCcf",
-        "CreateDesktop": false
+        "CreateDesktop": false,
+        "NewWindowTarget": "PfDe",
+        "ShowPathbar": false,
+        "ShowStatusBar": false,
+        "ShowTabView": false
     },
     "com.apple.AppleMultitouchTrackpad": {
         "Clicking": true,
