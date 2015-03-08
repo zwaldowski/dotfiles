@@ -99,10 +99,13 @@
         "zsh-completions"
     ],
     "icons": {
-        "Quartz Composer": "https://raw.githubusercontent.com/zwaldowski/dotfiles/master/icons/QuartzComposer.icns",
-        "Spotify": "https://raw.githubusercontent.com/zwaldowski/dotfiles/master/icons/Spotify.icns",
-        "Steam": "https://raw.githubusercontent.com/zwaldowski/dotfiles/master/icons/Steam.icns",
-        "Sublime Text": "https://raw.githubusercontent.com/zwaldowski/dotfiles/master/icons/SublimeText.icns"
+        "Evernote": "icons/Evernote.icns",
+        "Messages": "icons/Messages.icns",
+        "Quartz Composer": "icons/QuartzComposer.icns",
+        "Slack": "icons/Slack.icns",
+        "Spotify": "icons/Spotify.icns",
+        "Steam": "icons/Steam.icns",
+        "Sublime Text": "icons/SublimeText.icns"
     },
     "symlinks": {
         "android-studio/*": "~/Library/Preferences/AndroidStudio/",
