@@ -123,7 +123,7 @@
         "fish/*.fish": "~/.config/fish/",
         "fish/functions": "~/.config/fish/",
         "git/.*": "~",
-        "lldb/*": "~",
+        "lldb/.*": "~",
         "mate/.*": "~",
         "mate/bundles": "~/Library/Application Support/TextMate/Managed/Bundles",
         "ruby/.*": "~",
