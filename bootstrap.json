@@ -108,13 +108,13 @@
         "zsh-completions"
     ],
     "icons": {
-        "Evernote": "icons/Evernote.icns",
-        "Messages": "icons/Messages.icns",
-        "Quartz Composer": "icons/QuartzComposer.icns",
-        "Slack": "icons/Slack.icns",
-        "Spotify": "icons/Spotify.icns",
-        "Steam": "icons/Steam.icns",
-        "Sublime Text": "icons/SublimeText.icns"
+        "Evernote": "https://github.com/zwaldowski/dotfiles/raw/master/icons/Evernote.icns",
+        "Messages": "https://github.com/zwaldowski/dotfiles/raw/master/icons/Messages.icns",
+        "Quartz Composer": "https://github.com/zwaldowski/dotfiles/raw/master/icons/QuartzComposer.icns",
+        "Slack": "https://github.com/zwaldowski/dotfiles/raw/master/icons/Slack.icns",
+        "Spotify": "https://github.com/zwaldowski/dotfiles/raw/master/icons/Spotify.icns",
+        "Steam": "https://github.com/zwaldowski/dotfiles/raw/master/icons/Steam.icns",
+        "Sublime Text": "https://github.com/zwaldowski/dotfiles/raw/master/icons/SublimeText.icns"
     },
     "symlinks": {
         "android-studio/*": "~/Library/Preferences/AndroidStudio/",
