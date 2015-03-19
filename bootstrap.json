@@ -132,6 +132,7 @@
         "sh/.*": "~",
         "sublime-text/*": "~/Library/Application Support/Sublime Text 3/",
         "xcode/*": "~/Library/Developer/Xcode/UserData/",
+        "xcplugins/*": "~/Library/Application Support/Developer/Shared/Xcode/",
         "zsh/.*": "~"
     },
     "taps": [
