@@ -1,0 +1,237 @@
+# Scripts to run after restoration and installation
+after-scripts:
+    # Install Ruby using rbenv, select it, and update Ruby Gems
+    - "./script/update_ruby.sh"
+    # Have Homebrew link any GUI apps it has installed to /Applications/
+    - "brew linkapps"
+    # Set DuckDuckGo as the default search engine due to limitations
+    # with Cider's defaults engine
+    - "./script/duckduckgo.sh"
+    # Hide things copied and symlinked into ~/bin/
+    - "./script/hide_bin.sh"
+casks:
+    # Alfred: productivity launchpad search bar
+    - alfred
+    # Android Studio: IntelliJ-esque Android IDE
+    - android-studio
+    # AppCode: artisanal, hand-crafted Obj-C and Swift IDE
+    - appcode
+    # Bartender: haxie to hide/show menubar icons
+    - bartender
+    # CodeRunner: simple IDE for quick type-and-run programs
+    - coderunner
+    # DaisyDisk: visual disk usage analyzer
+    - daisydisk
+    # Doxie: mediocre organizational app for importing from Doxie scanners
+    - doxie
+    # Evernote: note-taking and mind mapping service (BETA)
+    - evernote-beta
+    # Faux Pas: code quality analysis for Xcode projects
+    - fauxpas
+    # Flux: life-altering screen dimming tool (BETA)
+    - flux-beta
+    # Open-source typefaces
+    - font-clear-sans
+    - font-courier-prime
+    - font-droid-sans
+    - font-fontawesome
+    - font-inconsolata
+    - font-josefin-sans
+    - font-josefin-slab
+    - font-lato
+    - font-lobster-two
+    - font-maven-pro
+    - font-roboto
+    - font-roboto-slab
+    - font-ubuntu
+    # GitHub: frontend for GitHub code-sharing/social-network platform
+    - github
+    # Google Hangouts: Turn your laptop into a jet plane, and also video chat
+    - google-hangouts
+    # Handbrake: encode video without the tears from ffmpeg
+    - handbrake
+    # Hopper: amazing code introspection tool
+    - hopper-disassembler
+    # iExplorer: pull info from connected iOS devices
+    - iexplorer
+    # ImageAlpha: image compression tool
+    - imagealpha
+    # ImageOptim: image optimizer
+    - imageoptim
+    # Java; Version dupe, good ol' GC'ed language runtime (version duped)
+    - java
+    - java7
+    # Kaleidoscope: bespoke file comparison
+    - kaleidoscope
+    # Mou: Markdown editor
+    - mou
+    # OpenEmu: unified platform for playing old video games (BETA)
+    - openemu-experimental
+    # Pacifist: tried and true extraction tool for Mac OS X packages
+    - pacifist
+    # Paw: HTTP client
+    - paw
+    # Provisioning: Quick Look plugin for iOS provisioning profiles
+    - provisioning
+    # SelfControl: app to block procrastination and social networking sites
+    - selfcontrol
+    # Skype: ubiquitous video chat app
+    - skype
+    # Spotify: streaming music service of choice
+    - spotify
+    # Steam: video game distribution platform
+    - steam
+    # Subler: audiovisual metadata editor and remuxer
+    - subler
+    # Sublime Text; one-size-fits-all cross-platform text editor
+    - sublime-text-dev
+    # Tower: pretty good GUI for Git
+    - tower
+    # Transmission: brilliant native Cocoa BitTorrent client
+    - transmission
+    # Transmit: really good remote disk management
+    - transmit
+    # Typed: distraction-free writing environment
+    - typed
+    # VLC: play all sources of audio and video
+    - vlc
+    # VMWare Fusion: Yet another virtual machine
+    - vmware-fusion
+    # Wineskin Winery: build portable containers for Windows apps
+    - wineskin-winery
+formulas:
+    # Android SDK: base tools and managers for Google mobile platform
+    - android-sdk
+    # Homebrew Cask: interface for installing GUI apps like you would Homebrew
+    - brew-cask
+    # cabextract: extraction of Windows-style cabinet archives
+    - cabextract
+    # Carthage: next-generation Cocoa dependency manager
+    - carthage
+    # class-dump: Extract interfaces from compiled Objective-C code (TRUNK)
+    - "class-dump --HEAD"
+    # Fraunhofer AAC: proprietary, but efficient, AAC engine
+    - fdk-aac
+    # FFMPEG: Swiss army knife for multimedia encoding
+    - "ffmpeg --with-fdk-aac"
+    # Fish: amazing autocomplete-based modern shell
+    - fish
+    # Git; decentralized version control system
+    - git
+    # GNUPG: pretty good privacy and encryption
+    - gnupg
+    # Keybase: more user-friendly privacy and encryption
+    - keybase
+    # Mercurial: alternative decentralize version control system
+    - mercurial
+    # Mobile Shell (mosh): a better remote shell
+    - mobile-shell
+    # Node.JS: event-based CLI JavaScript programming language
+    - node
+    # rbenv: Ruby environment manager
+    - "rbenv --HEAD"
+    # ruby-build: Ruby binary symlink utility for rbenv and homebrew
+    - rbenv-gem-rehash
+    # ruby-build: Ruby installer extension for rbenv
+    - ruby-build
+    # sqlite: ubiquitous flat file DB
+    # Subversion: relatively old version and revision control system
+    - subversion
+    # unrar: Extraction tool for 90's archive tool
+    - unrar
+    # Magical framework for running Windows apps
+    - wine --devel --without-x11
+    # winetricks: Scripts to automatically install some things for Wine
+    - winetricks
+    # zsh: workhorse interactive shell
+    - zsh
+    - zsh-completions
+    # Common open-source libraries and tools
+    - autoconf
+    - coreutils
+    - freetype
+    - fontconfig
+    - gd
+    - gdbm
+    - gettext
+    - gmp
+    - gnutls
+    - jasper
+    - jpeg
+    - lame
+    - libgphoto2
+    - libicns
+    - libpng
+    - libtasn1
+    - libtiff
+    - libtool
+    - libusb
+    - libusb-compat
+    - libvo-aacenc
+    - little-cms2
+    - makedepend
+    - nettle
+    - openssl
+    - p7zip
+    - pcre
+    - pkg-config
+    - protobuf
+    - readline
+    - sane-backends
+    - spark
+    - sqlite
+    - texi2html
+    - xvid
+    - xz
+    - x264
+    - yasm
+# Apply customized icons to apps
+icons:
+    Evernote: "~/.cider/icons/Evernote.icns"
+    Messages: "~/.cider/icons/Messages.icns"
+    'Quartz Composer': "~/.cider/icons/QuartzComposer.icns"
+    Slack: "~/.cider/icons/Slack.icns"
+    Spotify: "~/.cider/icons/Spotify.icns"
+    Steam: "~/.cider/icons/Steam.icns"
+    'Sublime Text': "~/.cider/icons/SublimeText.icns"
+# Share configuration across machines by symlinking
+symlinks:
+    # Android Studio options
+    'android-studio/*': "~/Library/Preferences/AndroidStudio/"
+    # AppCode options
+    'appcode/*': "~/Library/Preferences/appCode31/"
+    # Scripts, helpers, bits, bobs
+    'bin/*': "~/bin/"
+    # LLVM/Clang; C compiler, related tools, Clang Format
+    'clang/.*': "~"
+    # Fish shell (duped to exclude history bits)
+    'fish/*.fish': "~/.config/fish/"
+    'fish/functions': "~/.config/fish/"
+    # Git configuration
+    'git/.*': "~"
+    # LLDB, modern software interactive debugger; Scripts
+    'lldb/.*': "~"
+    # TextMate bundles (duped to exclude update files)
+    'mate/.*': "~"
+    'mate/bundles': "~/Library/Application Support/TextMate/Managed/Bundles"
+    # Ruby/RubyGems; hip modern simple language and dependency manager
+    'ruby/.*': "~"
+    # Safari extensions
+    'safari/*': "~/Library/Safari/"
+    # Unix home configuration bits
+    'sh/.*': "~"
+    # Sublime Text packages, themes, and configuration
+    'sublime-text/*': "~/Library/Application Support/Sublime Text 3/"
+    # Xcode plugins, themes, and configuration
+    'xcode/*': "~/Library/Developer/Xcode/UserData/"
+    'xcplugins/*': "~/Library/Application Support/Developer/Shared/Xcode/"
+    # ZSH shell
+    'zsh/.*': "~"
+# Homebrew repositories to tap
+taps:
+    # Cask: install GUI apps with Homebrew
+    - "caskroom/cask"
+    # Cask fonts: install common open fonts with Homebrew
+    - "caskroom/fonts"
+    # Cask versions: install GUI apps (betas, dupes) with Homebrew
+    - "caskroom/versions"
