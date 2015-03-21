@@ -1,0 +1,185 @@
+# AirPlay: Apple TV wireless streaming functionality
+com.apple.airplay:
+    # Hide menu bar icon
+    showInMenuBarIfPresent: false
+# Dashboard, a legacy widget system from the Mac OS X Tiger days
+com.apple.dashboard:
+    # Disabled
+    enabled-state: 1
+# Xcode: Apple's beleagured IDE
+com.apple.dt.Xcode:
+    # Enable downloading documentation and simulator updates
+    DVTDownloadableAutomaticUpdate: true
+# Dock, the Mac OS X window manager eyecandy
+com.apple.dock:
+    # Hide the dock when not in use
+    autohide: true
+    # Minimize windows using the effect Steve Jobs liked less
+    mineffect: "scale"
+    # Pretty but conservative size before zooming
+    tilesize: 48
+# Built-in multitouch trackpad preferences in Mac OS X
+# **NOT** tested with Force Touch devices beginning in 2015
+com.apple.AppleMultitouchTrackpad:
+    # "Tap to click: Tap with one finger"
+    Clicking: true
+    # "Show Desktop: Spread with thumb and three fingers"
+    TrackpadFiveFingerPinchGesture: 2
+    # "SWipe between full-screen apps: Swipe left or right with four fingers"
+    TrackpadFourFingerHorizSwipeGesture: 2
+    # "Launchpad: Pinch with thumb and three fingers"
+    TrackpadFourFingerPinchGesture: 2
+    # "Mission Control: Swipe up with three fingers"
+    TrackpadFourFingerVertSwipeGesture: 2
+    # Off: "Three finger drag: Move with three fingers"
+    TrackpadThreeFingerDrag: false
+    # "Swipe between pages: Swipe with two or three fingers"
+    TrackpadThreeFingerHorizSwipeGesture: 1
+    # "Look up: Tap with three fingers"
+    TrackpadThreeFingerTapGesture: 2
+    # "Mission Control: Swipe up with three fingers"
+    TrackpadThreeFingerVertSwipeGesture: 2
+# Magic Trackpad preferences
+# All the same as above
+com.apple.driver.AppleBluetoothMultitouch.trackpad:
+    Clicking: true
+    TrackpadFiveFingerPinchGesture: 2
+    TrackpadFourFingerHorizSwipeGesture: 2
+    TrackpadFourFingerPinchGesture: 2
+    TrackpadFourFingerVertSwipeGesture: 2
+    TrackpadThreeFingerDrag: false
+    TrackpadThreeFingerHorizSwipeGesture: 1
+    TrackpadThreeFingerTapGesture: 2
+    TrackpadThreeFingerVertSwipeGesture: 2
+# Finder, the Macintosh Desktop Experience
+com.apple.finder:
+    # Hide everything on the Desktop, including the Desktop
+    ShowExternalHardDrivesOnDesktop: false
+    ShowHardDrivesOnDesktop: false
+    ShowMountedServersOnDesktop: false
+    ShowRemovableMediaOnDesktop: false
+    CreateDesktop: false
+    # Column View for alternate app-centric views
+    FK_AppCentricViewStyle: 'clmv'
+    # List view for normal windows
+    FXPreferredViewStyle: "Nlsv"
+    # Default "Arrange By" setting
+    FXArrangeGroupViewBy: "Name"
+    # Default "Group By" setting
+    FXPreferredGroupBy: "Name"
+    # Open a window when a removable disk is plugged in
+    OpenWindowForNewRemovableDisk: true
+    # "When performing a search: Search the Current Folder"
+    FXDefaultSearchScope: "SCcf"
+    # "New Finder windows show: Home folder"
+    NewWindowTarget: "PfHm"
+    # Hide breadcrumb trail
+    ShowPathbar: false
+    # Show status bar ("12 items, 384.94 GB available")
+    ShowStatusBar: false
+    # Hide tab bar until tabs open
+    ShowTabView: false
+# Disk Utility, disk management on the Mac
+com.apple.frameworks.diskimages:
+    # Automatically open read-only disk images
+    "auto-open-ro-root": 0
+    # Automatically open read-write disk images
+    "auto-open-rw-root": 0
+# Safari, the WebKit-based browser for Mac OS X
+com.apple.Safari:
+    # Develop menu for WebKit 1 contexts
+    IncludeDevelopMenu: true
+    # Develop menu for WebKit 2 contexts
+    WebKitDeveloperExtrasEnabledPreferenceKey: true
+    # Develop menu for Safari contexts
+    com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled: true
+    # Inhibit goofy "Wanna log in?" dialog
+    DomainsToNeverSetUp:
+    - google.com
+    - facebook.com
+    - linkedin.com
+    # Inhibit Spotlight onboarding
+    UniversalSearchFeatureNotificationHasBeenDisplayed: true
+# Screen Capture: screenshotting functionality in Mac OS X
+com.apple.screencapture:
+    # Don't capture blown-out Quartz window shadows
+    "disable-shadow": true
+# Spotlight, search and quick-actions framework for Mac OS X
+com.apple.Spotlight:
+    # Inhibit onboarding experience
+    showedFTE: true
+# Terminal: It's a Unix system, I know this!
+com.apple.Terminal:
+    StringEncodings:
+    - 4
+# Chrome: Google's life-sucking but speedy web browser
+com.google.Chrome:
+    # Allow third-party extension installs from GitHub and Userscripts.org
+    ExtensionInstallSources:
+    - "https://gist.githubusercontent.com/"
+    - "http://userscripts.org/*"
+# Chrome: Google's life-sucking but speedy web browser, nightly build
+com.google.Chrome.canary:
+    # Allow third-party extension installs from GitHub and Userscripts.org
+    ExtensionInstallSources:
+    - "https://gist.githubusercontent.com/"
+    - "http://userscripts.org/*"
+# Evernote: note-taking and mind mapping service
+com.evernote.Evernote:
+    # Notes: "Card View"
+    ENNotebooksViewMode: 1
+    # Default note font
+    ENWKNoteEditorPrefsWebKitStandardFont: "Helvetica Neue"
+    # No auto helper app
+    runHelperAtLogin: false
+    # No auto helper app on app launch
+    runHelperAtLoginPreserved: true
+    # Only have helper while app running
+    runHelperWithoutMainApp: false
+    # Only have helper while app running on relaunch
+    runHelperWithoutMainAppPreserved: true
+    # Hide the elephant
+    showsStatusBarItem: false
+# Evernote: note-taking and mind mapping service - helper app
+com.evernote.EvernoteHelper:
+    # Hide the elephant
+    showsStatusBarItem: false
+# WebKit: Shell app to run Safari with a trunk build of WebKit
+com.webkit.nightly.WebKit:
+    # Disable the home-page/launch page override
+    StartPageDisabled: 1
+# SelfControl: App to block procrastination and social networking sites
+org.eyebeam.SelfControl:
+    # List of sites to block
+    HostBlacklist:
+    - facebook.com
+    - twitter.com
+    - reddit.com
+    - tumblr.com
+    - youtube.com
+    - 9gag.com
+    - netflix.com
+    - hulu.com
+    - buzzfeed.com
+# Transmission: brilliant native Cocoa BitTorrent client
+org.m0k.transmission:
+    # Keep both complete and incomplete downloads in the same place
+    UseIncompleteDownloadFolder: 0
+    # Store downloads elsewhere
+    IncompleteDownloadFolder: "~/Downloads/Torrents"
+    # Don't always ask where downloads go
+    DownloadAsk: 0
+    # Delete *.torrent file if it exists
+    DeleteOriginalTorrent: 1
+    # Don't ask for donations again, I already have :-)
+    WarningDonate: 0
+    # Don't ask for legal protections again
+    WarningLegal: 0
+# Defaults that affect all user apps
+NSGlobalDomain:
+    # "Sidebar icon size: Small"
+    NSTableViewDefaultSizeMode: 1
+    # Mountain Lion-style: "Swipe between pages: Swipe with two or three fingers"
+    AppleEnableSwipeNavigateWithScrolls: 1
+    # WebKit debug menu
+    WebKitDeveloperExtras: true
