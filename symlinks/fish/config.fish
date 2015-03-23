@@ -25,7 +25,7 @@ set fish_greeting ""
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-fish/plugins/*)
 # Custom plugins may be added to ~/.oh-my-fish/custom/plugins/
-set fish_plugins brew extract rbenv android-sdk subl
+set fish_plugins brew cask extract rbenv android-sdk subl theme
 
 # Load oh-my-fish configuration.
 . $fish_path/oh-my-fish.fish
