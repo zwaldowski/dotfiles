@@ -1,7 +1,7 @@
 # AirPlay: Apple TV wireless streaming functionality
 com.apple.airplay:
     # Hide menu bar icon
-    showInMenuBarIfPresent: false
+    showInMenuBarIfPresent: 0
 # Dashboard, a legacy widget system from the Mac OS X Tiger days
 com.apple.dashboard:
     # Disabled
@@ -9,11 +9,11 @@ com.apple.dashboard:
 # Xcode: Apple's beleagured IDE
 com.apple.dt.Xcode:
     # Enable downloading documentation and simulator updates
-    DVTDownloadableAutomaticUpdate: true
+    DVTDownloadableAutomaticUpdate: 1
 # Dock, the Mac OS X window manager eyecandy
 com.apple.dock:
     # Hide the dock when not in use
-    autohide: true
+    autohide: 1
     # Minimize windows using the effect Steve Jobs liked less
     mineffect: "scale"
     # Pretty but conservative size before zooming
@@ -22,7 +22,7 @@ com.apple.dock:
 # **NOT** tested with Force Touch devices beginning in 2015
 com.apple.AppleMultitouchTrackpad:
     # "Tap to click: Tap with one finger"
-    Clicking: true
+    Clicking: 1
     # "Show Desktop: Spread with thumb and three fingers"
     TrackpadFiveFingerPinchGesture: 2
     # "SWipe between full-screen apps: Swipe left or right with four fingers"
@@ -32,7 +32,7 @@ com.apple.AppleMultitouchTrackpad:
     # "Mission Control: Swipe up with three fingers"
     TrackpadFourFingerVertSwipeGesture: 2
     # Off: "Three finger drag: Move with three fingers"
-    TrackpadThreeFingerDrag: false
+    TrackpadThreeFingerDrag: 0
     # "Swipe between pages: Swipe with two or three fingers"
     TrackpadThreeFingerHorizSwipeGesture: 1
     # "Look up: Tap with three fingers"
@@ -42,25 +42,25 @@ com.apple.AppleMultitouchTrackpad:
 # Magic Trackpad preferences
 # All the same as above
 com.apple.driver.AppleBluetoothMultitouch.trackpad:
-    Clicking: true
+    Clicking: 1
     TrackpadFiveFingerPinchGesture: 2
     TrackpadFourFingerHorizSwipeGesture: 2
     TrackpadFourFingerPinchGesture: 2
     TrackpadFourFingerVertSwipeGesture: 2
-    TrackpadThreeFingerDrag: false
+    TrackpadThreeFingerDrag: 0
     TrackpadThreeFingerHorizSwipeGesture: 1
     TrackpadThreeFingerTapGesture: 2
     TrackpadThreeFingerVertSwipeGesture: 2
 # Finder, the Macintosh Desktop Experience
 com.apple.finder:
     # Hide everything on the Desktop, including the Desktop
-    ShowExternalHardDrivesOnDesktop: false
-    ShowHardDrivesOnDesktop: false
-    ShowMountedServersOnDesktop: false
-    ShowRemovableMediaOnDesktop: false
-    CreateDesktop: false
+    ShowExternalHardDrivesOnDesktop: 0
+    ShowHardDrivesOnDesktop: 0
+    ShowMountedServersOnDesktop: 0
+    ShowRemovableMediaOnDesktop: 0
+    CreateDesktop: 0
     # Column View for alternate app-centric views
-    FK_AppCentricViewStyle: 'clmv'
+    FK_AppCentricViewStyle: "clmv"
     # List view for normal windows
     FXPreferredViewStyle: "Nlsv"
     # Default "Arrange By" setting
@@ -68,17 +68,17 @@ com.apple.finder:
     # Default "Group By" setting
     FXPreferredGroupBy: "Name"
     # Open a window when a removable disk is plugged in
-    OpenWindowForNewRemovableDisk: true
+    OpenWindowForNewRemovableDisk: 1
     # "When performing a search: Search the Current Folder"
     FXDefaultSearchScope: "SCcf"
     # "New Finder windows show: Home folder"
     NewWindowTarget: "PfHm"
     # Hide breadcrumb trail
-    ShowPathbar: false
+    ShowPathbar: 0
     # Show status bar ("12 items, 384.94 GB available")
-    ShowStatusBar: false
+    ShowStatusBar: 0
     # Hide tab bar until tabs open
-    ShowTabView: false
+    ShowTabView: 0
 # Disk Utility, disk management on the Mac
 com.apple.frameworks.diskimages:
     # Automatically open read-only disk images
@@ -88,26 +88,26 @@ com.apple.frameworks.diskimages:
 # Safari, the WebKit-based browser for Mac OS X
 com.apple.Safari:
     # Develop menu for WebKit 1 contexts
-    IncludeDevelopMenu: true
+    IncludeDevelopMenu: 1
     # Develop menu for WebKit 2 contexts
-    WebKitDeveloperExtrasEnabledPreferenceKey: true
+    WebKitDeveloperExtrasEnabledPreferenceKey: 1
     # Develop menu for Safari contexts
-    com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled: true
+    "com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled": 1
     # Inhibit goofy "Wanna log in?" dialog
     DomainsToNeverSetUp:
     - google.com
     - facebook.com
     - linkedin.com
     # Inhibit Spotlight onboarding
-    UniversalSearchFeatureNotificationHasBeenDisplayed: true
+    UniversalSearchFeatureNotificationHasBeenDisplayed: 1
 # Screen Capture: screenshotting functionality in Mac OS X
 com.apple.screencapture:
     # Don't capture blown-out Quartz window shadows
-    "disable-shadow": true
+    "disable-shadow": 1
 # Spotlight, search and quick-actions framework for Mac OS X
 com.apple.Spotlight:
     # Inhibit onboarding experience
-    showedFTE: true
+    showedFTE: 1
 # Terminal: It's a Unix system, I know this!
 com.apple.Terminal:
     StringEncodings:
@@ -131,19 +131,19 @@ com.evernote.Evernote:
     # Default note font
     ENWKNoteEditorPrefsWebKitStandardFont: "Helvetica Neue"
     # No auto helper app
-    runHelperAtLogin: false
+    runHelperAtLogin: 0
     # No auto helper app on app launch
-    runHelperAtLoginPreserved: true
+    runHelperAtLoginPreserved: 1
     # Only have helper while app running
-    runHelperWithoutMainApp: false
+    runHelperWithoutMainApp: 0
     # Only have helper while app running on relaunch
-    runHelperWithoutMainAppPreserved: true
+    runHelperWithoutMainAppPreserved: 1
     # Hide the elephant
-    showsStatusBarItem: false
+    showsStatusBarItem: 0
 # Evernote: note-taking and mind mapping service - helper app
 com.evernote.EvernoteHelper:
     # Hide the elephant
-    showsStatusBarItem: false
+    showsStatusBarItem: 0
 # WebKit: Shell app to run Safari with a trunk build of WebKit
 com.webkit.nightly.WebKit:
     # Disable the home-page/launch page override
@@ -182,4 +182,4 @@ NSGlobalDomain:
     # Mountain Lion-style: "Swipe between pages: Swipe with two or three fingers"
     AppleEnableSwipeNavigateWithScrolls: 1
     # WebKit debug menu
-    WebKitDeveloperExtras: true
+    WebKitDeveloperExtras: 1
