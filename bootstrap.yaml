@@ -24,6 +24,8 @@ casks:
     - daisydisk
     # Doxie: mediocre organizational app for importing from Doxie scanners
     - doxie
+    # Dropbox: sometimes-used ubiquitous folder sync (BETA)
+    - dropbox-experimental
     # Evernote: note-taking and mind mapping service (BETA)
     - evernote-beta
     # Faux Pas: code quality analysis for Xcode projects
@@ -34,8 +36,10 @@ casks:
     - font-clear-sans
     - font-courier-prime
     - font-droid-sans
+    - font-fantasque-sans-mono
     - font-fontawesome
     - font-inconsolata
+    - font-input
     - font-josefin-sans
     - font-josefin-slab
     - font-lato
@@ -43,6 +47,9 @@ casks:
     - font-maven-pro
     - font-roboto
     - font-roboto-slab
+    - font-source-code-pro
+    - font-source-sans-pro
+    - font-source-serif-pro
     - font-ubuntu
     # GitHub: frontend for GitHub code-sharing/social-network platform
     - github
@@ -71,8 +78,12 @@ casks:
     - pacifist
     # Paw: HTTP client
     - paw
-    # Provisioning: Quick Look plugin for iOS provisioning profiles
+    # Quick Look plugins
     - provisioning
+    - qlcolorcode
+    - qlmarkdown
+    - qlprettypatch
+    - quicklook-json
     # SelfControl: app to block procrastination and social networking sites
     - selfcontrol
     # Skype: ubiquitous video chat app
@@ -134,7 +145,6 @@ formulas:
     - rbenv-gem-rehash
     # ruby-build: Ruby installer extension for rbenv
     - ruby-build
-    # sqlite: ubiquitous flat file DB
     # Subversion: relatively old version and revision control system
     - subversion
     # unrar: Extraction tool for 90's archive tool
@@ -146,9 +156,13 @@ formulas:
     # zsh: workhorse interactive shell
     - zsh
     - zsh-completions
+    # youtube-dl: Download videos from YouTube
+    - youtube-dl
     # Common open-source libraries and tools
     - autoconf
     - coreutils
+    - exiftool
+    - faac
     - freetype
     - fontconfig
     - gd
@@ -167,6 +181,7 @@ formulas:
     - libtool
     - libusb
     - libusb-compat
+    - libyaml
     - libvo-aacenc
     - little-cms2
     - makedepend
