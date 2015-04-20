@@ -38,3 +38,6 @@ DISABLE_AUTO_TITLE="true"
 plugins=(brew brew-cask extract history-substring-search git sublime terminalapp xcode)
 
 source $ZSH/oh-my-zsh.sh
+
+# added by travis gem
+[ -f /Users/zw/.travis/travis.sh ] && source /Users/zw/.travis/travis.sh
