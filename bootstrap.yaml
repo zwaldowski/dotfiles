@@ -9,8 +9,6 @@ after-scripts:
     - "./script/duckduckgo.sh"
     # Hide things copied and symlinked into ~/bin/
     - "./script/hide_bin.sh"
-    # Remap Control and Caps Lock
-    - "./script/key_bindings.sh"
 casks:
     # Alfred: productivity launchpad search bar
     - alfred
