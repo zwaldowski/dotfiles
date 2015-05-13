@@ -126,6 +126,8 @@ com.google.Chrome.canary:
     - "http://userscripts.org/*"
 # Evernote: note-taking and mind mapping service
 com.evernote.Evernote:
+    # Enable betas for non-MAS versions
+    ENCheckForBetaUpdates: 1
     # Notes: "Card View"
     ENNotebooksViewMode: 1
     # Default note font
