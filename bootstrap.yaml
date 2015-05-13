@@ -84,6 +84,8 @@ casks:
     - qlmarkdown
     - qlprettypatch
     - quicklook-json
+    # QuickRadar: Menubar app for posting to Apple's Radar bug tracker
+    - quickradar
     # SelfControl: app to block procrastination and social networking sites
     - selfcontrol
     # Skype: ubiquitous video chat app
