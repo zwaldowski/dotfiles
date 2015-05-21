@@ -6,3 +6,8 @@ command alias reveal_start expr (void)[(NSNotificationCenter*)[NSNotificationCen
 command alias reveal_stop expr (void)[(NSNotificationCenter*)[NSNotificationCenter defaultCenter] postNotificationName:@"IBARevealRequestStop" object:nil];
 
 command alias reveal expr (void*)dlopen("/Applications/Reveal.app/Contents/SharedSupport/iOS-Libraries/libReveal.dylib", 0x2), (void)[(NSNotificationCenter*)[NSNotificationCenter defaultCenter] postNotificationName:@"IBARevealRequestStart" object:nil];
+
+command alias uikit expr @import UIKit
+command alias foundation expr @import Foundation
+command alias appkit expr @import Cocoa
+command alias cocoa expr @import Cocoa
