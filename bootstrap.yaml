@@ -247,6 +247,7 @@ symlinks:
     # Xcode plugins, themes, and configuration
     'xcode/*': "~/Library/Developer/Xcode/UserData/"
     'xcplugins/*': "~/Library/Application Support/Developer/Shared/Xcode/"
+    'xctemplates/*': "~/Library/Developer/Xcode/Templates/"
     # ZSH shell
     'zsh/.*': "~"
 # Homebrew repositories to tap
