@@ -33,14 +33,17 @@ casks:
     # Flux: life-altering screen dimming tool (BETA)
     - flux-beta
     # Open-source typefaces
+    - font-alegreya
+    - font-alegreya-sc
     - font-clear-sans
     - font-courier-prime
     - font-droid-sans
     - font-fantasque-sans-mono
+    - font-fira-code
+    - font-fira-mono
     - font-fontawesome
     - font-inconsolata
     - font-input
-    - font-josefin-sans
     - font-josefin-slab
     - font-lato
     - font-lobster-two
