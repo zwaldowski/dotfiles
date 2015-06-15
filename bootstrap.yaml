@@ -133,7 +133,7 @@ formulas:
     # Fraunhofer AAC: proprietary, but efficient, AAC engine
     - fdk-aac
     # FFMPEG: Swiss army knife for multimedia encoding
-    - "ffmpeg --with-fdk-aac"
+    - "ffmpeg --with-fdk-aac -t-without-qtkit --without-openssl"
     # Fish: amazing autocomplete-based modern shell
     - fish
     # Git; decentralized version control system
