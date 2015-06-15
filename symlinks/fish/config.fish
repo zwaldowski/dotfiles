@@ -1,6 +1,8 @@
+# Remove fish default greeting
+set --erase fish_greeting
+
 set -x EDITOR "subl -n -w"
 set -x GIT_EDITOR "subl -n -w"
-
 set -gx RBENV_ROOT /usr/local/opt/rbenv
 
 function ql
@@ -19,13 +21,14 @@ end
 set fish_path $HOME/.cider/fish/oh-my-fish
 set fish_custom $HOME/.cider/fish/custom
 
-# Theme
-set fish_theme zw
-set fish_greeting ""
-
-# Which plugins would you like to load? (plugins can be found in ~/.oh-my-fish/plugins/*)
-# Custom plugins may be added to ~/.oh-my-fish/custom/plugins/
-set fish_plugins brew cask extract rbenv android-sdk subl theme
-
 # Load oh-my-fish configuration.
 . $fish_path/oh-my-fish.fish
+
+Theme "zw"
+Plugin "brew"
+Plugin "cask"
+Plugin "extract"
+Plugin "rbenv"
+Plugin "android-sdk"
+Plugin "sublime"
+Plugin "theme"

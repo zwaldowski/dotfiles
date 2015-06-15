@@ -9,6 +9,8 @@ after-scripts:
     - "./script/duckduckgo.sh"
     # Hide things copied and symlinked into ~/bin/
     - "./script/hide_bin.sh"
+    # Get Oh-My-Fish to install packages
+    - "./script/oh_my_fish.sh"
 casks:
     # Alfred: productivity launchpad search bar
     - alfred
