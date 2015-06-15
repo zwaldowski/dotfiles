@@ -150,7 +150,7 @@ formulas:
     - node
     # rbenv: Ruby environment manager
     - "rbenv --HEAD"
-    # ruby-build: Ruby binary symlink utility for rbenv and homebrew
+    # rbenv-gem-rehash: Ruby binary symlink utility for rbenv and homebrew
     - rbenv-gem-rehash
     # ruby-build: Ruby installer extension for rbenv
     - ruby-build
