@@ -158,10 +158,6 @@ formulas:
     - subversion
     # unrar: Extraction tool for 90's archive tool
     - unrar
-    # Magical framework for running Windows apps
-    - wine --devel --without-x11
-    # winetricks: Scripts to automatically install some things for Wine
-    - winetricks
     # zsh: workhorse interactive shell
     - zsh
     - zsh-completions
@@ -182,8 +178,6 @@ formulas:
     - jasper
     - jpeg
     - lame
-    - libgphoto2
-    - libicns
     - libpng
     - libtasn1
     - libtiff
@@ -192,7 +186,6 @@ formulas:
     - libusb-compat
     - libyaml
     - libvo-aacenc
-    - little-cms2
     - makedepend
     - nettle
     - openssl
@@ -201,7 +194,6 @@ formulas:
     - pkg-config
     - protobuf
     - readline
-    - sane-backends
     - spark
     - sqlite
     - texi2html
