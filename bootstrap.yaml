@@ -130,8 +130,6 @@ formulas:
     - carthage
     # Clang-Format: LLVM-based tool to reformat code
     - clang-format
-    # class-dump: Extract interfaces from compiled Objective-C code (TRUNK)
-    - "class-dump --HEAD"
     # Fraunhofer AAC: proprietary, but efficient, AAC engine
     - fdk-aac
     # FFMPEG: Swiss army knife for multimedia encoding
