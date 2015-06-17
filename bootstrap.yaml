@@ -58,6 +58,8 @@ casks:
     - font-ubuntu
     # GitHub: frontend for GitHub code-sharing/social-network platform
     - github
+    # Google Chrome: Give your laptop five minutes battery, also use Flash
+    - "google-chrome --appdir=/Applications"
     # Google Hangouts: Turn your laptop into a jet plane, and also video chat
     - google-hangouts
     # Handbrake: encode video without the tears from ffmpeg
