@@ -17,7 +17,7 @@ casks:
     # Android Studio: IntelliJ-esque Android IDE
     - android-studio
     # AppCode: artisanal, hand-crafted Obj-C and Swift IDE
-    - appcode
+    - appcode-eap
     # Bartender: haxie to hide/show menubar icons
     - bartender
     # CodeRunner: simple IDE for quick type-and-run programs
@@ -215,7 +215,7 @@ symlinks:
     # Android Studio options
     'android-studio/*': "~/Library/Preferences/AndroidStudio/"
     # AppCode options
-    'appcode/*': "~/Library/Preferences/appCode31/"
+    'appcode/*': "~/Library/Preferences/appCode32/"
     # Scripts, helpers, bits, bobs
     'bin/*': "~/bin/"
     # LLVM/Clang; C compiler, related tools, Clang Format
