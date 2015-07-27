@@ -66,15 +66,17 @@ casks:
     - handbrake
     # Hopper: amazing code introspection tool
     - hopper-disassembler
-    # iExplorer: pull info from connected iOS devices
-    - iexplorer
     # ImageAlpha: image compression tool
     - imagealpha
     # ImageOptim: image optimizer
     - imageoptim
+    # iMazing: pull info from connected iOS devices
+    - imazing
     # Java; Version dupe, good ol' GC'ed language runtime (version duped)
     - java
     - java7
+    # jq: Command-line JSON parser
+    - jq
     # Kaleidoscope: bespoke file comparison
     - kaleidoscope
     # Mou: Markdown editor
@@ -105,8 +107,8 @@ casks:
     - subler
     # Sublime Text; one-size-fits-all cross-platform text editor
     - sublime-text-dev
-    # Tower: pretty good GUI for Git
-    - tower
+    # Tower: pretty good GUI for Git (BETA)
+    - tower-beta
     # Transmission: brilliant native Cocoa BitTorrent client
     - transmission
     # Transmit: really good remote disk management
@@ -165,6 +167,7 @@ formulas:
     - youtube-dl
     # Common open-source libraries and tools
     - autoconf
+    - bison
     - coreutils
     - exiftool
     - faac
