@@ -56,8 +56,8 @@ casks:
     - font-source-sans-pro
     - font-source-serif-pro
     - font-ubuntu
-    # GitHub: frontend for GitHub code-sharing/social-network platform
-    - github
+    # GitUp: Blazingly fast, rational Git GUI
+    - gitup
     # Google Chrome: Give your laptop five minutes battery, also use Flash
     - "google-chrome --appdir=/Applications"
     # Google Hangouts: Turn your laptop into a jet plane, and also video chat
@@ -124,6 +124,8 @@ casks:
 formulas:
     # Android SDK: base tools and managers for Google mobile platform
     - android-sdk
+    # AWS-CLI: Tools for accessing Amazon S3
+    - awscli
     # Homebrew Cask: interface for installing GUI apps like you would Homebrew
     - brew-cask
     # cabextract: extraction of Windows-style cabinet archives
@@ -180,6 +182,7 @@ formulas:
     - gnutls
     - jasper
     - jpeg
+    - jq
     - lame
     - libpng
     - libtasn1
