@@ -7,12 +7,13 @@ function fish_prompt
 
   set -l cwd $bold_green(basename (prompt_pwd))
 
-  if git rev-parse --is-inside-work-tree > /dev/null 2>&1
-    set -l git_branch (git symbolic-ref --short HEAD)
-    set git_info "$bold_yellow($git_branch ✗)"
+  if git rev-parse --is-inside-work-tree > /dev/null ^ /dev/null
+    set -l git_branch (git symbolic-ref --short HEAD ^ /dev/null)
 
-    if git diff-index --no-ext-diff --quiet HEAD > /dev/null 2>&1
+    if git diff-index --no-ext-diff --quiet HEAD > /dev/null ^ /dev/null
       set git_info "$bold_blue($git_branch ✓)"
+    else
+      set git_info "$bold_yellow($git_branch ✗)"
     end
   end
 
