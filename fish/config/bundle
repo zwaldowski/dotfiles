@@ -1,0 +1,6 @@
+package brew
+package sublime
+package rbenv
+package extract
+package https://github.com/oh-my-fish/plugin-android-sdk.git
+package https://github.com/oh-my-fish/plugin-cask.git

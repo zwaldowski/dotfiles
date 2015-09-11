@@ -227,8 +227,7 @@ symlinks:
     # LLVM/Clang; C compiler, related tools, Clang Format
     'clang/.*': "~"
     # Fish shell (duped to exclude history bits)
-    'fish/*.fish': "~/.config/fish/"
-    'fish/functions': "~/.config/fish/"
+    'fish/*': "~/.config/fish/"
     # Git configuration
     'git/.*': "~"
     # LLDB, modern software interactive debugger; Scripts
