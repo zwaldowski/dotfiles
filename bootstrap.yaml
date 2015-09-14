@@ -18,18 +18,10 @@ casks:
     - android-studio
     # AppCode: artisanal, hand-crafted Obj-C and Swift IDE
     - appcode-eap
-    # Bartender: haxie to hide/show menubar icons
-    - bartender
     # CodeRunner: simple IDE for quick type-and-run programs
     - coderunner
-    # DaisyDisk: visual disk usage analyzer
-    - daisydisk
     # Doxie: mediocre organizational app for importing from Doxie scanners
     - doxie
-    # Dropbox: sometimes-used ubiquitous folder sync (BETA)
-    - dropbox-experimental
-    # Evernote: note-taking and mind mapping service (BETA)
-    - evernote-beta
     # Faux Pas: code quality analysis for Xcode projects
     - fauxpas
     # Flux: life-altering screen dimming tool (BETA)
@@ -39,19 +31,16 @@ casks:
     - font-alegreya-sc
     - font-clear-sans
     - font-courier-prime
-    - font-droid-sans
     - font-fantasque-sans-mono
     - font-fira-code
     - font-fira-mono
+    - font-fira-sans
     - font-fontawesome
-    - font-inconsolata
     - font-input
     - font-josefin-slab
     - font-lato
     - font-lobster-two
     - font-maven-pro
-    - font-roboto
-    - font-roboto-slab
     - font-source-code-pro
     - font-source-sans-pro
     - font-source-serif-pro
@@ -72,11 +61,8 @@ casks:
     - imageoptim
     # iMazing: pull info from connected iOS devices
     - imazing
-    # Java; Version dupe, good ol' GC'ed language runtime (version duped)
+    # Java; Good ol' GC'ed language runtime (version duped)
     - java
-    - java7
-    # jq: Command-line JSON parser
-    - jq
     # Kaleidoscope: bespoke file comparison
     - kaleidoscope
     # Mou: Markdown editor
@@ -99,28 +85,20 @@ casks:
     - selfcontrol
     # Skype: ubiquitous video chat app
     - skype
-    # Spotify: streaming music service of choice
-    - spotify
     # Steam: video game distribution platform
     - steam
     # Subler: audiovisual metadata editor and remuxer
     - subler
-    # Sublime Text; one-size-fits-all cross-platform text editor
+    # Sublime Text; one-size-fits-all cross-platform text editor (BETA)
     - sublime-text-dev
-    # Tower: pretty good GUI for Git (BETA)
-    - tower-beta
     # Transmission: brilliant native Cocoa BitTorrent client
     - transmission
     # Transmit: really good remote disk management
     - transmit
-    # Typed: distraction-free writing environment
-    - typed
     # VLC: play all sources of audio and video
     - vlc
     # VMWare Fusion: Yet another virtual machine
     - vmware-fusion
-    # Wineskin Winery: build portable containers for Windows apps
-    - wineskin-winery
 formulas:
     # Android SDK: base tools and managers for Google mobile platform
     - android-sdk
@@ -128,8 +106,6 @@ formulas:
     - awscli
     # Homebrew Cask: interface for installing GUI apps like you would Homebrew
     - brew-cask
-    # cabextract: extraction of Windows-style cabinet archives
-    - cabextract
     # Carthage: next-generation Cocoa dependency manager
     - carthage
     # Clang-Format: LLVM-based tool to reformat code
@@ -213,7 +189,6 @@ icons:
     Messages: "~/.cider/icons/Messages.icns"
     'Quartz Composer': "~/.cider/icons/QuartzComposer.icns"
     Slack: "~/.cider/icons/Slack.icns"
-    Spotify: "~/.cider/icons/Spotify.icns"
     Steam: "~/.cider/icons/Steam.icns"
     'Sublime Text': "~/.cider/icons/SublimeText.icns"
 # Share configuration across machines by symlinking
@@ -226,7 +201,7 @@ symlinks:
     'bin/*': "~/bin/"
     # LLVM/Clang; C compiler, related tools, Clang Format
     'clang/.*': "~"
-    # Fish shell (duped to exclude history bits)
+    # Fish shell
     'fish/*': "~/.config/fish/"
     # Git configuration
     'git/.*': "~"
