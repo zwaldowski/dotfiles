@@ -83,6 +83,8 @@ casks:
     - quickradar
     # SelfControl: app to block procrastination and social networking sites
     - selfcontrol
+    # ShrinkIt: removes bloat from Adobe-saved PDFs
+    - shrinkit
     # Skype: ubiquitous video chat app
     - skype
     # Steam: video game distribution platform
