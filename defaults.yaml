@@ -108,6 +108,7 @@ com.apple.screencapture:
 com.apple.Spotlight:
     # Inhibit onboarding experience
     showedFTE: 1
+    useCount: 3
 # Terminal: It's a Unix system, I know this!
 com.apple.Terminal:
     StringEncodings:
