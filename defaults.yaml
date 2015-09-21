@@ -186,3 +186,8 @@ NSGlobalDomain:
     AppleEnableSwipeNavigateWithScrolls: 1
     # WebKit debug menu
     WebKitDeveloperExtras: 1
+    # Configure display of names in Messages, Contacts
+    NSPersonNameDefaultDisplayNameOrder: 0
+    NSPersonNameDefaultShortNameEnabled: 0
+    NSPersonNameDefaultShortNameFormat: 0
+    NSPersonNameDefaultShouldPreferNicknamesPreference: 1
