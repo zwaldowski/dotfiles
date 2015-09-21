@@ -31,6 +31,8 @@ com.apple.AppleMultitouchTrackpad:
     TrackpadFourFingerPinchGesture: 2
     # "Mission Control: Swipe up with three fingers"
     TrackpadFourFingerVertSwipeGesture: 2
+    # Palm detection
+    TrackpadHandResting: 1
     # Off: "Three finger drag: Move with three fingers"
     TrackpadThreeFingerDrag: 0
     # "Swipe between pages: Swipe with two or three fingers"
@@ -47,6 +49,7 @@ com.apple.driver.AppleBluetoothMultitouch.trackpad:
     TrackpadFourFingerHorizSwipeGesture: 2
     TrackpadFourFingerPinchGesture: 2
     TrackpadFourFingerVertSwipeGesture: 2
+    TrackpadHandResting: 1
     TrackpadThreeFingerDrag: 0
     TrackpadThreeFingerHorizSwipeGesture: 1
     TrackpadThreeFingerTapGesture: 2
