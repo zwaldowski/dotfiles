@@ -108,8 +108,6 @@ formulas:
     - awscli
     # Homebrew Cask: interface for installing GUI apps like you would Homebrew
     - brew-cask
-    # Carthage: next-generation Cocoa dependency manager
-    - carthage
     # Clang-Format: LLVM-based tool to reformat code
     - clang-format
     # Fraunhofer AAC: proprietary, but efficient, AAC engine
@@ -138,8 +136,6 @@ formulas:
     - ruby-build
     # Subversion: relatively old version and revision control system
     - subversion
-    # unrar: Extraction tool for 90's archive tool
-    - unrar
     # zsh: workhorse interactive shell
     - zsh
     - zsh-completions
@@ -147,38 +143,19 @@ formulas:
     - youtube-dl
     # Common open-source libraries and tools
     - autoconf
-    - bison
-    - coreutils
+    - cmake
     - exiftool
-    - faac
-    - freetype
-    - fontconfig
-    - gd
     - gdbm
-    - gettext
-    - gmp
-    - gnutls
-    - jasper
-    - jpeg
     - jq
     - lame
-    - libpng
-    - libtasn1
-    - libtiff
-    - libtool
-    - libusb
-    - libusb-compat
-    - libyaml
     - libvo-aacenc
-    - makedepend
-    - nettle
+    - ninja
+    - oniguruma
     - openssl
-    - p7zip
     - pcre
     - pkg-config
     - protobuf
     - readline
-    - spark
     - sqlite
     - texi2html
     - xvid
