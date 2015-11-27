@@ -128,28 +128,6 @@ com.google.Chrome.canary:
     ExtensionInstallSources:
     - "https://gist.githubusercontent.com/"
     - "http://userscripts.org/*"
-# Evernote: note-taking and mind mapping service
-com.evernote.Evernote:
-    # Enable betas for non-MAS versions
-    ENCheckForBetaUpdates: 1
-    # Notes: "Card View"
-    ENNotebooksViewMode: 1
-    # Default note font
-    ENWKNoteEditorPrefsWebKitStandardFont: "Helvetica Neue"
-    # No auto helper app
-    runHelperAtLogin: 0
-    # No auto helper app on app launch
-    runHelperAtLoginPreserved: 1
-    # Only have helper while app running
-    runHelperWithoutMainApp: 0
-    # Only have helper while app running on relaunch
-    runHelperWithoutMainAppPreserved: 1
-    # Hide the elephant
-    showsStatusBarItem: 0
-# Evernote: note-taking and mind mapping service - helper app
-com.evernote.EvernoteHelper:
-    # Hide the elephant
-    showsStatusBarItem: 0
 # WebKit: Shell app to run Safari with a trunk build of WebKit
 com.webkit.nightly.WebKit:
     # Disable the home-page/launch page override

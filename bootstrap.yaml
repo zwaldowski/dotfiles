@@ -164,7 +164,6 @@ formulas:
     - yasm
 # Apply customized icons to apps
 icons:
-    Evernote: "~/.cider/icons/Evernote.icns"
     Messages: "~/.cider/icons/Messages.icns"
     'Quartz Composer': "~/.cider/icons/QuartzComposer.icns"
     Slack: "~/.cider/icons/Slack.icns"
