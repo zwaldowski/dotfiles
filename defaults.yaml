@@ -128,6 +128,9 @@ com.google.Chrome.canary:
     ExtensionInstallSources:
     - "https://gist.githubusercontent.com/"
     - "http://userscripts.org/*"
+# Tweetbot: The best third-party Twitter client for Mac
+com.tapbots.TweetbotMac:
+    OpenURLsDirectly: true
 # WebKit: Shell app to run Safari with a trunk build of WebKit
 com.webkit.nightly.WebKit:
     # Disable the home-page/launch page override
