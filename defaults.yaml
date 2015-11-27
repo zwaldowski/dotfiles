@@ -1,23 +1,16 @@
-# AirPlay: Apple TV wireless streaming functionality
-com.apple.airplay:
-    # Hide menu bar icon
-    showInMenuBarIfPresent: 0
-# Dashboard, a legacy widget system from the Mac OS X Tiger days
-com.apple.dashboard:
-    # Disabled
-    enabled-state: 1
-# Xcode: Apple's beleagured IDE
-com.apple.dt.Xcode:
-    # Enable downloading documentation and simulator updates
-    DVTDownloadableAutomaticUpdate: 1
-# Dock, the Mac OS X window manager eyecandy
-com.apple.dock:
-    # Hide the dock when not in use
-    autohide: 1
-    # Minimize windows using the effect Steve Jobs liked less
-    mineffect: "scale"
-    # Pretty but conservative size before zooming
-    tilesize: 48
+# Defaults that affect all user apps
+NSGlobalDomain:
+    # "Sidebar icon size: Small"
+    NSTableViewDefaultSizeMode: 1
+    # Mountain Lion-style: "Swipe between pages: Swipe with two or three fingers"
+    AppleEnableSwipeNavigateWithScrolls: 1
+    # WebKit debug menu
+    WebKitDeveloperExtras: 1
+    # Configure display of names in Messages, Contacts
+    NSPersonNameDefaultDisplayNameOrder: 0
+    NSPersonNameDefaultShortNameEnabled: 0
+    NSPersonNameDefaultShortNameFormat: 0
+    NSPersonNameDefaultShouldPreferNicknamesPreference: 1
 # Built-in multitouch trackpad preferences in Mac OS X
 # **NOT** tested with Force Touch devices beginning in 2015
 com.apple.AppleMultitouchTrackpad:
@@ -41,6 +34,46 @@ com.apple.AppleMultitouchTrackpad:
     TrackpadThreeFingerTapGesture: 2
     # "Mission Control: Swipe up with three fingers"
     TrackpadThreeFingerVertSwipeGesture: 2
+# Safari, the WebKit-based browser for Mac OS X
+com.apple.Safari:
+    # Develop menu for WebKit 1 contexts
+    IncludeDevelopMenu: 1
+    # Develop menu for WebKit 2 contexts
+    WebKitDeveloperExtrasEnabledPreferenceKey: 1
+    # Develop menu for Safari contexts
+    "com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled": 1
+    # Inhibit goofy "Wanna log in?" dialog
+    DomainsToNeverSetUp:
+    - google.com
+    - facebook.com
+    - linkedin.com
+    # Inhibit Spotlight onboarding
+    UniversalSearchFeatureNotificationHasBeenDisplayed: 1
+# Spotlight, search and quick-actions framework for Mac OS X
+com.apple.Spotlight:
+    # Inhibit onboarding experience
+    showedFTE: 1
+    useCount: 3
+# Terminal: It's a Unix system, I know this!
+com.apple.Terminal:
+    StringEncodings:
+    - 4
+# AirPlay: Apple TV wireless streaming functionality
+com.apple.airplay:
+    # Hide menu bar icon
+    showInMenuBarIfPresent: 0
+# Dashboard, a legacy widget system from the Mac OS X Tiger days
+com.apple.dashboard:
+    # Disabled
+    enabled-state: 1
+# Dock, the Mac OS X window manager eyecandy
+com.apple.dock:
+    # Hide the dock when not in use
+    autohide: 1
+    # Minimize windows using the effect Steve Jobs liked less
+    mineffect: "scale"
+    # Pretty but conservative size before zooming
+    tilesize: 48
 # Magic Trackpad preferences
 # All the same as above
 com.apple.driver.AppleBluetoothMultitouch.trackpad:
@@ -54,6 +87,10 @@ com.apple.driver.AppleBluetoothMultitouch.trackpad:
     TrackpadThreeFingerHorizSwipeGesture: 1
     TrackpadThreeFingerTapGesture: 2
     TrackpadThreeFingerVertSwipeGesture: 2
+# Xcode: Apple's beleagured IDE
+com.apple.dt.Xcode:
+    # Enable downloading documentation and simulator updates
+    DVTDownloadableAutomaticUpdate: 1
 # Finder, the Macintosh Desktop Experience
 com.apple.finder:
     # Hide everything on the Desktop, including the Desktop
@@ -88,34 +125,10 @@ com.apple.frameworks.diskimages:
     "auto-open-ro-root": 0
     # Automatically open read-write disk images
     "auto-open-rw-root": 0
-# Safari, the WebKit-based browser for Mac OS X
-com.apple.Safari:
-    # Develop menu for WebKit 1 contexts
-    IncludeDevelopMenu: 1
-    # Develop menu for WebKit 2 contexts
-    WebKitDeveloperExtrasEnabledPreferenceKey: 1
-    # Develop menu for Safari contexts
-    "com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled": 1
-    # Inhibit goofy "Wanna log in?" dialog
-    DomainsToNeverSetUp:
-    - google.com
-    - facebook.com
-    - linkedin.com
-    # Inhibit Spotlight onboarding
-    UniversalSearchFeatureNotificationHasBeenDisplayed: 1
 # Screen Capture: screenshotting functionality in Mac OS X
 com.apple.screencapture:
     # Don't capture blown-out Quartz window shadows
     "disable-shadow": 1
-# Spotlight, search and quick-actions framework for Mac OS X
-com.apple.Spotlight:
-    # Inhibit onboarding experience
-    showedFTE: 1
-    useCount: 3
-# Terminal: It's a Unix system, I know this!
-com.apple.Terminal:
-    StringEncodings:
-    - 4
 # Chrome: Google's life-sucking but speedy web browser
 com.google.Chrome:
     # Allow third-party extension installs from GitHub and Userscripts.org
@@ -162,16 +175,3 @@ org.m0k.transmission:
     WarningDonate: 0
     # Don't ask for legal protections again
     WarningLegal: 0
-# Defaults that affect all user apps
-NSGlobalDomain:
-    # "Sidebar icon size: Small"
-    NSTableViewDefaultSizeMode: 1
-    # Mountain Lion-style: "Swipe between pages: Swipe with two or three fingers"
-    AppleEnableSwipeNavigateWithScrolls: 1
-    # WebKit debug menu
-    WebKitDeveloperExtras: 1
-    # Configure display of names in Messages, Contacts
-    NSPersonNameDefaultDisplayNameOrder: 0
-    NSPersonNameDefaultShortNameEnabled: 0
-    NSPersonNameDefaultShortNameFormat: 0
-    NSPersonNameDefaultShouldPreferNicknamesPreference: 1
