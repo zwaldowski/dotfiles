@@ -85,6 +85,8 @@ casks:
     - selfcontrol
     # ShrinkIt: removes bloat from Adobe-saved PDFs
     - shrinkit
+    # Sketch: vector drawing app
+    - sketch
     # Skype: ubiquitous video chat app
     - skype
     # Steam: video game distribution platform
