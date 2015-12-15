@@ -1,4 +1,4 @@
 package brew
-package sublime
-package rbenv
 package extract
+package rbenv
+package sublime
