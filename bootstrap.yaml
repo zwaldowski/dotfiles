@@ -68,7 +68,7 @@ casks:
     # Mou: Markdown editor
     - mou
     # OpenEmu: unified platform for playing old video games (BETA)
-    - openemu-experimental
+    - openemu
     # Pacifist: tried and true extraction tool for Mac OS X packages
     - pacifist
     # Paw: HTTP client
