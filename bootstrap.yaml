@@ -128,16 +128,18 @@ formulas:
     - mercurial
     # Mobile Shell (mosh): a better remote shell
     - mobile-shell
+    # Mogenerator: Core Data codegen tool
+    - mogenerator
     # Node.JS: event-based CLI JavaScript programming language
     - node
     # rbenv: Ruby environment manager
-    - "rbenv --HEAD"
-    # rbenv-gem-rehash: Ruby binary symlink utility for rbenv and homebrew
-    - rbenv-gem-rehash
+    - rbenv
     # ruby-build: Ruby installer extension for rbenv
     - ruby-build
     # Subversion: relatively old version and revision control system
     - subversion
+    # SwiftLint: third-party code quality linter for Swift
+    - swiftlint
     # zsh: workhorse interactive shell
     - zsh
     - zsh-completions
