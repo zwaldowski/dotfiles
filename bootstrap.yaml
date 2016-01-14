@@ -197,6 +197,7 @@ symlinks:
     # Safari extensions
     'safari/*': "~/Library/Safari/"
     # Unix home configuration bits
+    'ssh/*': "~/.ssh/"
     'sh/.*': "~"
     # Sublime Text packages, themes, and configuration
     'sublime-text/*': "~/Library/Application Support/Sublime Text 3/"
