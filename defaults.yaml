@@ -34,6 +34,9 @@ com.apple.AppleMultitouchTrackpad:
     TrackpadThreeFingerTapGesture: 2
     # "Mission Control: Swipe up with three fingers"
     TrackpadThreeFingerVertSwipeGesture: 2
+# The helpful but oft-annoying camera import app
+com.apple.ImageCapture:
+    disableHotPlug: 1
 # Safari, the WebKit-based browser for Mac OS X
 com.apple.Safari:
     # Develop menu for WebKit 1 contexts
