@@ -61,12 +61,12 @@ casks:
     - imageoptim
     # iMazing: pull info from connected iOS devices
     - imazing
-    # Java; Good ol' GC'ed language runtime (version duped)
+    # Java; Good ol' GC'ed language runtime
     - java
     # Kaleidoscope: bespoke file comparison
     - kaleidoscope
-    # Mou: Markdown editor
-    - mou
+    # MacDown: Markdown editor
+    - macdown
     # OpenEmu: unified platform for playing old video games (BETA)
     - openemu
     # Pacifist: tried and true extraction tool for Mac OS X packages
@@ -101,8 +101,6 @@ casks:
     - transmit
     # VLC: play all sources of audio and video
     - vlc
-    # VMWare Fusion: Yet another virtual machine
-    - vmware-fusion
 formulas:
     # Android SDK: base tools and managers for Google mobile platform
     - android-sdk
