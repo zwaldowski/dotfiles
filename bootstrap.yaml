@@ -108,6 +108,8 @@ formulas:
     - awscli
     # Homebrew Cask: interface for installing GUI apps like you would Homebrew
     - brew-cask
+    # Cocoa dependency manager
+    - carthage
     # Clang-Format: LLVM-based tool to reformat code
     - clang-format
     # Fraunhofer AAC: proprietary, but efficient, AAC engine
@@ -146,6 +148,7 @@ formulas:
     # Common open-source libraries and tools
     - autoconf
     - cmake
+    - coreutils
     - exiftool
     - gdbm
     - jq
