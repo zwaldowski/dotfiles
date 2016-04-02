@@ -197,6 +197,7 @@ symlinks:
     'ruby/.*': "~"
     # Safari extensions
     'safari/*': "~/Library/Safari/"
+    'safari-preview/*': "~/Library/SafariTechnologyPreview/"
     # Unix home configuration bits
     'ssh/*': "~/.ssh/"
     'sh/.*': "~"
