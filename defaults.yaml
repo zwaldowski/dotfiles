@@ -77,6 +77,8 @@ com.apple.dock:
     mineffect: "scale"
     # Pretty but conservative size before zooming
     tilesize: 48
+    # Get rid of the annoying ants at the edge of the Dock
+    "show-process-indicators": 0
 # Magic Trackpad preferences
 # All the same as above
 com.apple.driver.AppleBluetoothMultitouch.trackpad:
