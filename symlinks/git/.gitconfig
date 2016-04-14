@@ -1,6 +1,3 @@
-# Sample gitconfig
-#
-
 [hub]
         protocol = https
 [user]
@@ -13,6 +10,7 @@
 [alias]
         co = checkout
         count   = !git shortlog -sn
+        pf = push --force-with-lease
 [color]
         branch = auto
         diff = auto
