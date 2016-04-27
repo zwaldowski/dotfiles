@@ -1,19 +1,22 @@
 # Defaults that affect all user apps
 NSGlobalDomain:
-    # "Sidebar icon size: Small"
-    NSTableViewDefaultSizeMode: 1
     # Mountain Lion-style: "Swipe between pages: Swipe with two or three fingers"
     AppleEnableSwipeNavigateWithScrolls: 1
-    # WebKit debug menu
-    WebKitDeveloperExtras: 1
     # Configure display of names in Messages, Contacts
     NSPersonNameDefaultDisplayNameOrder: 0
     NSPersonNameDefaultShortNameEnabled: 0
     NSPersonNameDefaultShortNameFormat: 0
     NSPersonNameDefaultShouldPreferNicknamesPreference: 1
+    # "Sidebar icon size: Small"
+    NSTableViewDefaultSizeMode: 1
+    # WebKit debug menu
+    WebKitDeveloperExtras: 1
 # Built-in multitouch trackpad preferences in Mac OS X
-# **NOT** tested with Force Touch devices beginning in 2015
 com.apple.AppleMultitouchTrackpad:
+    # "Force click and aptic feedback"
+    ActuateDetents: 1
+    # "Click: Medium"
+    ActuationStrength: 1
     # "Tap to click: Tap with one finger"
     Clicking: 1
     # "Show Desktop: Spread with thumb and three fingers"
@@ -33,25 +36,38 @@ com.apple.AppleMultitouchTrackpad:
     # "Look up: Tap with three fingers"
     TrackpadThreeFingerTapGesture: 2
     # "Mission Control: Swipe up with three fingers"
-    TrackpadThreeFingerVertSwipeGesture: 2
+    TrackpadThreeFingerVertSwipeGesture: 1
 # The helpful but oft-annoying camera import app
 com.apple.ImageCapture:
     disableHotPlug: 1
 # Safari, the WebKit-based browser for Mac OS X
 com.apple.Safari:
+    # Inhibit goofy "Wanna log in?" dialogs
+    accountTypesToSkipForSetup:
+    - com.apple.account.Google
+    - com.apple.vimeo
     # Develop menu for WebKit 1 contexts
     IncludeDevelopMenu: 1
+    # Inhibit Spotlight onboarding
+    UniversalSearchFeatureNotificationHasBeenDisplayed: 1
     # Develop menu for WebKit 2 contexts
     WebKitDeveloperExtrasEnabledPreferenceKey: 1
     # Develop menu for Safari contexts
-    "com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled": 1
-    # Inhibit goofy "Wanna log in?" dialog
-    DomainsToNeverSetUp:
-    - google.com
-    - facebook.com
-    - linkedin.com
+    com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled: 1
+# Safari, but, like, better
+com.apple.SafariTechnologyPreview:
+    # Inhibit goofy "Wanna log in?" dialogs
+    accountTypesToSkipForSetup:
+    - com.apple.account.Google
+    - com.apple.vimeo
+    # iCloud sync like woah
+    TechnologyPreviewSafariSyncEnabled: 1
     # Inhibit Spotlight onboarding
     UniversalSearchFeatureNotificationHasBeenDisplayed: 1
+    # Develop menu for WebKit 2 contexts
+    WebKitDeveloperExtrasEnabledPreferenceKey: 1
+    # Develop menu for Safari contexts
+    com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled: 1
 # Spotlight, search and quick-actions framework for Mac OS X
 com.apple.Spotlight:
     # Inhibit onboarding experience
@@ -74,11 +90,11 @@ com.apple.dock:
     # Hide the dock when not in use
     autohide: 1
     # Minimize windows using the effect Steve Jobs liked less
-    mineffect: "scale"
+    mineffect: scale
+    # Get rid of the annoying ants at the edge of the Dock
+    show-process-indicators: 0
     # Pretty but conservative size before zooming
     tilesize: 48
-    # Get rid of the annoying ants at the edge of the Dock
-    "show-process-indicators": 0
 # Magic Trackpad preferences
 # All the same as above
 com.apple.driver.AppleBluetoothMultitouch.trackpad:
@@ -91,35 +107,39 @@ com.apple.driver.AppleBluetoothMultitouch.trackpad:
     TrackpadThreeFingerDrag: 0
     TrackpadThreeFingerHorizSwipeGesture: 1
     TrackpadThreeFingerTapGesture: 2
-    TrackpadThreeFingerVertSwipeGesture: 2
+    TrackpadThreeFingerVertSwipeGesture: 1
 # Xcode: Apple's beleagured IDE
 com.apple.dt.Xcode:
     # Enable downloading documentation and simulator updates
     DVTDownloadableAutomaticUpdate: 1
+    # Show how long a build took in the top bar
+    ShowBuildOperationDuration: true
 # Finder, the Macintosh Desktop Experience
 com.apple.finder:
+    # Hide everything on the Desktop, including the Desktop
+    CreateDesktop: 0
+    # Column View for alternate app-centric views
+    FK_AppCentricViewStyle: clmv
+    # Default "Arrange By" setting
+    FXArrangeGroupViewBy: Name
+    # "When performing a search: Search the Current Folder"
+    FXDefaultSearchScope: SCcf
+    # Default "Group By" setting
+    FXPreferredGroupBy: Name
+    # List view for normal windows
+    FXPreferredViewStyle: Nlsv
+    # "New Finder windows show: Home folder"
+    NewWindowTarget: PfHm
+    # Open a window when a removable disk is plugged in
+    OpenWindowForNewRemovableDisk: 1
     # Hide everything on the Desktop, including the Desktop
     ShowExternalHardDrivesOnDesktop: 0
     ShowHardDrivesOnDesktop: 0
     ShowMountedServersOnDesktop: 0
-    ShowRemovableMediaOnDesktop: 0
-    CreateDesktop: 0
-    # Column View for alternate app-centric views
-    FK_AppCentricViewStyle: "clmv"
-    # List view for normal windows
-    FXPreferredViewStyle: "Nlsv"
-    # Default "Arrange By" setting
-    FXArrangeGroupViewBy: "Name"
-    # Default "Group By" setting
-    FXPreferredGroupBy: "Name"
-    # Open a window when a removable disk is plugged in
-    OpenWindowForNewRemovableDisk: 1
-    # "When performing a search: Search the Current Folder"
-    FXDefaultSearchScope: "SCcf"
-    # "New Finder windows show: Home folder"
-    NewWindowTarget: "PfHm"
     # Hide breadcrumb trail
     ShowPathbar: 0
+    # Hide everything on the Desktop, including the Desktop
+    ShowRemovableMediaOnDesktop: 0
     # Show status bar ("12 items, 384.94 GB available")
     ShowStatusBar: 0
     # Hide tab bar until tabs open
@@ -127,32 +147,22 @@ com.apple.finder:
 # Disk Utility, disk management on the Mac
 com.apple.frameworks.diskimages:
     # Automatically open read-only disk images
-    "auto-open-ro-root": 0
+    auto-open-ro-root: 0
     # Automatically open read-write disk images
-    "auto-open-rw-root": 0
+    auto-open-rw-root: 0
 # Screen Capture: screenshotting functionality in Mac OS X
 com.apple.screencapture:
     # Don't capture blown-out Quartz window shadows
-    "disable-shadow": 1
+    disable-shadow: 1
 # Chrome: Google's life-sucking but speedy web browser
 com.google.Chrome:
     # Allow third-party extension installs from GitHub and Userscripts.org
     ExtensionInstallSources:
-    - "https://gist.githubusercontent.com/"
-    - "http://userscripts.org/*"
-# Chrome: Google's life-sucking but speedy web browser, nightly build
-com.google.Chrome.canary:
-    # Allow third-party extension installs from GitHub and Userscripts.org
-    ExtensionInstallSources:
-    - "https://gist.githubusercontent.com/"
-    - "http://userscripts.org/*"
+    - https://gist.githubusercontent.com/
+    - http://userscripts.org/*
 # Tweetbot: The best third-party Twitter client for Mac
 com.tapbots.TweetbotMac:
     OpenURLsDirectly: true
-# WebKit: Shell app to run Safari with a trunk build of WebKit
-com.webkit.nightly.WebKit:
-    # Disable the home-page/launch page override
-    StartPageDisabled: 1
 # SelfControl: App to block procrastination and social networking sites
 org.eyebeam.SelfControl:
     # List of sites to block
@@ -168,15 +178,15 @@ org.eyebeam.SelfControl:
     - buzzfeed.com
 # Transmission: brilliant native Cocoa BitTorrent client
 org.m0k.transmission:
-    # Keep both complete and incomplete downloads in the same place
-    UseIncompleteDownloadFolder: 0
-    # Store downloads elsewhere
-    IncompleteDownloadFolder: "~/Downloads/Torrents"
-    # Don't always ask where downloads go
-    DownloadAsk: 0
     # Delete *.torrent file if it exists
     DeleteOriginalTorrent: 1
+    # Don't always ask where downloads go
+    DownloadAsk: 0
+    # Store downloads elsewhere
+    IncompleteDownloadFolder: ~/Downloads/Torrents
+    # Keep both complete and incomplete downloads in the same place
+    UseIncompleteDownloadFolder: 0
     # Don't ask for donations again, I already have :-)
     WarningDonate: 0
-    # Don't ask for legal protections again
+    # Don't ask for legal CYA again
     WarningLegal: 0
