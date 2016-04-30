@@ -12,18 +12,10 @@ after-scripts:
     # Get Oh-My-Fish to install packages
     - "./script/oh_my_fish.sh"
 casks:
-    # Alfred: productivity launchpad search bar
-    - alfred
-    # Android Studio: IntelliJ-esque Android IDE
-    - android-studio
-    # AppCode: artisanal, hand-crafted Obj-C and Swift IDE
-    - appcode-eap
     # CodeRunner: simple IDE for quick type-and-run programs
     - coderunner
     # Doxie: mediocre organizational app for importing from Doxie scanners
     - doxie
-    # Faux Pas: code quality analysis for Xcode projects
-    - fauxpas
     # Flux: life-altering screen dimming tool (BETA)
     - flux-beta
     # Open-source typefaces
@@ -105,8 +97,6 @@ formulas:
     - android-sdk
     # AWS-CLI: Tools for accessing Amazon S3
     - awscli
-    # Homebrew Cask: interface for installing GUI apps like you would Homebrew
-    - brew-cask
     # Cocoa dependency manager
     - carthage
     # Clang-Format: LLVM-based tool to reformat code
