@@ -64,6 +64,8 @@ casks:
     - kaleidoscope
     # MacDown: Markdown editor
     - macdown
+    # MacID: Thumbprint-based Mac unlocking
+    - macid
     # OpenEmu: unified platform for playing old video games (BETA)
     - openemu
     # Pacifist: tried and true extraction tool for Mac OS X packages
