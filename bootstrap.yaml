@@ -111,6 +111,8 @@ formulas:
     - git
     # GNUPG: pretty good privacy and encryption
     - gnupg
+    # Highlight: Convert plain text to formatted text with syntax highlighting
+    - highlight
     # Keybase: more user-friendly privacy and encryption
     - keybase
     # Mercurial: alternative decentralize version control system
