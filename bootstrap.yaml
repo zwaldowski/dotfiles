@@ -16,8 +16,8 @@ casks:
     - coderunner
     # Doxie: mediocre organizational app for importing from Doxie scanners
     - doxie
-    # Flux: life-altering screen dimming tool (BETA)
-    - flux-beta
+    # Flux: life-altering screen dimming tool
+    - flux
     # Open-source typefaces
     - font-clear-sans
     - font-courier-prime
@@ -37,7 +37,7 @@ casks:
     # GitUp: Blazingly fast, rational Git GUI
     - gitup
     # Google Chrome: Give your laptop five minutes battery, also use Flash
-    - "google-chrome --appdir=/Applications"
+    - google-chrome
     # Google Hangouts: Turn your laptop into a jet plane, and also video chat
     - google-hangouts
     # Handbrake: encode video without the tears from ffmpeg
