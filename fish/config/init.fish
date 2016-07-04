@@ -1,6 +1,3 @@
-# Remove fish default greeting
-set --erase fish_greeting
-
 set -x EDITOR "subl -n -w"
 set -x GIT_EDITOR "subl -n -w"
 
