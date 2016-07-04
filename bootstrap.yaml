@@ -110,7 +110,8 @@ formulas:
     # Git; decentralized version control system
     - git
     # GNUPG: pretty good privacy and encryption
-    - gnupg
+    - gnupg21
+    - pinentry-mac
     # Highlight: Convert plain text to formatted text with syntax highlighting
     - highlight
     # Keybase: more user-friendly privacy and encryption
@@ -179,6 +180,8 @@ symlinks:
     'fish/*': "~/.config/fish/"
     # Git configuration
     'git/.*': "~"
+    # GPG configuration
+    'gpg/*': "~/.gnupg/"
     # LLDB, modern software interactive debugger; Scripts
     'lldb/.*': "~"
     # TextMate bundles (duped to exclude update files)

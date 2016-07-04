@@ -3,7 +3,7 @@
 [user]
         name = Zachary Waldowski
         email = zach@waldowski.me
-	signingkey = 8F2E8CD3
+	signingkey = zach@waldowski.me
 [push]
         default = current
 [credential]
@@ -105,3 +105,7 @@
 	required = true
 [diff "plist"]
 	textconv = plutil -convert xml1 -o -
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg2
