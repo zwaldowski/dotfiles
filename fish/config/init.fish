@@ -1,5 +1,6 @@
 set -x EDITOR "subl -n -w"
 set -x GIT_EDITOR "subl -n -w"
+set -gx RBENV_ROOT /usr/local/opt/rbenv
 
 function ql
     qlmanage -p $argv >& /dev/null

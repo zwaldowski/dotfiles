@@ -174,8 +174,6 @@ symlinks:
     'bin/*': "~/bin/"
     # LLVM/Clang; C compiler, related tools, Clang Format
     'clang/.*': "~"
-    # Fish shell
-    'fish/*': "~/.config/fish/"
     # Git configuration
     'git/.*': "~"
     # GPG configuration
