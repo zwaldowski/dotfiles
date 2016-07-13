@@ -7,8 +7,8 @@ after-scripts:
     # Set DuckDuckGo as the default search engine due to limitations
     # with Cider's defaults engine
     - "./script/duckduckgo.sh"
-    # Hide things copied and symlinked into ~/bin/
-    - "./script/hide_bin.sh"
+    # Hide undesired folders in ~/, including ~/bin/
+    - "./script/hide_folders.sh"
     # Get Oh-My-Fish to install packages
     - "./script/oh_my_fish.sh"
 casks:
