@@ -1,9 +1,9 @@
 # font
-fontName      = FiraMono-Regular
+fontName      = SFMono-Medium
 fontSize      = 12
 
 # base16-default.dark
-theme         = 0A5EB01A-DA35-40B9-B925-D3033DE00F46
+theme         = 121FDC7B-49E8-4300-B3AA-4741C067CDD0
 
 # Omit .tm_properties
 include        = ".htaccess"
