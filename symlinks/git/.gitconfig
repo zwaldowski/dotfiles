@@ -1,26 +1,8 @@
-[hub]
-        protocol = https
+# Basic
 [user]
         name = Zachary Waldowski
         email = zach@waldowski.me
-	signingkey = zach@waldowski.me
-[push]
-        default = current
-[credential]
-        helper = osxkeychain
-[alias]
-        co = checkout
-        count   = !git shortlog -sn
-        pf = push --force-with-lease
-[color]
-        branch = auto
-        diff = auto
-        status = auto
-        ui = auto
-        pager = true
-        interactive = auto
-[format]
-        pretty = %Cblue%h%Creset %Cgreen[%ar]%Creset (%an) %s
+        signingkey = zach@waldowski.me
 [core]
         excludesfile = ~/.cider/git/ignore
         attributesfile = ~/.cider/git/attributes
@@ -30,18 +12,30 @@
         whitespace = space-before-tab,-indent-with-non-tab,trailing-space
         quotepath = false
         trustctime = false
-[fetch]
-        prune = true
+[alias]
+        co = checkout
+        count = !git shortlog -sn
+        pf = push --force-with-lease
 [apply]
         whitespace = fix
-[mergetool]
-        keepBackup = false
-[difftool]
-        prompt = false
+[credential]
+        helper = osxkeychain
+[fetch]
+        prune = true
 [help]
         autocorrect = 1
-[hub]
-        protocol = https
+[push]
+        default = current
+
+# Colorization
+
+[color]
+        branch = auto
+        diff = auto
+        status = auto
+        ui = auto
+        pager = true
+        interactive = auto
 [color "branch"]
         current = yellow reverse
         local = yellow
@@ -56,27 +50,16 @@
         changed = green
         untracked = cyan
 [filter "media"]
-	required = true
-	clean = git media clean %f
-	smudge = git media smudge %f
-[difftool "Kaleidoscope"]
-        cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
-[mergetool "Kaleidoscope"]
-        cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
-        trustExitCode = true
-[diff]
-        tool = Kaleidoscope
-        renames = copies
-[difftool]
-        prompt = false
-[merge]
-        tool = Kaleidoscope
-[mergetool]
-        prompt = false
-        keepBackup = false
-[diff "localizablestrings"]
-        textconv = "iconv -f utf-16 -t utf-8"
-        binary = false
+        required = true
+        clean = git media clean %f
+        smudge = git media smudge %f
+[format]
+        pretty = %Cblue%h%Creset %Cgreen[%ar]%Creset (%an) %s
+
+# GitHub
+
+[hub]
+        protocol = https
 [url "git@github.com:"]
         insteadOf = "gh:"
         pushInsteadOf = "github:"
@@ -89,23 +72,30 @@
         pushInsteadOf = "git://gist.github.com/"
 [url "git://gist.github.com/"]
         insteadOf = "gist:"
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path =
-[mergetool "sourcetree"]
-	cmd = /opt/homebrew-cask/Caskroom/sourcetree/2.0.5.2/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
-[filter "hawser"]
-	clean = git hawser clean %f
-	smudge = git hawser smudge %f
-	required = true
-[filter "lfs"]
-	clean = git lfs clean %f
-	smudge = git lfs smudge %f
-	required = true
-[diff "plist"]
-	textconv = plutil -convert xml1 -o -
+
+# Tooling
+
 [commit]
-	gpgsign = true
+        gpgsign = true
 [gpg]
-	program = gpg2
+        program = gpg2
+[diff]
+        tool = Kaleidoscope
+        renames = copies
+[diff "plist"]
+        textconv = plutil -convert xml1 -o -
+[diff "localizablestrings"]
+        textconv = "iconv -f utf-16 -t utf-8"
+        binary = false
+[difftool]
+        prompt = false
+[difftool "Kaleidoscope"]
+        cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+[merge]
+        tool = Kaleidoscope
+[mergetool]
+        prompt = false
+        keepBackup = false
+[mergetool "Kaleidoscope"]
+        cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+        trustExitCode = true
