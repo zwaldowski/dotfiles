@@ -1,1 +1,2 @@
 *.plist diff=plist
+*.strings utf16 diff=localizablestrings
