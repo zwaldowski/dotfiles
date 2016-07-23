@@ -9,12 +9,15 @@ theme         = 121FDC7B-49E8-4300-B3AA-4741C067CDD0
 include        = ".htaccess"
 
 # Variables
-TM_FULLNAME   = "Zachary Waldowski"
+TM_FULLNAME     = "Zachary Waldowski"
 TM_ORGANIZATION = "Big Nerd Ranch"
 
 # Configure Git and Mercurial
+PATH          = "/usr/local/var/rbenv/shims:$PATH"
 TM_GIT        = "/usr/local/bin/git"
 TM_HG         = "/usr/local/bin/hg"
+TM_RUBY       = "/usr/local/var/rbenv/shims/ruby"
+RBENV_VERSION = "2.3.1"
 
 # General Settings
 showInvisibles = false
