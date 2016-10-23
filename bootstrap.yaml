@@ -2,9 +2,6 @@
 after-scripts:
     # Install Ruby using rbenv, select it, and update Ruby Gems
     - "./script/update_ruby.sh"
-    # Set DuckDuckGo as the default search engine due to limitations
-    # with Cider's defaults engine
-    - "./script/duckduckgo.sh"
     # Hide undesired folders in ~/, including ~/bin/
     - "./script/hide_folders.sh"
     # Get Oh-My-Fish to install packages
