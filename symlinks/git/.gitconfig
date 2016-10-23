@@ -2,7 +2,7 @@
 [user]
         name = Zachary Waldowski
         email = zach@waldowski.me
-        signingkey = zach@waldowski.me
+        signingkey = 8F2E8CD3
 [core]
         excludesfile = ~/.cider/git/ignore
         attributesfile = ~/.cider/git/attributes

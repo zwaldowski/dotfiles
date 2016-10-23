@@ -108,7 +108,8 @@ formulas:
     # Git; decentralized version control system
     - git
     # GNUPG: pretty good privacy and encryption
-    - gnupg21
+    - gnupg2
+    - gpg-agent
     - pinentry-mac
     # Highlight: Convert plain text to formatted text with syntax highlighting
     - highlight

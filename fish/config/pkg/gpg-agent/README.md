@@ -12,20 +12,26 @@
 
 ## Install
 
-> *Note*: You need to have `gpg-agent` installed.
-
 ```fish
 $ omf install gpg-agent
 ```
 
+
+## Usage
+
+```fish
+$ gpg-agent
+```
+
+
 # License
 
-[MIT][mit] © [zwaldowski][author] et [al][contributors]
+[MIT][mit] © [Zachary Waldowski][author] et [al][contributors]
 
 
 [mit]:            https://opensource.org/licenses/MIT
-[author]:         https://github.com/zwaldowski
-[contributors]:   https://github.com/zwaldowski/plugin-gpg-agent/graphs/contributors
+[author]:         https://github.com/{{USER}}
+[contributors]:   https://github.com/{{USER}}/plugin-gpg-agent/graphs/contributors
 [omf-link]:       https://www.github.com/oh-my-fish/oh-my-fish
 
 [license-badge]:  https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square
