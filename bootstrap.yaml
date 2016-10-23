@@ -197,7 +197,6 @@ symlinks:
     'sublime-text/*': "~/Library/Application Support/Sublime Text 3/"
     # Xcode plugins, themes, and configuration
     'xcode/*': "~/Library/Developer/Xcode/UserData/"
-    'xcplugins/*': "~/Library/Application Support/Developer/Shared/Xcode/"
     'xctemplates/*': "~/Library/Developer/Xcode/Templates/"
     # ZSH shell
     'zsh/.*': "~"
