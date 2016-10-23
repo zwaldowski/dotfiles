@@ -36,8 +36,6 @@ casks:
     - gitup
     # Google Chrome: Give your laptop five minutes battery, also use Flash
     - google-chrome
-    # Google Hangouts: Turn your laptop into a jet plane, and also video chat
-    - google-hangouts
     # Handbrake: encode video without the tears from ffmpeg
     - handbrake
     # Hopper: amazing code introspection tool
@@ -68,8 +66,6 @@ casks:
     - qlmarkdown
     - qlprettypatch
     - quicklook-json
-    # QuickRadar: Menubar app for posting to Apple's Radar bug tracker
-    - quickradar
     # SelfControl: app to block procrastination and social networking sites
     - selfcontrol
     # ShrinkIt: removes bloat from Adobe-saved PDFs
@@ -84,12 +80,16 @@ casks:
     - subler
     # Sublime Text; one-size-fits-all cross-platform text editor (BETA)
     - sublime-text-dev
+    # TextMate; tried-and-true Cocoa text editor (BETA)
+    - textmate
     # Transmission: brilliant native Cocoa BitTorrent client
     - transmission
     # Transmit: really good remote disk management
     - transmit
     # VLC: play all sources of audio and video
     - vlc
+    # XLD: Lossless audio converter
+    - xld
 formulas:
     # Android SDK: base tools and managers for Google mobile platform
     - android-sdk
@@ -105,14 +105,16 @@ formulas:
     - ffmpeg
     # Fish: amazing autocomplete-based modern shell
     - fish
+    # An interpreter for the PostScript language and for PDF
+    - ghostscript
     # Git; decentralized version control system
     - git
     # GNUPG: pretty good privacy and encryption
     - gnupg2
     - gpg-agent
     - pinentry-mac
-    # Highlight: Convert plain text to formatted text with syntax highlighting
-    - highlight
+    # Go: modern systems programming language
+    - go
     # Keybase: more user-friendly privacy and encryption
     - keybase
     # Mercurial: alternative decentralize version control system
@@ -127,10 +129,8 @@ formulas:
     - rbenv
     # ruby-build: Ruby installer extension for rbenv
     - ruby-build
-    # Subversion: relatively old version and revision control system
-    - subversion
     # SwiftLint: third-party code quality linter for Swift
-    - swiftlint
+    # - swiftlint
     # youtube-dl: Download videos from YouTube
     - youtube-dl
     # Common open-source libraries and tools
@@ -142,6 +142,7 @@ formulas:
     - jq
     - lame
     - libvo-aacenc
+    - little-cms2
     - ninja
     - oniguruma
     - openssl
