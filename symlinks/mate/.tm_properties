@@ -61,7 +61,3 @@ spellChecking  = false
 
 [ "{README,INSTALL,LICENSE,TODO}" ]
 fileType       = "text.plain"
-
-[ ".{zshrc}"]
-fileType       = "shell"
-spellChecking  = false

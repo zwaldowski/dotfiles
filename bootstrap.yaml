@@ -131,9 +131,6 @@ formulas:
     - subversion
     # SwiftLint: third-party code quality linter for Swift
     - swiftlint
-    # zsh: workhorse interactive shell
-    - zsh
-    - zsh-completions
     # youtube-dl: Download videos from YouTube
     - youtube-dl
     # Common open-source libraries and tools
@@ -198,8 +195,6 @@ symlinks:
     # Xcode plugins, themes, and configuration
     'xcode/*': "~/Library/Developer/Xcode/UserData/"
     'xctemplates/*': "~/Library/Developer/Xcode/Templates/"
-    # ZSH shell
-    'zsh/.*': "~"
 # Homebrew repositories to tap
 taps:
     # Cask: install GUI apps with Homebrew
