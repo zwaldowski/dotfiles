@@ -168,8 +168,6 @@ symlinks:
     'android-studio/*': "~/Library/Preferences/AndroidStudio/"
     # AppCode options
     'appcode/*': "~/Library/Preferences/appCode32/"
-    # Scripts, helpers, bits, bobs
-    'bin/*': "~/bin/"
     # LLVM/Clang; C compiler, related tools, Clang Format
     'clang/.*': "~"
     # Git configuration
