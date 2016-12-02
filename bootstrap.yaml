@@ -176,8 +176,7 @@ symlinks:
     'lldb/.*': "~"
     # TextMate bundles (duped to exclude update files)
     'mate/.*': "~"
-    'mate/*.*': "~/Library/Application Support/TextMate/"
-    'mate/Managed/*': "~/Library/Application Support/TextMate/Managed/"
+    'mate/*': "~/Library/Application Support/Avian/"
     # Ruby/RubyGems; hip modern simple language and dependency manager
     'ruby/.*': "~"
     # Safari extensions
