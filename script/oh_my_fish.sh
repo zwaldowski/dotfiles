@@ -3,5 +3,8 @@ set -eu
 . "$(dirname "$0")/common.sh"
 
 echo "Installing Fish and packages..."
-env OMF_CONFIG=~/.cider/fish curl -L https://github.com/oh-my-fish/oh-my-fish/raw/master/bin/install | fish
+
+SCRIPT="$(mktemp)"
+curl -L http://get.oh-my.fish > $SCRIPT
+fish $SCRIPT --config=/Users/zw/.cider/fish/config --noninteractive
 fish -c "omf install"
