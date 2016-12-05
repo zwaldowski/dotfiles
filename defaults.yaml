@@ -11,6 +11,24 @@ NSGlobalDomain:
     NSTableViewDefaultSizeMode: 1
     # WebKit debug menu
     WebKitDeveloperExtras: 1
+# Wonderful Git GUI
+co.gitup.mac:
+    # Slight zoomy
+    EnableVisualEffects: true
+    # First launch tour and other warnings
+    FirstLaunch: false
+    GIMapViewController_SkipPushBranchWarning: true
+    HelpShown_COMMIT: 2
+    HelpShown_CONFIG: 1
+    HelpShown_DIFF: 1
+    HelpShown_MAP: 4
+    HelpShown_QUICKVIEW: 1
+    HelpShown_RESOLVE: 1
+    HelpShown_REWRITE: 1
+    HelpShown_SEARCH: 1
+    HelpShown_SPLIT: 1
+    HelpShown_STASHES: 1
+    HelpShown_TAGS: 1
 # Built-in multitouch trackpad preferences in Mac OS X
 com.apple.AppleMultitouchTrackpad:
     # "Force click and aptic feedback"
