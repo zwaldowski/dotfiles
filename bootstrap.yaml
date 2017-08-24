@@ -4,8 +4,8 @@ after-scripts:
     - "./script/update_ruby.sh"
     # Hide undesired folders in ~/, including ~/bin/
     - "./script/hide_folders.sh"
-    # Get Oh-My-Fish to install packages
-    - "./script/oh_my_fish.sh"
+    # Get Fisherman to install packages
+    - "./script/fisherman.sh"
 casks:
     # CodeRunner: simple IDE for quick type-and-run programs
     - coderunner
@@ -166,6 +166,12 @@ symlinks:
     'appcode/*': "~/Library/Preferences/appCode32/"
     # LLVM/Clang; C compiler, related tools, Clang Format
     'clang/.*': "~"
+    # Fish and Fisherman configurations
+    'fish/fishfile': '~/.config/fish/'
+    'fish/completions/*': '~/.config/fish/completions/'
+    'fish/functions/*': '~/.config/fish/functions/'
+    # Fisherman manager for Fish
+    'fisherman/*': '~/.config/fisherman/'
     # Git configuration
     'git/.*': "~"
     # GPG configuration
