@@ -32,3 +32,7 @@ Temporary Items
 *.last-run
 fish_history
 fishd.*
+
+# Sublime Text
+symlinks/sublime-text/Packages/User/oscrypto-ca-bundle.crt
+symlinks/sublime-text/Packages/User/Package Control.merged-ca-bundle
