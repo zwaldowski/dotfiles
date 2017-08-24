@@ -76,9 +76,7 @@
 # Tooling
 
 [commit]
-        gpgsign = true
-[gpg]
-        program = gpg2
+        gpgSign = true
 [diff]
         tool = Kaleidoscope
         renames = copies
