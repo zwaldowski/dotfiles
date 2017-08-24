@@ -133,8 +133,6 @@ com.apple.driver.AppleBluetoothMultitouch.trackpad:
 com.apple.dt.Xcode:
     # Enable downloading documentation and simulator updates
     DVTDownloadableAutomaticUpdate: 1
-    # Show how long a build took in the top bar
-    ShowBuildOperationDuration: 1
 # Finder, the Macintosh Desktop Experience
 com.apple.finder:
     # Hide everything on the Desktop, including the Desktop
