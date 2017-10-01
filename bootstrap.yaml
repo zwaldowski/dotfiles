@@ -186,9 +186,6 @@ symlinks:
     'mate/*': "~/Library/Application Support/TextMate/"
     # Ruby/RubyGems; hip modern simple language and dependency manager
     'ruby/.*': "~"
-    # Safari extensions
-    'safari/*': "~/Library/Safari/"
-    'safari-preview/*': "~/Library/SafariTechnologyPreview/"
     # Unix home configuration bits
     'ssh/*': "~/.ssh/"
     'sh/.*': "~"
