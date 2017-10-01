@@ -154,21 +154,8 @@ formulas:
     - xz
     - x264
     - yasm
-# Apply customized icons to apps
-icons:
-    Messages: "~/.cider/icons/Messages.icns"
-    'Quartz Composer': "~/.cider/icons/QuartzComposer.icns"
-    Slack: "~/.cider/icons/Slack.icns"
-    Steam: "~/.cider/icons/Steam.icns"
-    'Sublime Text': "~/.cider/icons/SublimeText.icns"
 # Share configuration across machines by symlinking
 symlinks:
-    # Android Studio options
-    'android-studio/*': "~/Library/Preferences/AndroidStudio/"
-    # AppCode options
-    'appcode/*': "~/Library/Preferences/appCode32/"
-    # LLVM/Clang; C compiler, related tools, Clang Format
-    'clang/.*': "~"
     # Fish and Fisherman configurations
     'fish/fishfile': '~/.config/fish/'
     'fish/completions/*': '~/.config/fish/completions/'
@@ -179,8 +166,6 @@ symlinks:
     'git/.*': "~"
     # GPG configuration
     'gpg/*': "~/.gnupg/"
-    # LLDB, modern software interactive debugger; Scripts
-    'lldb/.*': "~"
     # TextMate bundles (duped to exclude update files)
     'mate/.*': "~"
     'mate/*': "~/Library/Application Support/TextMate/"
