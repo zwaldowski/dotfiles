@@ -156,6 +156,8 @@ formulas:
     - yasm
 # Share configuration across machines by symlinking
 symlinks:
+    # Duplicate above bootstrap for Homebrew Bundler
+    'brew/.*': '~'
     # Fish and Fisherman configurations
     'fish/fishfile': '~/.config/fish/'
     'fish/completions/*': '~/.config/fish/completions/'
