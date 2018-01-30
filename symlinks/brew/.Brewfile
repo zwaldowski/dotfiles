@@ -2,6 +2,22 @@ tap "caskroom/fonts"
 tap "caskroom/cask"
 tap "caskroom/versions"
 
+# Common open-source libraries and tools
+brew "autoconf"
+brew "gdbm"
+brew "cmake"
+brew "exiftool"
+brew "gettext"
+brew "lame"
+brew "libassuan"
+brew "libgpg-error"
+brew "libksba"
+brew "libvo-aacenc"
+brew "ninja"
+brew "pkg-config"
+brew "pth"
+brew "readline"
+brew "xvid"
 # AWS-CLI: Tools for accessing Amazon S3
 brew "awscli"
 # Cocoa dependency manager
@@ -22,6 +38,7 @@ brew "pinentry-mac"
 brew "mas"
 # Mobile Shell (mosh): a better remote shell
 brew "mobile-shell"
+#
 brew "protobuf"
 # rbenv: Ruby environment manager
 brew "rbenv"
@@ -33,27 +50,13 @@ brew "sourcekitten"
 brew "swiftlint"
 # youtube-dl: Download videos from YouTube
 brew "youtube-dl"
-# Common open-source libraries and tools
-brew "autoconf"
-brew "cmake"
-brew "exiftool"
-brew "gdbm"
-brew "gettext"
-brew "lame"
-brew "libassuan"
-brew "libgpg-error"
-brew "libksba"
-brew "libvo-aacenc"
-brew "ninja"
-brew "pkg-config"
-brew "pth"
-brew "readline"
-brew "xvid"
 
 # CodeRunner: simple IDE for quick type-and-run programs
 cask "coderunner"
 #
 cask "docker-edge"
+# It's alive!
+cask "firefox-beta"
 # Open-source typefaces
 cask "font-clear-sans"
 cask "font-courier-prime"
@@ -110,14 +113,10 @@ cask "selfcontrol"
 cask "sketch"
 # Skype: ubiquitous video chat app
 cask "skype"
-# Steam: video game distribution platform
-cask "steam"
 # Subler: audiovisual metadata editor and remuxer
 cask "subler"
 # Sublime Text; one-size-fits-all cross-platform text editor
 cask "sublime-text-dev"
-# TextMate; tried-and-true Cocoa text editor
-cask "textmate"
 # Transmission: brilliant native Cocoa BitTorrent client
 cask "transmission"
 # Transmit: really good remote disk management
@@ -128,21 +127,22 @@ cask "twitch"
 cask "vlc"
 #
 cask "vmware-fusion"
-# XLD: Lossless audio converter
-cask "xld"
 
 mas "1Blocker", id: 1107421413
 mas "1Password", id: 443987910
+mas "Apple Configurator 2", id: 1037126344
 mas "Bear", id: 1091189122
 mas "CARROT Weather", id: 993487541
 mas "DaisyDisk", id: 411643860
 mas "Day One", id: 1055511498
 mas "Deliveries", id: 924726344
+mas "Drop", id: 1173932628
 mas "Focused", id: 899966452
 mas "iPulse", id: 1028916583
 mas "Marked 2", id: 890031187
 mas "Mousepose", id: 405904955
 mas "Noizio", id: 928871589
+mas "OmniGraffle", id: 1142578753
 mas "PaintCode", id: 808809998
 mas "Patterns", id: 429449079
 mas "PiPifier", id: 1160374471
@@ -152,7 +152,6 @@ mas "Slack", id: 803453959
 mas "Soulver", id: 413965349
 mas "Squash", id: 1152443474
 mas "The Unarchiver", id: 425424353
-mas "Todoist", id: 585829637
 mas "Tweetbot", id: 557168941
 mas "Twitter", id: 409789998
 mas "Veertu", id: 1024069033
