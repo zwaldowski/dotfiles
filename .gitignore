@@ -34,5 +34,8 @@ fish_history
 fishd.*
 
 # Sublime Text
-symlinks/sublime-text/Packages/User/oscrypto-ca-bundle.crt
-symlinks/sublime-text/Packages/User/Package Control.merged-ca-bundle
+Package Control.last-run
+Package Control.cache/
+Package Control.merged-ca-bundle
+Package Control.user-ca-bundle
+oscrypto-ca-bundle.crt
