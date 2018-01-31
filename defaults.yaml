@@ -143,38 +143,17 @@ com.apple.dt.Xcode:
 com.apple.finder:
     # Hide everything on the Desktop, including the Desktop
     CreateDesktop: 0
-    # Column View for alternate app-centric views
-    FK_AppCentricViewStyle: clmv
-    # Default "Arrange By" setting
-    FXArrangeGroupViewBy: Name
     # "When performing a search: Search the Current Folder"
     FXDefaultSearchScope: SCcf
-    # Default "Group By" setting
-    FXPreferredGroupBy: Name
-    # List view for normal windows
-    FXPreferredViewStyle: Nlsv
+    # Disable the warning when changing a file extension
+    FXEnableExtensionChangeWarning: 0
     # "New Finder windows show: Home folder"
     NewWindowTarget: PfHm
-    # Open a window when a removable disk is plugged in
-    OpenWindowForNewRemovableDisk: 1
     # Hide everything on the Desktop, including the Desktop
     ShowExternalHardDrivesOnDesktop: 0
     ShowHardDrivesOnDesktop: 0
     ShowMountedServersOnDesktop: 0
-    # Hide breadcrumb trail
-    ShowPathbar: 0
-    # Hide everything on the Desktop, including the Desktop
     ShowRemovableMediaOnDesktop: 0
-    # Show status bar ("12 items, 384.94 GB available")
-    ShowStatusBar: 0
-    # Hide tab bar until tabs open
-    ShowTabView: 0
-# Disk Utility, disk management on the Mac
-com.apple.frameworks.diskimages:
-    # Automatically open read-only disk images
-    auto-open-ro-root: 0
-    # Automatically open read-write disk images
-    auto-open-rw-root: 0
 # Screen Capture: screenshotting functionality in Mac OS X
 com.apple.screencapture:
     # Don't capture blown-out Quartz window shadows
