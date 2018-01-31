@@ -100,10 +100,6 @@ com.apple.Spotlight:
     # Inhibit onboarding experience
     showedFTE: 1
     useCount: 3
-# Terminal: It's a Unix system, I know this!
-com.apple.Terminal:
-    StringEncodings:
-    - 4
 # AirPlay: Apple TV wireless streaming functionality
 com.apple.airplay:
     # Hide menu bar icon
@@ -116,8 +112,6 @@ com.apple.dashboard:
 com.apple.dock:
     # Hide the dock when not in use
     autohide: 1
-    # Minimize windows using the effect Steve Jobs liked less
-    mineffect: scale
     # Get rid of the annoying ants at the edge of the Dock
     show-process-indicators: 0
     # Pretty but conservative size before zooming
@@ -135,10 +129,6 @@ com.apple.driver.AppleBluetoothMultitouch.trackpad:
     TrackpadThreeFingerHorizSwipeGesture: 1
     TrackpadThreeFingerTapGesture: 2
     TrackpadThreeFingerVertSwipeGesture: 1
-# Xcode: Apple's beleagured IDE
-com.apple.dt.Xcode:
-    # Enable downloading documentation and simulator updates
-    DVTDownloadableAutomaticUpdate: 1
 # Finder, the Macintosh Desktop Experience
 com.apple.finder:
     # Hide everything on the Desktop, including the Desktop
@@ -158,15 +148,6 @@ com.apple.finder:
 com.apple.screencapture:
     # Don't capture blown-out Quartz window shadows
     disable-shadow: 1
-# Chrome: Google's life-sucking but speedy web browser
-com.google.Chrome:
-    # Allow third-party extension installs from GitHub and Userscripts.org
-    ExtensionInstallSources:
-    - https://gist.githubusercontent.com/
-    - http://userscripts.org/*
-# Tweetbot: The best third-party Twitter client for Mac
-com.tapbots.TweetbotMac:
-    OpenURLsDirectly: true
 # SelfControl: App to block procrastination and social networking sites
 org.eyebeam.SelfControl:
     # List of sites to block
