@@ -2,7 +2,7 @@
 NSGlobalDomain:
     # Full Keyboard Access: In windows and dialogs, press Tab to move keyboard
     # focus between all controls
-    AppleKeyboardUIMode: 2
+    AppleKeyboardUIMode: 3
     # Modern-style "Swipe between pages: Swipe with two or three fingers"
     AppleEnableSwipeNavigateWithScrolls: 1
     # Configure display of names in Messages, Contacts
