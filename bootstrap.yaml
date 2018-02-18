@@ -9,6 +9,8 @@ after-scripts:
     - "./script/hide_folders.sh"
     # Get Fisherman to install packages
     - "./script/fisherman.sh"
+    # Rebind Caps Lock as Escape
+    - "./script/no-escape.sh"
 casks:
     # CodeRunner: simple IDE for quick type-and-run programs
     - coderunner

@@ -104,6 +104,14 @@ com.apple.Spotlight:
 com.apple.airplay:
     # Hide menu bar icon
     showInMenuBarIfPresent: 0
+# The little dude in the top right of the Touch Bar
+com.apple.controlstrip:
+    # Add the undocumented "media next" key, replace Siri with Screen Lock.
+    MiniCustomized:
+    - com.apple.system.brightness
+    - com.apple.system.volume
+    - com.apple.system.media-next
+    - com.apple.system.screen-lock
 # Dashboard, a legacy widget system from the Mac OS X Tiger days
 com.apple.dashboard:
     # Disabled
