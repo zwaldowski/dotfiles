@@ -85,9 +85,6 @@
         renames = copies
 [diff "plist"]
         textconv = plutil -convert xml1 -o -
-[diff "localizablestrings"]
-        textconv = "iconv -f utf-16 -t utf-8"
-        binary = false
 [difftool]
         prompt = false
 [difftool "Kaleidoscope"]
