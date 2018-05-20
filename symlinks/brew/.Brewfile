@@ -30,6 +30,7 @@ brew "ffmpeg"
 brew "fish"
 # Git: decentralized version control system
 brew "git"
+brew "git-lfs"
 # GNUPG: pretty good privacy and encryption
 brew "gnupg", args: ["without-libusb"]
 brew "pinentry"
