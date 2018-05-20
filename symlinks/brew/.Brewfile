@@ -31,7 +31,7 @@ brew "fish"
 # Git: decentralized version control system
 brew "git"
 # GNUPG: pretty good privacy and encryption
-brew "gnupg"
+brew "gnupg", args: ["without-libusb"]
 brew "pinentry"
 brew "pinentry-mac"
 # mas: CLI for Mac App Store
