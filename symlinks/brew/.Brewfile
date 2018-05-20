@@ -137,9 +137,6 @@ mas "DaisyDisk", id: 411643860
 mas "Day One", id: 1055511498
 mas "Deliveries", id: 924726344
 mas "Drop", id: 1173932628
-mas "Focused", id: 899966452
-mas "iPulse", id: 1028916583
-mas "Marked 2", id: 890031187
 mas "Mousepose", id: 405904955
 mas "Noizio", id: 928871589
 mas "OmniGraffle", id: 1142578753
