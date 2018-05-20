@@ -150,6 +150,18 @@ com.apple.finder:
 com.apple.screencapture:
     # Don't capture blown-out Quartz window shadows
     disable-shadow: 1
+# MacDown: Open-source Markdown editor
+com.uranusjr.macdown:
+    editorAutoIncrementNumberedLists: 1
+    editorBaseFontInfo:
+        name: SFMono-Regular
+        size: 13
+    editorConvertTabs: 1
+    editorStyleName: Civic
+    htmlStyleName: GitHub2
+    htmlSyntaxHighlighting: 1
+    previewZoomRelativeToBaseFontSize: 1
+    updateIncludesPreReleases: 1
 # SelfControl: App to block procrastination and social networking sites
 org.eyebeam.SelfControl:
     # List of sites to block
