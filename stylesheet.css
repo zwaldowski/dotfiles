@@ -1,0 +1,11 @@
+body.font--open_sans.app__body {
+	font-family: -apple-system !important;
+}
+
+#client-ui.sidebar_theme_custom_theme {
+	font-family: -apple-system !important;
+}
+
+#msg_input.texty_legacy {
+	font-family: -apple-system !important;
+}
