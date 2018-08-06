@@ -75,6 +75,9 @@ com.apple.Safari:
     WebKitDeveloperExtrasEnabledPreferenceKey: 1
     # Develop menu for Safari contexts
     com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled: 1
+    # Turn off things that slow down the Smart Search Field
+    WebsiteSpecificSearchEnabled: 0
+    ShowFavoritesUnderSmartSearchField: 0
 # Safari, but, like, better
 com.apple.SafariTechnologyPreview:
     # Inhibit goofy "Wanna log in?" dialogs
@@ -89,6 +92,9 @@ com.apple.SafariTechnologyPreview:
     WebKitDeveloperExtrasEnabledPreferenceKey: 1
     # Develop menu for Safari contexts
     com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled: 1
+    # Turn off things that slow down the Smart Search Field
+    WebsiteSpecificSearchEnabled: 0
+    ShowFavoritesUnderSmartSearchField: 0
 # Spotlight, search and quick-actions framework for Mac OS X
 com.apple.Spotlight:
     # Inhibit onboarding experience
