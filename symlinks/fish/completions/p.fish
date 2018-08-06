@@ -1,1 +1,1 @@
-complete --command p --exclusive --arguments '(pushd ~/Projects; __fish_complete_directories (commandline -ct) ""; popd)'
+complete --command p --exclusive --arguments '(pushd ~/Developer; __fish_complete_directories (commandline -ct) ""; popd)'
