@@ -1,10 +1,10 @@
 # Defaults that affect all user apps
 NSGlobalDomain:
+    # Modern-style "Swipe between pages: Swipe with two or three fingers"
+    AppleEnableSwipeNavigateWithScrolls: 1
     # Full Keyboard Access: In windows and dialogs, press Tab to move keyboard
     # focus between all controls
     AppleKeyboardUIMode: 3
-    # Modern-style "Swipe between pages: Swipe with two or three fingers"
-    AppleEnableSwipeNavigateWithScrolls: 1
     # Configure display of names in Messages, Contacts
     NSPersonNameDefaultDisplayNameOrder: 0
     NSPersonNameDefaultShortNameEnabled: 0
@@ -16,48 +16,22 @@ NSGlobalDomain:
     WebKitDeveloperExtras: 1
 # Wonderful Git GUI
 co.gitup.mac:
-    # Slight zoomy
-    EnableVisualEffects: true
     # First launch tour and other warnings
-    FirstLaunch: false
-    GIMapViewController_SkipPushBranchWarning: true
+    FirstLaunch: 0
+    GIMapViewController_SkipPushBranchWarning: 1
     HelpShown_COMMIT: 2
     HelpShown_CONFIG: 1
     HelpShown_DIFF: 1
     HelpShown_MAP: 4
     HelpShown_QUICKVIEW: 1
+    HelpShown_REFLOG: 1
     HelpShown_RESOLVE: 1
     HelpShown_REWRITE: 1
     HelpShown_SEARCH: 1
+    HelpShown_SNAPSHOTS: 1
     HelpShown_SPLIT: 1
     HelpShown_STASHES: 1
     HelpShown_TAGS: 1
-# Built-in multitouch trackpad preferences in Mac OS X
-com.apple.AppleMultitouchTrackpad:
-    # "Force click and aptic feedback"
-    ActuateDetents: 1
-    # "Click: Medium"
-    ActuationStrength: 1
-    # "Tap to click: Tap with one finger"
-    Clicking: 1
-    # "Show Desktop: Spread with thumb and three fingers"
-    TrackpadFiveFingerPinchGesture: 2
-    # "SWipe between full-screen apps: Swipe left or right with four fingers"
-    TrackpadFourFingerHorizSwipeGesture: 2
-    # "Launchpad: Pinch with thumb and three fingers"
-    TrackpadFourFingerPinchGesture: 2
-    # "Mission Control: Swipe up with three fingers"
-    TrackpadFourFingerVertSwipeGesture: 2
-    # Palm detection
-    TrackpadHandResting: 1
-    # Off: "Three finger drag: Move with three fingers"
-    TrackpadThreeFingerDrag: 0
-    # "Swipe between pages: Swipe with two or three fingers"
-    TrackpadThreeFingerHorizSwipeGesture: 1
-    # "Look up: Tap with three fingers"
-    TrackpadThreeFingerTapGesture: 2
-    # "Mission Control: Swipe up with three fingers"
-    TrackpadThreeFingerVertSwipeGesture: 1
 # The helpful but oft-annoying camera import app
 com.apple.ImageCapture:
     disableHotPlug: 1
@@ -67,14 +41,13 @@ com.apple.iphonesimulator:
     ShowSingleTouches: 1
 # Safari, the WebKit-based browser for Mac OS X
 com.apple.Safari:
-    # Inhibit goofy "Wanna log in?" dialogs
-    accountTypesToSkipForSetup:
-    - com.apple.account.Google
-    - com.apple.vimeo
     # Develop menu for WebKit 1 contexts
     IncludeDevelopMenu: 1
     # Inhibit Spotlight onboarding
     UniversalSearchFeatureNotificationHasBeenDisplayed: 1
+    # User style sheet
+    UserStyleSheetEnabled: 1
+    UserStyleSheetLocationURLString: /Users/zw/.cider/stylesheet.css
     # Develop menu for WebKit 2 contexts
     WebKitDeveloperExtrasEnabledPreferenceKey: 1
     # Develop menu for Safari contexts
@@ -82,16 +55,19 @@ com.apple.Safari:
     # Turn off things that slow down the Smart Search Field
     WebsiteSpecificSearchEnabled: 0
     ShowFavoritesUnderSmartSearchField: 0
-# Safari, but, like, better
-com.apple.SafariTechnologyPreview:
     # Inhibit goofy "Wanna log in?" dialogs
     accountTypesToSkipForSetup:
     - com.apple.account.Google
     - com.apple.vimeo
-    # iCloud sync like woah
-    TechnologyPreviewSafariSyncEnabled: 1
+# Safari, but, like, better
+com.apple.SafariTechnologyPreview:
+    # Develop menu for WebKit 1 contexts
+    IncludeDevelopMenu: 1
     # Inhibit Spotlight onboarding
     UniversalSearchFeatureNotificationHasBeenDisplayed: 1
+    # User style sheet
+    UserStyleSheetEnabled: 1
+    UserStyleSheetLocationURLString: /Users/zw/.cider/stylesheet.css
     # Develop menu for WebKit 2 contexts
     WebKitDeveloperExtrasEnabledPreferenceKey: 1
     # Develop menu for Safari contexts
@@ -99,6 +75,10 @@ com.apple.SafariTechnologyPreview:
     # Turn off things that slow down the Smart Search Field
     WebsiteSpecificSearchEnabled: 0
     ShowFavoritesUnderSmartSearchField: 0
+    # Inhibit goofy "Wanna log in?" dialogs
+    accountTypesToSkipForSetup:
+    - com.apple.account.Google
+    - com.apple.vimeo
 # Spotlight, search and quick-actions framework for Mac OS X
 com.apple.Spotlight:
     # Inhibit onboarding experience
@@ -116,42 +96,15 @@ com.apple.controlstrip:
     - com.apple.system.volume
     - com.apple.system.media-next
     - com.apple.system.screen-lock
-# Dashboard, a legacy widget system from the Mac OS X Tiger days
-com.apple.dashboard:
-    # Disabled
-    enabled-state: 1
-# Dock, the Mac OS X window manager eyecandy
-com.apple.dock:
-    # Hide the dock when not in use
-    autohide: 1
-    # Get rid of the annoying ants at the edge of the Dock
-    show-process-indicators: 0
-    # Pretty but conservative size before zooming
-    tilesize: 48
-# Magic Trackpad preferences
-# All the same as above
-com.apple.driver.AppleBluetoothMultitouch.trackpad:
-    Clicking: 1
-    TrackpadFiveFingerPinchGesture: 2
-    TrackpadFourFingerHorizSwipeGesture: 2
-    TrackpadFourFingerPinchGesture: 2
-    TrackpadFourFingerVertSwipeGesture: 2
-    TrackpadHandResting: 1
-    TrackpadThreeFingerDrag: 0
-    TrackpadThreeFingerHorizSwipeGesture: 1
-    TrackpadThreeFingerTapGesture: 2
-    TrackpadThreeFingerVertSwipeGesture: 1
 # Finder, the Macintosh Desktop Experience
 com.apple.finder:
-    # Hide everything on the Desktop, including the Desktop
-    CreateDesktop: 0
     # "When performing a search: Search the Current Folder"
     FXDefaultSearchScope: SCcf
     # Disable the warning when changing a file extension
     FXEnableExtensionChangeWarning: 0
     # "New Finder windows show: Home folder"
     NewWindowTarget: PfHm
-    # Hide everything on the Desktop, including the Desktop
+    # Hide everything on the Desktop
     ShowExternalHardDrivesOnDesktop: 0
     ShowHardDrivesOnDesktop: 0
     ShowMountedServersOnDesktop: 0
@@ -172,19 +125,6 @@ com.uranusjr.macdown:
     htmlSyntaxHighlighting: 1
     previewZoomRelativeToBaseFontSize: 1
     updateIncludesPreReleases: 1
-# SelfControl: App to block procrastination and social networking sites
-org.eyebeam.SelfControl:
-    # List of sites to block
-    HostBlacklist:
-    - facebook.com
-    - twitter.com
-    - reddit.com
-    - tumblr.com
-    - youtube.com
-    - 9gag.com
-    - netflix.com
-    - hulu.com
-    - buzzfeed.com
 # Transmission: brilliant native Cocoa BitTorrent client
 org.m0k.transmission:
     # Delete *.torrent file if it exists
