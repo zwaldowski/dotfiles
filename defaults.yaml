@@ -61,6 +61,10 @@ com.apple.AppleMultitouchTrackpad:
 # The helpful but oft-annoying camera import app
 com.apple.ImageCapture:
     disableHotPlug: 1
+# Beleagured
+com.apple.iphonesimulator:
+    # https://twitter.com/liamnichols_/status/1018812142693253120
+    ShowSingleTouches: 1
 # Safari, the WebKit-based browser for Mac OS X
 com.apple.Safari:
     # Inhibit goofy "Wanna log in?" dialogs
