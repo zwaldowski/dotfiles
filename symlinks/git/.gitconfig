@@ -16,8 +16,6 @@
         co = checkout
         count = !git shortlog -sn
         pf = push --force-with-lease
-[apply]
-        whitespace = fix
 [credential]
         helper = osxkeychain
 [fetch]
