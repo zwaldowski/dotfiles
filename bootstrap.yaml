@@ -17,12 +17,8 @@ after-scripts:
 symlinks:
     # Duplicate above bootstrap for Homebrew Bundler
     'brew/.*': '~'
-    # Fish and Fisherman configurations
+    # Fisher manager for Fish
     'fish/fishfile': '~/.config/fish/'
-    'fish/completions/*': '~/.config/fish/completions/'
-    'fish/functions/*': '~/.config/fish/functions/'
-    # Fisherman manager for Fish
-    'fisherman/*': '~/.config/fisherman/'
     # Git configuration
     'git/.*': "~"
     # GPG configuration

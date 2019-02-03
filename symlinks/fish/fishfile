@@ -1,3 +1,7 @@
+daenney/rbenv
+fishpkg/fish-git-util
 laughedelic/brew-completions
-fisherman/git_util
-fisherman/rbenv
+~/.cider/symlinks/fish/gpg-agent
+~/.cider/symlinks/fish/p
+~/.cider/symlinks/fish/ql
+~/.cider/symlinks/fish/zw
