@@ -5,4 +5,4 @@ set -eu
 echo "Installing Fish plugins..."
 
 curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
-fish -c "fisher up"
+fish -c "fisher"
