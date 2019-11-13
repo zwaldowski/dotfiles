@@ -76,8 +76,6 @@
 
 # Tooling
 
-[commit]
-        gpgSign = true
 [diff]
         tool = Kaleidoscope
         renames = copies
@@ -95,8 +93,6 @@
 [mergetool "Kaleidoscope"]
         cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
         trustExitCode = true
-[gpg]
-	program = /usr/local/bin/gpg
 [filter "lfs"]
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
