@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Kind</key>
+    <string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+    <key>Identifier</key>
+    <string>me.waldowski.tools.unit.framework.tests_tvOS</string>
+    <key>Ancestors</key>
+    <array>
+        <string>me.waldowski.tools.unit.framework.tests.base</string>
+        <string>com.apple.dt.unit.tvosBase_Definitions</string>
+        <string>com.apple.dt.unit.crossPlatformBase</string>
+    </array>
+    <key>TargetOnly</key>
+    <true/>
+    <key>Targets</key>
+    <array>
+        <dict>
+            <key>TargetIdentifier</key>
+            <string>me.waldowski.tools.framework.tests.target_tvOS</string>
+            <key>TargetIdentifierToBeTested</key>
+            <string>me.waldowski.tools.framework.target_tvOS</string>
+            <key>SharedSettings</key>
+            <dict>
+                <key>LD_RUNPATH_SEARCH_PATHS</key>
+                <string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>

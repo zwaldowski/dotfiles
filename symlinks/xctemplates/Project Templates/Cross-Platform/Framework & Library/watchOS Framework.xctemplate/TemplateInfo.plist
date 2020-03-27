@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Kind</key>
+    <string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+    <key>Identifier</key>
+    <string>me.waldowski.tools.unit.framework_watchOS</string>
+    <key>Ancestors</key>
+    <array>
+        <string>me.waldowski.tools.unit.framework.base</string>
+        <string>com.apple.dt.unit.watchosBase_Definitions</string>
+        <string>com.apple.dt.unit.crossPlatformBase</string>
+    </array>
+    <key>Platforms</key>
+    <array>
+        <string>com.apple.platform.watchos</string>
+    </array>
+    <key>Targets</key>
+    <array>
+        <dict>
+            <key>TargetIdentifier</key>
+            <string>me.waldowski.tools.framework.target_watchOS</string>
+            <key>SharedSettings</key>
+            <dict>
+                <key>SDKROOT</key>
+                <string>watchos</string>
+                <key>WATCHOS_DEPLOYMENT_TARGET</key>
+                <string>latest_watchos</string>
+                <key>TARGETED_DEVICE_FAMILY</key>
+                <string>4</string>
+                <key>SKIP_INSTALL</key>
+                <string>YES</string>
+                <key>CODE_SIGN_IDENTITY[sdk=watchos*]</key>
+                <string>iPhone Developer</string>
+                <key>LD_RUNPATH_SEARCH_PATHS</key>
+                <string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+            </dict>
+            <key>Configurations</key>
+            <dict>
+                <key>Release</key>
+                <dict>
+                    <key>VALIDATE_PRODUCT</key>
+                    <string>YES</string>
+                </dict>
+            </dict>
+        </dict>
+    </array>
+    <key>Options</key>
+    <array>
+        <dict>
+            <key>Identifier</key>
+            <string>hasUnitTests</string>
+            <key>Units</key>
+            <dict>
+                <key>true</key>
+                <dict>
+                    <key>Components</key>
+                    <array>
+                        <dict>
+                            <key>Identifier</key>
+                            <string>me.waldowski.tools.unit.framework.tests_watchOS</string>
+                            <key>Name</key>
+                            <string>___PACKAGENAME___Tests</string>
+                        </dict>
+                    </array>
+                </dict>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>

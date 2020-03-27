@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Kind</key>
+    <string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+    <key>Identifier</key>
+    <string>me.waldowski.tools.unit.framework_shared</string>
+    <key>Ancestors</key>
+    <array>
+        <string>com.apple.dt.unit.base</string>
+        <string>com.apple.dt.unit.languageChoice</string>
+        <string>com.apple.dt.unit.crossPlatformBase</string>
+    </array>
+    <key>Nodes</key>
+    <array>
+        <string>___VARIABLE_productName___.h:comments</string>
+        <string>___VARIABLE_productName___.h:imports</string>
+        <string>___VARIABLE_productName___.h:content</string>
+        <string>Assets.xcassets</string>
+        <string>Info.plist:Identifier</string>
+        <string>Info.plist:PlistVersion</string>
+        <string>Info.plist:Executable</string>
+        <string>Info.plist:BundleName</string>
+        <string>Info.plist:DevelopmentRegion</string>
+        <string>Info.plist:ProductVersion</string>
+        <string>Info.plist:Framework</string>
+        <string>Info.plist:NSHumanReadableCopyright</string>
+    </array>
+    <key>Definitions</key>
+    <dict>
+        <key>___VARIABLE_productName___.h</key>
+        <dict>
+            <key>TargetIdentifiers</key>
+            <array>
+                <string>me.waldowski.tools.framework.target_iOS</string>
+                <string>me.waldowski.tools.framework.target_watchOS</string>
+                <string>me.waldowski.tools.framework.target_tvOS</string>
+                <string>me.waldowski.tools.framework.target_macOS</string>
+            </array>
+            <key>BuildAttributes</key>
+            <array>
+                <string>Public</string>
+            </array>
+        </dict>
+        <key>Assets.xcassets</key>
+        <dict>
+            <key>SortOrder</key>
+            <integer>100</integer>
+            <key>Path</key>
+            <string>Assets.xcassets</string>
+            <key>TargetIdentifiers</key>
+            <array>
+                <string>me.waldowski.tools.framework.target_iOS</string>
+                <string>me.waldowski.tools.framework.target_watchOS</string>
+                <string>me.waldowski.tools.framework.target_tvOS</string>
+                <string>me.waldowski.tools.framework.target_macOS</string>
+            </array>
+        </dict>
+        <key>___VARIABLE_productName___.h:imports</key>
+        <string>#import &lt;Foundation/Foundation.h&gt;</string>
+        <key>___VARIABLE_productName___.h:content</key>
+        <string>
+//! Project version number for ___VARIABLE_productName___.
+FOUNDATION_EXPORT double ___VARIABLE_productName:RFC1034Identifier___VersionNumber;
+
+//! Project version string for ___VARIABLE_productName___.
+FOUNDATION_EXPORT const unsigned char ___VARIABLE_productName:RFC1034Identifier___VersionString[];
+
+// In this header, you should import all the public headers of your framework using statements like #import &lt;___VARIABLE_productName:RFC1034Identifier___/PublicHeader.h&gt;
+
+</string>
+        <key>Info.plist:Framework</key>
+        <string><![CDATA[<key>CFBundlePackageType</key>
+<string>FMWK</string>
+]]></string>
+    </dict>
+</dict>
+</plist>

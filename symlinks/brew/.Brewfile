@@ -2,6 +2,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
+brew "bat" # sharkdp/bat
 brew "clang-format"
 brew "cmake"
 brew "fish"
