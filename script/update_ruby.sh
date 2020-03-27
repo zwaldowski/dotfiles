@@ -11,6 +11,6 @@ else
 fi
 
 echo "Updating Ruby"
-RUBY_CONFIGURE_OPTS=--with-openssl-dir=/usr/local/opt/libressl CFLAGS=-DHAVE_OPAQUE_OPENSSL rbenv install 2.5.1 --skip-existing
-rbenv global 2.5.1
+RUBY_CONFIGURE_OPTS=--with-openssl-dir=/usr/local/opt/libressl CFLAGS=-DHAVE_OPAQUE_OPENSSL rbenv install 2.7.0 --skip-existing
+rbenv global 2.6.5
 gem update --system
