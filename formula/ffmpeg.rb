@@ -1,47 +1,43 @@
 class Ffmpeg < Formula
   desc "Play, record, convert, and stream audio and video"
   homepage "https://ffmpeg.org/"
-  url "https://ffmpeg.org/releases/ffmpeg-4.2.1.tar.xz"
-  sha256 "cec7c87e9b60d174509e263ac4011b522385fd0775292e1670ecc1180c9bb6d4"
-  revision 2
+  url "https://ffmpeg.org/releases/ffmpeg-4.2.2.tar.xz"
+  sha256 "cb754255ab0ee2ea5f66f8850e1bd6ad5cac1cd855d0a2f4990fb8c668b0d29c"
   head "https://github.com/FFmpeg/FFmpeg.git"
+  revision 3
 
   depends_on "nasm" => :build
   depends_on "pkg-config" => :build
 
   depends_on "lame"
-  depends_on "libvorbis"
-  depends_on "libvpx"
-  depends_on "snappy"
-  depends_on "theora"
   depends_on "x264"
   depends_on "x265"
-  depends_on "xvid"
   depends_on "xz"
+
+  uses_from_macos "bzip2"
+  uses_from_macos "zlib"
 
   def install
     args = %W[
       --prefix=#{prefix}
+      --enable-pthreads
+      --enable-version3
       --cc=#{ENV.cc}
       --host-cflags=#{ENV.cflags}
       --host-ldflags=#{ENV.ldflags}
-      --extra-cflags="-fno-stack-check"
       --enable-gpl
-      --enable-version3
       --enable-libmp3lame
-      --enable-libsnappy
-      --enable-libtheora
-      --enable-libvorbis
-      --enable-libvpx
       --enable-libx264
       --enable-libx265
-      --enable-libxvid
       --disable-libjack
       --disable-indev=jack
     ]
 
     system "./configure", *args
     system "make", "install"
+
+    # Fix for Non-executables that were installed to bin/
+    mv bin/"python", pkgshare/"python", :force => true
   end
 
   test do
