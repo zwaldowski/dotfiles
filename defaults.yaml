@@ -1,0 +1,109 @@
+# Defaults that affect all user apps
+NSGlobalDomain:
+  # Double-click to maximize instead of minimize
+  AppleActionOnDoubleClick: Maximize
+  AppleMiniaturizeOnDoubleClick: false
+  # Dark Mode, baby
+  AppleAquaColorVariant: 1
+  AppleInterfaceStyle: Dark
+  # Modern-style "Swipe between pages: Swipe with two or three fingers"
+  AppleEnableSwipeNavigateWithScrolls: true
+  # Configure display of names in Messages, Contacts
+  NSPersonNameDefaultDisplayNameOrder: 0
+  NSPersonNameDefaultShortNameEnabled: 0
+  NSPersonNameDefaultShortNameFormat: 0
+  NSPersonNameDefaultShouldPreferNicknamesPreference: true
+  # General > Sidebar icon size > Small
+  NSTableViewDefaultSizeMode: 1
+# Wonderful Git GUI
+co.gitup.mac:
+  FirstLaunch: 0
+  GIMapViewController_SkipPushBranchWarning: 1
+  HelpShown_COMMIT: 2
+  HelpShown_CONFIG: 1
+  HelpShown_DIFF: 1
+  HelpShown_MAP: 4
+  HelpShown_QUICKVIEW: 1
+  HelpShown_REFLOG: 1
+  HelpShown_RESOLVE: 1
+  HelpShown_REWRITE: 1
+  HelpShown_SEARCH: 1
+  HelpShown_SNAPSHOTS: 1
+  HelpShown_SPLIT: 1
+  HelpShown_STASHES: 1
+  HelpShown_TAGS: 1
+  ReleaseChannel: continuous
+# The helpful but oft-annoying camera import app
+com.apple.ImageCapture:
+  disableHotPlug: true
+# Safari, the WebKit-based browser for Mac OS X
+com.apple.Safari:
+  # Use substring search by default in Safari.
+  FindOnPageMatchesWordStartsOnly: false
+  # Inhibit Spotlight onboarding
+  ForYouExperienceWelcomeViewNumberOfTimesShown: 3
+  UniversalSearchFeatureNotificationHasBeenDisplayed: true
+# Safari, but, like, better
+com.apple.SafariTechnologyPreview:
+  # Use substring search by default in Safari.
+  FindOnPageMatchesWordStartsOnly: false
+  # Inhibit Spotlight onboarding
+  ForYouExperienceWelcomeViewNumberOfTimesShown: 3
+  UniversalSearchFeatureNotificationHasBeenDisplayed: true
+# Spotlight, search and quick-actions framework for Mac OS X
+com.apple.Spotlight:
+  # Inhibit onboarding experience
+  showedFTE: true
+  useCount: 3
+# Quick, small Cocoa text editor
+com.apple.TextEdit:
+  # TextEdit > Preferences > New Document > Plain text.
+  RichText: false
+# AirPlay: Apple TV wireless streaming functionality
+com.apple.airplay:
+  # Hide menu bar icon
+  showInMenuBarIfPresent: false
+# Beleaguered
+com.apple.dt.Xcode:
+  # Xcode > Preferences > Text Editing > Page guide at column.
+  DVTTextShowPageGuide: true
+  # Xcode > Preferences > Text Editing > While editing: Automatically trim
+  # trailing whitespace.
+  DVTTextEditorTrimTrailingWhitespace: true
+  # Xcode > Preferences > Text Editing > While editing: Automatically trim
+  # trailing whitespace > Including whitespace-only lines.
+  DVTTextEditorTrimWhitespaceOnlyLines: true
+  # Xcode > Preferences > Text Editing > Page guide at column: 120.
+  DVTTextPageGuideLocation: 120
+  # Don't warn about re-running a process
+  IDESuppressStopExecutionWarning: true
+  # Don't create a Git repository for new projects by default
+  IDEDisableGitSupportForNewProjects: true
+# Finder, the Macintosh Desktop Experience
+com.apple.finder:
+  # Finder > View > Show view options > Sort Group By > Name.
+  FXArrangeGroupViewBy: Name
+  # "When performing a search: Search the Current Folder"
+  FXDefaultSearchScope: SCcf
+  # Disable the warning when changing a file extension
+  FXEnableExtensionChangeWarning: false
+  # Finder > View > Show view options > Group By > None.
+  FXPreferredGroupBy: None
+  # Finder > View > As List.
+  FXPreferredViewStyle: Nlsv
+  # "New Finder windows show: Home folder"
+  NewWindowTarget: PfHm
+  # Hide everything on the Desktop
+  ShowExternalHardDrivesOnDesktop: false
+  ShowHardDrivesOnDesktop: false
+  ShowMountedServersOnDesktop: false
+  ShowRemovableMediaOnDesktop: false
+# Screen Capture: screenshotting functionality in Mac OS X
+com.apple.screencapture:
+  # Don't capture blown-out Quartz window shadows
+  disable-shadow: true
+# Accessibility settings
+com.apple.universalaccess:
+  # Allow zooming with Ctrl + Scroll
+  closeViewHotkeysEnabled: true
+  closeViewScrollWheelToggle: 1
