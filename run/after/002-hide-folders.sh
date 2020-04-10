@@ -3,6 +3,5 @@
 set -eu
 
 echo "Hiding folders…"
-/usr/bin/chflags hidden ~/bin
 /usr/bin/chflags hidden ~/Movies
 /usr/bin/chflags hidden ~/Public
