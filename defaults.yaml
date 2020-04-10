@@ -102,8 +102,3 @@ com.apple.finder:
 com.apple.screencapture:
   # Don't capture blown-out Quartz window shadows
   disable-shadow: true
-# Accessibility settings
-com.apple.universalaccess:
-  # Allow zooming with Ctrl + Scroll
-  closeViewHotkeysEnabled: true
-  closeViewScrollWheelToggle: 1
