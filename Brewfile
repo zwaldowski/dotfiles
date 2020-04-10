@@ -10,7 +10,7 @@ brew "carthage"
 # Formatting tools for C, C++, Obj-C, Java, JavaScript, TypeScript
 brew "clang-format"
 # Play, record, convert, and stream audio and video
-brew "https://gist.github.com/zwaldowski/9e76c4d295d3f67f91ccadc4240d1307/raw/671addca2b3d0fcd168ab9c059960e29c51adf74/ffmpeg-lite.rb"
+brew "https://gist.github.com/zwaldowski/9e76c4d295d3f67f91ccadc4240d1307/raw/9bc996f818b186908f67b7e6a0a626f723300fda/ffmpeg-lite.rb"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
 # Git extension for versioning large files
