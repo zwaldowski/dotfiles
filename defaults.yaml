@@ -102,3 +102,14 @@ com.apple.finder:
 com.apple.screencapture:
   # Don't capture blown-out Quartz window shadows
   disable-shadow: true
+# Marked: Live Markdown preview and export
+com.brettterpstra.marked2:
+  defaultProcessor: "Discount (GFM)"
+  githubNewlines: false
+  headerFooterFontSize: 11
+  isMultiMarkdownDefault: false
+  limitTextWidth: true
+  printBorderBelowHeader: true
+  printFooterFirstPage: true
+  printHeaderBottomRight: "%page"
+  printHeaderTopRight: "%title"
