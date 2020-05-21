@@ -25,6 +25,8 @@ brew "protobuf"
 brew "ruby-build"
 # Ruby version manager
 brew "rbenv"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
 # Plugin and runtime library for using protobuf with Swift
 brew "swift-protobuf"
 # Tool to enforce Swift style and conventions
@@ -42,12 +44,10 @@ cask "java" unless system "/usr/libexec/java_home --failfast"
 cask "kaleidoscope"
 cask "microblog"
 cask "microsoft-edge-beta"
-cask "openemu"
 cask "pacifist"
 cask "safari-technology-preview"
 cask "sf-symbols"
 cask "sketch"
-cask "sublime-text-dev"
 cask "visual-studio-code"
 cask "zoomus"
 
@@ -56,13 +56,15 @@ mas "DaisyDisk", id: 411643860
 mas "Deliveries", id: 924726344
 mas "DuckDuckGo Privacy Essentials", id: 1482920575
 mas "Keynote", id: 409183694
+mas "Marked 2", id: 890031187
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+mas "Parallels Desktop", id: 1085114709
 mas "Patterns", id: 429449079
 mas "Pixelmator", id: 407963104
 mas "Playgrounds", id: 1496833156
 mas "Slack", id: 803453959
-mas "ToothFairy", id: 1191449274
+mas "The Unarchiver", id: 425424353
 mas "Tot", id: 1491071483
 mas "Twitter", id: 1482454543
 mas "Xcode", id: 497799835
