@@ -38,7 +38,6 @@ brew "swiftlint"
 # Download YouTube videos from the command-line
 brew "youtube-dl"
 
-cask "1password-beta"
 cask "asset-catalog-tinkerer"
 cask "dash"
 cask "deckset"
@@ -57,6 +56,7 @@ cask "webex-meetings"
 cask "zoomus"
 
 mas "1Blocker", id: 1107421413
+mas "1Password", id: 1333542190
 mas "CARROT Weather", id: 993487541
 mas "DaisyDisk", id: 411643860
 mas "Deliveries", id: 924726344
