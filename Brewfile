@@ -2,6 +2,8 @@
 
 # Alternate versions of Casks
 tap "homebrew/cask-versions"
+# Custom formulae
+tap "zwaldowski/tap"
 
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
@@ -10,7 +12,7 @@ brew "carthage"
 # Formatting tools for C, C++, Obj-C, Java, JavaScript, TypeScript
 brew "clang-format"
 # Play, record, convert, and stream audio and video
-brew "https://gist.github.com/zwaldowski/9e76c4d295d3f67f91ccadc4240d1307/raw/9bc996f818b186908f67b7e6a0a626f723300fda/ffmpeg-lite.rb"
+brew "ffmpeg-lite"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
 # Git extension for versioning large files
@@ -19,6 +21,8 @@ brew "git-lfs"
 brew "libressl"
 # Platform built on V8 to build network applications
 brew "node"
+# Swiss-army knife of markup format conversion
+brew "pandoc"
 # Protocol buffers (Google's data interchange format)
 brew "protobuf"
 # Install various Ruby versions and implementations
@@ -40,20 +44,23 @@ cask "dash"
 cask "deckset"
 cask "docker"
 cask "gitup"
-cask "java" unless system "/usr/libexec/java_home --failfast"
 cask "kaleidoscope"
 cask "microblog"
 cask "microsoft-edge-beta"
 cask "pacifist"
+cask "paw"
 cask "safari-technology-preview"
 cask "sf-symbols"
 cask "sketch"
 cask "visual-studio-code"
+cask "webex-meetings"
 cask "zoomus"
 
 mas "1Blocker", id: 1107421413
+mas "CARROT Weather", id: 993487541
 mas "DaisyDisk", id: 411643860
 mas "Deliveries", id: 924726344
+mas "Developer", id: 640199958
 mas "DuckDuckGo Privacy Essentials", id: 1482920575
 mas "Keynote", id: 409183694
 mas "Marked 2", id: 890031187
