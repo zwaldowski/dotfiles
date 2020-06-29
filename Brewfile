@@ -38,6 +38,7 @@ brew "swiftlint"
 # Download YouTube videos from the command-line
 brew "youtube-dl"
 
+cask "adoptopenjdk" unless system "/usr/libexec/java_home --failfast"
 cask "asset-catalog-tinkerer"
 cask "dash"
 cask "deckset"
