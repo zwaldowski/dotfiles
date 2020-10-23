@@ -3,7 +3,7 @@
 ## Setup
 
 ```sh
-$ brew tap zero-sh/tap/zero-sh
+$ brew install zero-sh/tap/zero
 $ git clone https://github.com/zwaldowski/dotfiles ~/.dotfiles
 $ caffeinate zero setup
 ```
