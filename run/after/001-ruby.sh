@@ -12,6 +12,6 @@ fi
 
 echo "Setting up Ruby…"
 
-RUBY_CONFIGURE_OPTS=--with-openssl-dir=/usr/local/opt/libressl CFLAGS=-DHAVE_OPAQUE_OPENSSL rbenv install 2.7.1 --skip-existing
-rbenv global 2.7.1
+RUBY_CONFIGURE_OPTS=--with-openssl-dir=/usr/local/opt/libressl CFLAGS=-DHAVE_OPAQUE_OPENSSL rbenv install 2.7.2 --skip-existing
+rbenv global 2.7.2
 gem update --system
