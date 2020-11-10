@@ -4,6 +4,6 @@ set -eu
 
 echo "Setting up Fish…"
 
-curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
+curl -sL git.io/fisher | source && fisher install jorgebucaran/fisher
 
 fish -c "fisher"
