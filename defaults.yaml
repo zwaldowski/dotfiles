@@ -4,7 +4,6 @@ NSGlobalDomain:
   AppleActionOnDoubleClick: Maximize
   AppleMiniaturizeOnDoubleClick: false
   # Dark Mode, baby
-  AppleAquaColorVariant: 1
   AppleInterfaceStyle: Dark
   # Modern-style "Swipe between pages: Swipe with two or three fingers"
   AppleEnableSwipeNavigateWithScrolls: true
