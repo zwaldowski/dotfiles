@@ -79,3 +79,5 @@
         keepBackup = false
 [web]
         browser = open
+[init]
+	defaultBranch = main
