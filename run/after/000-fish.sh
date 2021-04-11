@@ -4,6 +4,6 @@ set -eu
 
 echo "Setting up Fish…"
 
-curl -sL git.io/fisher | source && fisher install jorgebucaran/fisher
+curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
 
 fish -c "fisher"
