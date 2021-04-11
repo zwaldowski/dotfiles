@@ -13,8 +13,6 @@ brew "ffmpeg-lite"
 brew "fish"
 # Git extension for versioning large files
 brew "git-lfs"
-# Version of the SSL/TLS protocol forked from OpenSSL
-brew "libressl"
 # Platform built on V8 to build network applications
 brew "node"
 # Swiss-army knife of markup format conversion
