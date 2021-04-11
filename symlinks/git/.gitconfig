@@ -1,7 +1,7 @@
 # Basic
 [user]
-        name = Zachary Waldowski
-        email = zach@waldowski.me
+	name = Zachary Waldowski
+	email = zach@waldowski.me
 [core]
         attributesfile = ~/.dotfiles/git/attributes
         editor = code --wait
@@ -64,10 +64,12 @@
 # Tooling
 [diff "plist"]
         textconv = plutil -convert xml1 -o -
+[diff]
+	algorithm = histogram
 [diff "swift"]
-    xfuncname = ((func|class|protocol|extension)\\s+.*)$
+	xfuncname = "^ *(\\w+ +)*((class|struct|enum|protocol|extension|func) +|(de)?init\\b).*$"
 [diff "kotlin"]
-    xfuncname = ((fun|class|enum|object)\\s+.*)$
+	xfuncname = ((fun|class|enum|object)\\s+.*)$
 [filter "lfs"]
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process

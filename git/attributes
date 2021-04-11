@@ -1,1 +1,3 @@
 *.plist diff=plist
+*.swift diff=swift
+*.kotlin diff=kotlin
