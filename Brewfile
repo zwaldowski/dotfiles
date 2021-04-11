@@ -1,14 +1,11 @@
 # Partly auto-generated using `brew bundle --dump --describe`.
 
 # Custom formulae
+tap "homebrew/cask-versions"
 tap "zwaldowski/tap"
 
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
-# Formatting tools for C, C++, Obj-C, Java, JavaScript, TypeScript
-brew "clang-format"
-# Play, record, convert, and stream audio and video
-brew "ffmpeg-lite"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
 # Git extension for versioning large files
@@ -19,8 +16,6 @@ brew "node"
 brew "pandoc"
 # Protocol buffers (Google's data interchange format)
 brew "protobuf"
-# Install various Ruby versions and implementations
-brew "ruby-build"
 # Ruby version manager
 brew "rbenv"
 # Search tool like grep and The Silver Searcher
@@ -29,32 +24,51 @@ brew "ripgrep"
 brew "swift-protobuf"
 # Tool to enforce Swift style and conventions
 brew "swiftlint"
+# Download YouTube videos from the command-line
+brew "youtube-dl"
+# Play, record, convert, and stream audio and video
+brew "zwaldowski/tap/ffmpeg-lite"
 
-cask "adoptopenjdk" unless system "/usr/libexec/java_home --failfast"
+# AdoptOpenJDK Java Development Kit
+cask "adoptopenjdk"
+# API documentation browser and code snippet manager
 cask "dash"
 cask "deckset"
+# App to build and share containerized applications and microservices
 cask "docker"
-cask "gitup"
+# Tool to optimize images to a smaller size
+cask "imageoptim"
+# Spot and merge differences in text and image files or folders
 cask "kaleidoscope"
+# Multi-platform web browser
 cask "microsoft-edge"
+# Extract files and folders from package files, disk images, and archives
 cask "pacifist"
+# Web browser
 cask "safari-technology-preview"
+# Tool that provides consistent, highly configurable symbols for apps
 cask "sf-symbols"
+# Digital design and prototyping platform
 cask "sketch"
+# Open-source code editor
 cask "visual-studio-code"
 cask "webex-meetings"
-cask "zoomus"
+# Video communication and virtual meeting platform
+cask "zoom"
 
-mas "1Blocker", id: 1107421413
-mas "1Password", id: 1333542190
+mas "1Blocker", id: 1365531024
+mas "1Password 7", id: 1333542190
 mas "DaisyDisk", id: 411643860
 mas "Deliveries", id: 924726344
 mas "Developer", id: 640199958
+mas "Hush", id: 1544743900
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Parallels Desktop", id: 1085114709
 mas "Patterns", id: 429449079
+mas "PiPer", id: 1421915518
+mas "Poolside FM", id: 1514817810
 mas "Slack", id: 803453959
 mas "The Unarchiver", id: 425424353
 mas "Tot", id: 1491071483
