@@ -1,23 +1,26 @@
 # Partly auto-generated using `brew bundle --dump --describe`.
 
 # Custom formulae
+tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "zwaldowski/tap"
 
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Validate EPUB files, version 2.0 and later
+brew "epubcheck"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
 # Git extension for versioning large files
 brew "git-lfs"
 # Platform built on V8 to build network applications
 brew "node"
+# Development kit for the Java programming language
+brew "openjdk"
 # Swiss-army knife of markup format conversion
 brew "pandoc"
 # Protocol buffers (Google's data interchange format)
 brew "protobuf"
-# Ruby version manager
-brew "rbenv"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Plugin and runtime library for using protobuf with Swift
@@ -29,13 +32,17 @@ brew "youtube-dl"
 # Play, record, convert, and stream audio and video
 brew "zwaldowski/tap/ffmpeg-lite"
 
-# AdoptOpenJDK Java Development Kit
-cask "adoptopenjdk"
 # API documentation browser and code snippet manager
 cask "dash"
 cask "deckset"
 # App to build and share containerized applications and microservices
 cask "docker"
+# Compact variant of "San Francisco" by Apple
+cask "font-sf-compact"
+# Monospaced variant of "San Francisco" by Apple
+cask "font-sf-mono"
+# Sans-serif variant of "San Francisco" by Apple
+cask "font-sf-pro"
 # Tool to optimize images to a smaller size
 cask "imageoptim"
 # Spot and merge differences in text and image files or folders
@@ -68,7 +75,8 @@ mas "Pages", id: 409201541
 mas "Parallels Desktop", id: 1085114709
 mas "Patterns", id: 429449079
 mas "PiPer", id: 1421915518
-mas "Poolside FM", id: 1514817810
+mas "Pixelmator Pro", id: 1289583905
+mas "Poolsuite FM", id: 1514817810
 mas "Slack", id: 803453959
 mas "The Unarchiver", id: 425424353
 mas "Tot", id: 1491071483
