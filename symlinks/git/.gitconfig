@@ -70,6 +70,9 @@
 	xfuncname = "^ *(\\w+ +)*((class|struct|enum|protocol|extension|func) +|(de)?init\\b).*$"
 [diff "kotlin"]
 	xfuncname = ((fun|class|enum|object)\\s+.*)$
+[merge "kintsugi"]
+	name = Kintsugi driver
+	driver = kintsugi driver %O %A %B %P
 [filter "lfs"]
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process

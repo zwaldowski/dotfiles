@@ -23,6 +23,8 @@ brew "pandoc"
 brew "protobuf"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
+# Powerful, clean, object-oriented scripting language
+brew "ruby"
 # Plugin and runtime library for using protobuf with Swift
 brew "swift-protobuf"
 # Tool to enforce Swift style and conventions

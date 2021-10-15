@@ -1,3 +1,4 @@
 *.plist diff=plist
 *.swift diff=swift
 *.kotlin diff=kotlin
+*.pbxproj merge=kintsugi

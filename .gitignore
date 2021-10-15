@@ -3,3 +3,4 @@ symlinks/fish/.config/fish/*
 !symlinks/fish/.config/fish/fish_plugins
 symlinks/ssh/.ssh/id_*
 symlinks/ssh/.ssh/known_hosts
+Gemfile.lock
