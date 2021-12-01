@@ -3,4 +3,4 @@ set -eu
 
 echo "Seeding .config"
 
-mkdir -p ~/.config
+mkdir -p ~/.config/fish
