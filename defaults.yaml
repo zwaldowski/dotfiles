@@ -12,8 +12,8 @@ NSGlobalDomain:
   NSPersonNameDefaultShortNameEnabled: 0
   NSPersonNameDefaultShortNameFormat: 0
   NSPersonNameDefaultShouldPreferNicknamesPreference: true
-  # General > Sidebar icon size > Small
-  NSTableViewDefaultSizeMode: 1
+  # General > Sidebar icon size > Medium
+  NSTableViewDefaultSizeMode: 2
 # Wonderful Git GUI
 co.gitup.mac:
   FirstLaunch: 0
@@ -31,11 +31,10 @@ co.gitup.mac:
   HelpShown_SPLIT: 1
   HelpShown_STASHES: 1
   HelpShown_TAGS: 1
-  ReleaseChannel: continuous
 # The helpful but oft-annoying camera import app
 com.apple.ImageCapture:
   disableHotPlug: true
-# Safari, the WebKit-based browser for Mac OS X
+# Safari, the WebKit-based browser for macOS
 com.apple.Safari:
   # Use substring search by default in Safari.
   FindOnPageMatchesWordStartsOnly: false
@@ -49,35 +48,24 @@ com.apple.SafariTechnologyPreview:
   # Inhibit Spotlight onboarding
   ForYouExperienceWelcomeViewNumberOfTimesShown: 3
   UniversalSearchFeatureNotificationHasBeenDisplayed: true
-# Spotlight, search and quick-actions framework for Mac OS X
+# Spotlight, search and quick-actions framework for macOS
 com.apple.Spotlight:
   # Inhibit onboarding experience
   showedFTE: true
   useCount: 3
-# Quick, small Cocoa text editor
-com.apple.TextEdit:
-  # TextEdit > Preferences > New Document > Plain text.
-  RichText: false
-# AirPlay: Apple TV wireless streaming functionality
-com.apple.airplay:
-  # Hide menu bar icon
-  showInMenuBarIfPresent: false
 # Beleaguered
 com.apple.dt.Xcode:
-  # Xcode > Preferences > Text Editing > Page guide at column.
-  DVTTextShowPageGuide: true
-  # Xcode > Preferences > Text Editing > While editing: Automatically trim
-  # trailing whitespace.
-  DVTTextEditorTrimTrailingWhitespace: true
   # Xcode > Preferences > Text Editing > While editing: Automatically trim
   # trailing whitespace > Including whitespace-only lines.
   DVTTextEditorTrimWhitespaceOnlyLines: true
-  # Xcode > Preferences > Text Editing > Page guide at column: 120.
-  DVTTextPageGuideLocation: 120
   # Don't warn about re-running a process
   IDESuppressStopExecutionWarning: true
   # Don't create a Git repository for new projects by default
   IDEDisableGitSupportForNewProjects: true
+com.apple.dt.XCBuild:
+  # Faster builds for Swift projects
+  # <https://developer.apple.com/documentation/xcode-release-notes/xcode-13_2-release-notes>
+  EnableSwiftBuildSystemIntegration: true
 # Finder, the Macintosh Desktop Experience
 com.apple.finder:
   # Finder > View > Show view options > Sort Group By > Name.
