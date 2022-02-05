@@ -4,7 +4,7 @@
 	email = zach@waldowski.me
 [core]
 	attributesfile = ~/.dotfiles/git/attributes
-	editor = code --wait
+	editor = open -W -b com.microsoft.VSCode
 	excludesfile = ~/.dotfiles/git/ignore
 	autocrlf = input
 	pager = less -r
