@@ -67,7 +67,7 @@
 [diff]
 	algorithm = histogram
 [diff "swift"]
-	xfuncname = "^ *(\\w+ +)*((class|struct|enum|protocol|extension|func) +|(de)?init\\b).*$"
+	xfuncname = "^[ \\t]*((\\w+ +)*((class|struct|enum|actor|protocol|extension|func) +|(de?)init\\b).+)$"
 [diff "kotlin"]
 	xfuncname = ((fun|class|enum|object)\\s+.*)$
 [merge "kintsugi"]
