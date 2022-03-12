@@ -9,4 +9,4 @@ fish_add_path $HOMEBREW_PREFIX/lib/ruby/gems/3.0.0/bin
 fish_add_path $HOMEBREW_PREFIX/opt/ruby/bin
 alias cat="bat"
 alias code="open -b com.microsoft.VSCode"
-set -x EDITOR "code -W -b com.microsoft.VSCode"
+set -x EDITOR "open -W -b com.microsoft.VSCode"
