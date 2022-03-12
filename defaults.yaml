@@ -100,3 +100,8 @@ com.fournova.Tower3:
   GTUserDefaultsMergeToolIdentifier: code
   GTUserDefaultsMoveRevisionsSkipConfirmation: true
   GTUserDefaultsSquashRevisionsSkipConfirmation: true
+# Gifski: Convert videos to GIFs
+com.sindresorhus.Gifski:
+  outputFPS: 8
+  outputQuality: 0.8
+  outputSpeed: 1.5
