@@ -37,8 +37,6 @@ brew "zwaldowski/tap/ffmpeg-lite"
 # API documentation browser and code snippet manager
 cask "dash"
 cask "deckset"
-# App to build and share containerized applications and microservices
-cask "docker"
 # Compact variant of "San Francisco" by Apple
 cask "font-sf-compact"
 # Monospaced variant of "San Francisco" by Apple
