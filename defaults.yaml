@@ -14,23 +14,6 @@ NSGlobalDomain:
   NSPersonNameDefaultShouldPreferNicknamesPreference: true
   # General > Sidebar icon size > Medium
   NSTableViewDefaultSizeMode: 2
-# Wonderful Git GUI
-co.gitup.mac:
-  FirstLaunch: 0
-  GIMapViewController_SkipPushBranchWarning: 1
-  HelpShown_COMMIT: 2
-  HelpShown_CONFIG: 1
-  HelpShown_DIFF: 1
-  HelpShown_MAP: 4
-  HelpShown_QUICKVIEW: 1
-  HelpShown_REFLOG: 1
-  HelpShown_RESOLVE: 1
-  HelpShown_REWRITE: 1
-  HelpShown_SEARCH: 1
-  HelpShown_SNAPSHOTS: 1
-  HelpShown_SPLIT: 1
-  HelpShown_STASHES: 1
-  HelpShown_TAGS: 1
 # The helpful but oft-annoying camera import app
 com.apple.ImageCapture:
   disableHotPlug: true
@@ -102,3 +85,18 @@ com.brettterpstra.marked2:
   printFooterFirstPage: true
   printHeaderBottomRight: "%page"
   printHeaderTopRight: "%title"
+# Tower: Professional Git UI
+com.fournova.Tower3:
+  GTUserDefaultsAlwaysFetchAllRemotes: true
+  GTUserDefaultsDarkTheme: Twilight
+  GTUserDefaultsDefaultCloningDirectory: "/Users/zw/Developer"
+  GTUserDefaultsDialogueOptionCheckoutCreatedBranch: true
+  GTUserDefaultsDialogueOptionPullUseRebase: true
+  GTUserDefaultsDiffToolCompareDirectory: true
+  GTUserDefaultsDiffToolIdentifier: code
+  GTUserDefaultsFixupRevisionsSkipConfirmation: true
+  GTUserDefaultsGitBinary: "/usr/local/bin/git"
+  GTUserDefaultsKeepBackupFilesForMergeConflicts: false
+  GTUserDefaultsMergeToolIdentifier: code
+  GTUserDefaultsMoveRevisionsSkipConfirmation: true
+  GTUserDefaultsSquashRevisionsSkipConfirmation: true

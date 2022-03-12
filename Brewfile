@@ -57,6 +57,8 @@ cask "safari-technology-preview"
 cask "sf-symbols"
 # Digital design and prototyping platform
 cask "sketch"
+# Git client focusing on power and productivity
+cask "tower"
 # Open-source code editor
 cask "visual-studio-code"
 cask "webex-meetings"
