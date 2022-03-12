@@ -62,6 +62,8 @@ com.apple.dt.Xcode:
   IDESuppressStopExecutionWarning: true
   # Don't create a Git repository for new projects by default
   IDEDisableGitSupportForNewProjects: true
+  # Show build times for current target
+  ShowBuildOperationDuration: true
 com.apple.dt.XCBuild:
   # Faster builds for Swift projects
   # <https://developer.apple.com/documentation/xcode-release-notes/xcode-13_2-release-notes>
