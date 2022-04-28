@@ -1,2 +1,2 @@
-function fish_greeting
-end
+# Remove fish greeting
+set --erase fish_greeting
