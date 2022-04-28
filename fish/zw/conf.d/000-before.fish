@@ -11,3 +11,8 @@ alias cat="bat"
 alias docker="nerdctl.lima"
 alias code="open -b com.microsoft.VSCode"
 set -x EDITOR "open -W -b com.microsoft.VSCode"
+
+set -g fish_color_command brcyan
+set -g hydro_color_pwd 00AFFF
+set -g hydro_color_git brgreen
+set -g hydro_color_prompt $fish_color_command
