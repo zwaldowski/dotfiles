@@ -8,7 +8,7 @@ fish_add_path $HOME/bin
 fish_add_path $HOMEBREW_PREFIX/lib/ruby/gems/3.0.0/bin
 fish_add_path $HOMEBREW_PREFIX/opt/ruby/bin
 alias cat="bat"
-alias docker="nerdctl.lima"
+alias docker="podman"
 alias code="open -b com.microsoft.VSCode"
 set -x EDITOR "open -W -b com.microsoft.VSCode"
 
