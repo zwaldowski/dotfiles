@@ -1,9 +1,6 @@
 # Basic
 [alias]
 	co = checkout
-[user]
-	name = Zachary Waldowski
-	email = zach@waldowski.me
 [core]
 	attributesfile = ~/.dotfiles/git/attributes
 	editor = open -W -b com.microsoft.VSCode
@@ -14,6 +11,9 @@
 	defaultBranch = main
 [push]
 	default = simple
+[user]
+	name = Zachary Waldowski
+	email = zach@waldowski.me
 
 # Colorization
 [color]
@@ -40,34 +40,31 @@
 	pretty = %Cblue%h%Creset %Cgreen[%ar]%Creset (%an) %s
 
 # Tooling
-[diff "plist"]
-	textconv = plutil -convert xml1 -o -
 [diff]
 	algorithm = histogram
 	tool = Kaleidoscope
-[diff "swift"]
-	xfuncname = "^[ \\t]*((\\w+ +)*((class|struct|enum|actor|protocol|extension|func) +|(de?)init\\b).+)$"
 [diff "kotlin"]
 	xfuncname = ((fun|class|enum|object)\\s+.*)$
-[merge "kintsugi"]
-	name = Kintsugi driver
-	driver = kintsugi driver %O %A %B %P
+[diff "plist"]
+	textconv = plutil -convert xml1 -o -
+[diff "swift"]
+	xfuncname = "^[ \\t]*((\\w+ +)*((class|struct|enum|actor|protocol|extension|func) +|(de?)init\\b).+)$"
+[difftool]
+	prompt = false
+[difftool "Kaleidoscope"]
+	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
 [filter "lfs"]
+	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
-	clean = git-lfs clean -- %f
 [merge]
 	tool = Kaleidoscope
+[merge "kintsugi"]
+	name = Kintsugi driver
+	driver = kintsugi driver %O %A %B %P
 [mergetool]
 	keepBackup = false
 	prompt = false
-[web]
-	browser = open
-[init]
-	defaultBranch = main
-[difftool "Kaleidoscope"]
-	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
 [mergetool "Kaleidoscope"]
-	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
-	trustExitCode = true
+	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" \"$REMOTE\"
