@@ -17,7 +17,7 @@
         <key>SupportsMergeTool</key>
         <true/>
         <key>SupportsDiffChangeset</key>
-        <false/>
+        <true/>
     </dict>
 </array>
 </plist>

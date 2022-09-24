@@ -3,12 +3,14 @@
 	co = checkout
 [core]
 	attributesfile = ~/.dotfiles/git/attributes
-	editor = open -W -b com.microsoft.VSCode
+	editor = code --wait
 	excludesfile = ~/.dotfiles/git/ignore
 [fetch]
 	prune = true
 [init]
 	defaultBranch = main
+[pull]
+	twohead = ort
 [push]
 	default = simple
 [user]
@@ -42,7 +44,7 @@
 # Tooling
 [diff]
 	algorithm = histogram
-	tool = Kaleidoscope
+	tool = code
 [diff "kotlin"]
 	xfuncname = ((fun|class|enum|object)\\s+.*)$
 [diff "plist"]
@@ -51,6 +53,8 @@
 	xfuncname = "^[ \\t]*((\\w+ +)*((class|struct|enum|actor|protocol|extension|func) +|(de?)init\\b).+)$"
 [difftool]
 	prompt = false
+[difftool "code"]
+    cmd = code --wait --diff \"$LOCAL\" \"$REMOTE\"
 [difftool "Kaleidoscope"]
 	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
 [filter "lfs"]
@@ -59,12 +63,14 @@
 	process = git-lfs filter-process
 	required = true
 [merge]
-	tool = Kaleidoscope
+	tool = code
 [merge "kintsugi"]
 	name = Kintsugi driver
 	driver = kintsugi driver %O %A %B %P
 [mergetool]
 	keepBackup = false
 	prompt = false
+[mergetool "code"]
+	cmd = code --wait --merge \"$REMOTE\" \"$LOCAL\" \"$BASE\" \"$MERGED\"
 [mergetool "Kaleidoscope"]
 	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" \"$REMOTE\"
