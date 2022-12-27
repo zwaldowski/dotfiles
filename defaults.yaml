@@ -1,8 +1,5 @@
 # Defaults that affect all user apps
 NSGlobalDomain:
-  # Double-click to maximize instead of minimize
-  AppleActionOnDoubleClick: Maximize
-  AppleMiniaturizeOnDoubleClick: false
   # Dark Mode, baby
   AppleInterfaceStyle: Dark
   # Modern-style "Swipe between pages: Swipe with two or three fingers"
@@ -95,7 +92,7 @@ com.fournova.Tower3:
   GTUserDefaultsDiffToolCompareDirectory: true
   GTUserDefaultsDiffToolIdentifier: code
   GTUserDefaultsFixupRevisionsSkipConfirmation: true
-  GTUserDefaultsGitBinary: "/usr/local/bin/git"
+  GTUserDefaultsGitBinary: "/opt/homebrew/bin/git"
   GTUserDefaultsKeepBackupFilesForMergeConflicts: false
   GTUserDefaultsMergeToolIdentifier: code
   GTUserDefaultsMoveRevisionsSkipConfirmation: true
