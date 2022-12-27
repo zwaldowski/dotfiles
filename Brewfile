@@ -2,13 +2,10 @@
 
 # Custom formulae
 tap "homebrew/cask-fonts"
-tap "homebrew/cask-versions"
 tap "zwaldowski/tap"
 
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
-# Validate EPUB files, version 2.0 and later
-brew "epubcheck"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
 # Plugin manager for the Fish shell
@@ -19,10 +16,6 @@ brew "gh"
 brew "git-lfs"
 # Platform built on V8 to build network applications
 brew "node"
-# Development kit for the Java programming language
-brew "openjdk"
-# Swiss-army knife of markup format conversion
-brew "pandoc"
 # Protocol buffers (Google's data interchange format)
 brew "protobuf"
 # Search tool like grep and The Silver Searcher
@@ -54,26 +47,35 @@ cask "paw"
 cask "sf-symbols"
 # Digital design and prototyping platform
 cask "sketch"
+# JDK from the Eclipse Foundation (Adoptium)
+cask "temurin"
 # Git client focusing on power and productivity
 cask "tower"
 # Open-source code editor
 cask "visual-studio-code"
+# Video communication and virtual meeting platform
+cask "webex-meetings"
 # Video communication and virtual meeting platform
 cask "zoom"
 
 mas "1Blocker", id: 1365531024
 mas "Baking Soda", id: 1601151613
 mas "DaisyDisk", id: 411643860
-mas "Developer", id: 640199958
+mas "DuckDuckGo Privacy for Safari", id: 1482920575
 mas "Gifski", id: 1351639930
 mas "Hush", id: 1544743900
 mas "Kaleidoscope", id: 1575557335
 mas "Keynote", id: 409183694
+mas "Mela", id: 1568924476
+mas "Noir", id: 1592917505
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Parallels Desktop", id: 1085114709
+mas "Parcel", id: 639968404
 mas "Pixelmator Pro", id: 1289583905
 mas "Slack", id: 803453959
+mas "TestFlight", id: 899247664
+mas "The Unarchiver", id: 425424353
 mas "Tot", id: 1491071483
 mas "Vinegar", id: 1591303229
 mas "Xcode", id: 497799835
