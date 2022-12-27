@@ -11,6 +11,8 @@ brew "bat"
 brew "epubcheck"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
+# Plugin manager for the Fish shell
+brew "fisher"
 # GitHub command-line tool
 brew "gh"
 # Git extension for versioning large files

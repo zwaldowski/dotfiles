@@ -1,9 +1,5 @@
 #!/bin/sh
-# Fetch "Fisher" package manager for Fish and run it.
+# Run "Fisher" package manager for Fish.
 set -eu
-
-echo "Setting up Fish…"
-
-curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
 
 fish -c "fisher"
