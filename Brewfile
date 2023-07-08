@@ -2,6 +2,7 @@
 
 # Custom formulae
 tap "homebrew/cask-fonts"
+tap "peripheryapp/periphery"
 tap "zwaldowski/tap"
 
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -31,6 +32,8 @@ brew "youtube-dl"
 # Play, record, convert, and stream audio and video
 brew "zwaldowski/tap/ffmpeg-lite"
 
+# Voice and text chat software
+cask "discord"
 # Compact variant of "San Francisco" by Apple
 cask "font-sf-compact"
 # Monospaced variant of "San Francisco" by Apple
@@ -43,6 +46,10 @@ cask "microsoft-edge"
 cask "pacifist"
 # HTTP client that helps testing and describing APIs
 cask "paw"
+# A tool to identify unused code in Swift projects
+cask "periphery"
+# HTTP debugging proxy
+cask "proxyman"
 # Tool that provides consistent, highly configurable symbols for apps
 cask "sf-symbols"
 # Digital design and prototyping platform
@@ -70,7 +77,6 @@ mas "Mela", id: 1568924476
 mas "Noir", id: 1592917505
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
-mas "Parallels Desktop", id: 1085114709
 mas "Parcel", id: 639968404
 mas "Pixelmator Pro", id: 1289583905
 mas "Slack", id: 803453959
@@ -79,3 +85,4 @@ mas "The Unarchiver", id: 425424353
 mas "Tot", id: 1491071483
 mas "Vinegar", id: 1591303229
 mas "Xcode", id: 497799835
+mas "xScope", id: 889428659
