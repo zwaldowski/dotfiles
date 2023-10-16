@@ -5,7 +5,6 @@ else if test -x /usr/local/bin/brew
 end
 
 fish_add_path $HOME/bin
-fish_add_path $HOMEBREW_PREFIX/lib/ruby/gems/3.1.0/bin
 fish_add_path $HOMEBREW_PREFIX/opt/ruby/bin
 alias cat="bat"
 alias docker="podman"
