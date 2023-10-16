@@ -9,8 +9,7 @@ fish_add_path $HOMEBREW_PREFIX/lib/ruby/gems/3.1.0/bin
 fish_add_path $HOMEBREW_PREFIX/opt/ruby/bin
 alias cat="bat"
 alias docker="podman"
-alias code="open -b com.microsoft.VSCode"
-set -x EDITOR "open -W -b com.microsoft.VSCode"
+set -x EDITOR "code -W"
 
 set -g fish_color_command brcyan
 set -g hydro_color_pwd 00AFFF
