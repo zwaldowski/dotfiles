@@ -15,21 +15,16 @@ brew "gh"
 brew "git-lfs"
 # Platform built on V8 to build network applications
 brew "node"
-# Protocol buffers (Google's data interchange format)
-brew "protobuf"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Powerful, clean, object-oriented scripting language
 brew "ruby"
-# Plugin and runtime library for using protobuf with Swift
-brew "swift-protobuf"
 # Tool to enforce Swift style and conventions
 brew "swiftlint"
 # Download YouTube videos from the command-line
 brew "yt-dlp"
 # Play, record, convert, and stream audio and video
 brew "zwaldowski/tap/ffmpeg-lite"
-
 # Voice and text chat software
 cask "discord"
 # Compact variant of "San Francisco" by Apple
@@ -38,44 +33,38 @@ cask "font-sf-compact"
 cask "font-sf-mono"
 # Sans-serif variant of "San Francisco" by Apple
 cask "font-sf-pro"
-# Web browser
-cask "microsoft-edge"
+# Disassemble, decompile, and debug your applications
+cask "hopper-disassembler"
 # Extract files and folders from package files, disk images, and archives
 cask "pacifist"
-# HTTP client that helps testing and describing APIs
-cask "paw"
 # A tool to identify unused code in Swift projects
 cask "periphery"
-# HTTP debugging proxy
-cask "proxyman"
 # Tool that provides consistent, highly configurable symbols for apps
 cask "sf-symbols"
-# JDK from the Eclipse Foundation (Adoptium)
-cask "temurin"
+# Digital design and prototyping platform
+cask "sketch"
 # Git client focusing on power and productivity
 cask "tower"
 # Open-source code editor
 cask "visual-studio-code"
-# Video communication and virtual meeting platform
-cask "webex"
+# Create, manage, and run virtual machines
+cask "vmware-fusion"
 # Video communication and virtual meeting platform
 cask "zoom"
 
 mas "1Blocker", id: 1365531024
-mas "Baking Soda", id: 1601151613
 mas "DaisyDisk", id: 411643860
 mas "DuckDuckGo Privacy for Safari", id: 1482920575
 mas "Gifski", id: 1351639930
 mas "Hush", id: 1544743900
+mas "Ivory", id: 6444602274
 mas "Kaleidoscope", id: 1575557335
 mas "Keynote", id: 409183694
 mas "Mela", id: 1568924476
-mas "Noir", id: 1592917505
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Parcel", id: 639968404
 mas "Pixelmator Pro", id: 1289583905
-mas "Sketch", id: 1667260533
 mas "Slack", id: 803453959
 mas "TestFlight", id: 899247664
 mas "The Unarchiver", id: 425424353
