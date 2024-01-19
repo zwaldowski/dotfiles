@@ -6,7 +6,6 @@ end
 
 fish_add_path $HOME/bin
 fish_add_path $HOMEBREW_PREFIX/opt/ruby/bin
-alias cat="bat"
 alias docker="podman"
 set -x EDITOR "code -W"
 

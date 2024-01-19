@@ -5,8 +5,6 @@ tap "homebrew/cask-fonts"
 tap "peripheryapp/periphery"
 tap "zwaldowski/tap"
 
-# Clone of cat(1) with syntax highlighting and Git integration
-brew "bat"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
 # Plugin manager for the Fish shell
@@ -52,8 +50,6 @@ cask "periphery"
 cask "proxyman"
 # Tool that provides consistent, highly configurable symbols for apps
 cask "sf-symbols"
-# Digital design and prototyping platform
-cask "sketch"
 # JDK from the Eclipse Foundation (Adoptium)
 cask "temurin"
 # Git client focusing on power and productivity
@@ -61,7 +57,7 @@ cask "tower"
 # Open-source code editor
 cask "visual-studio-code"
 # Video communication and virtual meeting platform
-cask "webex-meetings"
+cask "webex"
 # Video communication and virtual meeting platform
 cask "zoom"
 
@@ -79,6 +75,7 @@ mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Parcel", id: 639968404
 mas "Pixelmator Pro", id: 1289583905
+mas "Sketch", id: 1667260533
 mas "Slack", id: 803453959
 mas "TestFlight", id: 899247664
 mas "The Unarchiver", id: 425424353
