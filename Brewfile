@@ -26,7 +26,7 @@ brew "swift-protobuf"
 # Tool to enforce Swift style and conventions
 brew "swiftlint"
 # Download YouTube videos from the command-line
-brew "youtube-dl"
+brew "yt-dlp"
 # Play, record, convert, and stream audio and video
 brew "zwaldowski/tap/ffmpeg-lite"
 
