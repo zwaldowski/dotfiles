@@ -11,19 +11,19 @@ brew "fish"
 brew "fisher"
 # GitHub command-line tool
 brew "gh"
+# Distributed revision control system
+brew "git"
 # Git extension for versioning large files
 brew "git-lfs"
 # Platform built on V8 to build network applications
 brew "node"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
-# Powerful, clean, object-oriented scripting language
-brew "ruby"
 # Tool to enforce Swift style and conventions
 brew "swiftlint"
-# Download YouTube videos from the command-line
+# Fork of youtube-dl with additional features and fixes
 brew "yt-dlp"
-# Play, record, convert, and stream audio and video
+# Convert audio and video
 brew "zwaldowski/tap/ffmpeg-lite"
 # Voice and text chat software
 cask "discord"
@@ -67,7 +67,6 @@ mas "Parcel", id: 639968404
 mas "Pixelmator Pro", id: 1289583905
 mas "Slack", id: 803453959
 mas "TestFlight", id: 899247664
-mas "The Unarchiver", id: 425424353
 mas "Tot", id: 1491071483
 mas "Vinegar", id: 1591303229
 mas "Xcode", id: 497799835
