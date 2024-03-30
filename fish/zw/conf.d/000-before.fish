@@ -8,7 +8,7 @@ fish_add_path $HOME/bin
 fish_add_path $HOMEBREW_PREFIX/opt/ruby/bin
 fish_add_path $HOMEBREW_PREFIX/lib/ruby/gems/3.3.0/bin
 alias docker="podman"
-set -x EDITOR "code -W"
+set -gx EDITOR "code -w"
 
 set -g fish_color_command brcyan
 set -g hydro_color_pwd 00AFFF
