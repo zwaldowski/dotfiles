@@ -2,6 +2,7 @@
 
 # Custom formulae
 tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
 tap "peripheryapp/periphery"
 tap "zwaldowski/tap"
 
@@ -21,8 +22,6 @@ brew "node"
 brew "ripgrep"
 # Tool to enforce Swift style and conventions
 brew "swiftlint"
-# Fork of youtube-dl with additional features and fixes
-brew "yt-dlp"
 # Convert audio and video
 brew "zwaldowski/tap/ffmpeg-lite"
 # Voice and text chat software
@@ -33,6 +32,8 @@ cask "font-sf-compact"
 cask "font-sf-mono"
 # Sans-serif variant of "San Francisco" by Apple
 cask "font-sf-pro"
+# Web browser
+cask "google-chrome-beta"
 # Disassemble, decompile, and debug your applications
 cask "hopper-disassembler"
 # Extract files and folders from package files, disk images, and archives
@@ -49,6 +50,8 @@ cask "tower"
 cask "visual-studio-code"
 # Create, manage, and run virtual machines
 cask "vmware-fusion"
+# Feature-rich command-line audio/video downloader
+cask "yt-dlp"
 # Video communication and virtual meeting platform
 cask "zoom"
 
@@ -58,7 +61,6 @@ mas "DuckDuckGo Privacy for Safari", id: 1482920575
 mas "Gifski", id: 1351639930
 mas "Hush", id: 1544743900
 mas "Ivory", id: 6444602274
-mas "Kaleidoscope", id: 1575557335
 mas "Keynote", id: 409183694
 mas "Mela", id: 1568924476
 mas "Numbers", id: 409203825
@@ -69,5 +71,6 @@ mas "Slack", id: 803453959
 mas "TestFlight", id: 899247664
 mas "Tot", id: 1491071483
 mas "Vinegar", id: 1591303229
+mas "Wallaroo", id: 1630565980
 mas "Xcode", id: 497799835
 mas "xScope", id: 889428659
