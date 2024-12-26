@@ -9,3 +9,5 @@ defaults -currentHost write -g "com.apple.keyboard.modifiermapping.1452-832-0" -
 defaults -currentHost write -g "com.apple.keyboard.modifiermapping.1452-834-0" -array '{ HIDKeyboardModifierMappingDst = 30064771113; HIDKeyboardModifierMappingSrc = 30064771129; }'
 # Magic Keyboard with Touch ID for Mac models with Apple silicon
 defaults -currentHost write -g "com.apple.keyboard.modifiermapping.alt_handler_id-82" -array '{ HIDKeyboardModifierMappingDst = 30064771113; HIDKeyboardModifierMappingSrc = 30064771129; }'
+# MacBook Air 13-inch, M3, 2024 (Mac15,12)
+defaults -currentHost write -g "com.apple.keyboard.modifiermapping.0-0-0" -array '{ HIDKeyboardModifierMappingDst = 30064771113; HIDKeyboardModifierMappingSrc = 30064771129; }'

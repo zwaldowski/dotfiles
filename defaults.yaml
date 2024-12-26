@@ -7,16 +7,25 @@ com.apple.driver.AppleBluetoothMultitouch.trackpad:
   # Accessibility > Zoom > Use scroll gesture with modifier keys to zoom
   HIDScrollZoomModifierMask: 262144
 # Beleaguered
+com.apple.CoreSimulator:
+  # Don’t create default devices nor manage pairing relationships between watches and phones
+  # https://developer.apple.com/documentation/xcode-release-notes/xcode-16_2-release-notes
+  EnableDefaultSetCreation: false
+# Beleaguered
 com.apple.dt.Xcode:
   # Xcode > Preferences > Text Editing > While editing: Automatically trim
   # trailing whitespace > Including whitespace-only lines.
   DVTTextEditorTrimWhitespaceOnlyLines: true
+  # Hide minimap
+  DVTTextShowMinimap: false
+  # Unfurl stack frames
+  IDEAlwaysShowCompressedStackFrames: false
   # Don't warn about re-running a process
   IDESuppressStopExecutionWarning: true
   # Don't create a Git repository for new projects by default
   IDEDisableGitSupportForNewProjects: true
-  # Show build times for current target
-  ShowBuildOperationDuration: true
+  # Inhibit Xcode Cloud onboarding
+  XcodeCloudUserHasDismissedGetStartedPrompt: true
 # Finder, the Macintosh Desktop Experience
 com.apple.finder:
   # Disable the warning when changing a file extension
@@ -27,21 +36,17 @@ com.apple.finder:
   NewWindowTarget: PfHm
 # Safari, the WebKit-based browser for macOS
 com.apple.Safari:
-  # Use substring search by default in Safari.
-  FindOnPageMatchesWordStartsOnly: false
   # Developer settings
   IncludeDevelopMenu: 1
   # Inhibit Spotlight onboarding
   UniversalSearchFeatureNotificationHasBeenDisplayed: true
 # Safari, but, like, better
 com.apple.SafariTechnologyPreview:
-  # Use substring search by default in Safari.
-  FindOnPageMatchesWordStartsOnly: false
   # Developer settings
   IncludeDevelopMenu: 1
   # Inhibit Spotlight onboarding
   UniversalSearchFeatureNotificationHasBeenDisplayed: true
-# Screen Capture: screenshotting functionality in Mac OS X
+# Screen Capture: screenshotting functionality in macOS
 com.apple.screencapture:
   # Don't capture blown-out Quartz window shadows
   disable-shadow: true
