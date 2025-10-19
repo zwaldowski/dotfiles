@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
-    "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <array>
-    <dict>
-        <key>ApplicationIdentifier</key>
-        <string>com.microsoft.VSCode</string>
-        <key>ApplicationName</key>
-        <string>Visual Studio Code</string>
-        <key>DisplayName</key>
-        <string>Visual Studio Code</string>
-        <key>LaunchScript</key>
-        <string>code.sh</string>
-        <key>Identifier</key>
-        <string>code</string>
-        <key>SupportsMergeTool</key>
-        <true/>
-        <key>SupportsDiffChangeset</key>
-        <true/>
-    </dict>
+	<dict>
+		<key>ApplicationIdentifier</key>
+		<string>dev.zed.Zed</string>
+		<key>ApplicationName</key>
+		<string>Zed</string>
+		<key>DisplayName</key>
+		<string>Zed</string>
+		<key>LaunchScript</key>
+		<string>zed.sh</string>
+		<key>Identifier</key>
+		<string>zed</string>
+		<key>SupportsMergeTool</key>
+		<false/>
+	</dict>
 </array>
 </plist>

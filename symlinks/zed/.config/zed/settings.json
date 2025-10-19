@@ -1,0 +1,80 @@
+// Zed settings
+// - `zed: open default settings`
+// - <https://zed.dev/docs/configuring-zed>
+{
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Catppuccin Macchiato"
+  },
+  "icon_theme": "Catppuccin Macchiato",
+  "features": {
+    "edit_prediction_provider": "none"
+  },
+  "buffer_font_family": "SF Mono",
+  "buffer_font_size": 12,
+  "buffer_font_weight": 540.0,
+  "ui_font_family": ".SystemUIFont",
+  "ui_font_size": 17,
+  "restore_on_startup": "last_workspace",
+  "zoomed_padding": false,
+  "calls": {
+    "mute_on_join": true
+  },
+  "toolbar": {
+    "breadcrumbs": true,
+    "quick_actions": false
+  },
+  "title_bar": {
+    "show_onboarding_banner": false,
+    "show_user_picture": false
+  },
+  "minimap": {
+    "show": "never"
+  },
+  "indent_guides": {
+    "coloring": "indent_aware"
+  },
+  "outline_panel": {
+    "button": false
+  },
+  "collaboration_panel": {
+    "button": false
+  },
+  "git_panel": {
+    "dock": "right"
+  },
+  "notification_panel": {
+    "button": false
+  },
+  "tabs": {
+    "close_position": "left"
+  },
+  "ensure_final_newline_on_save": false,
+  "telemetry": {
+    "metrics": false
+  },
+  "disable_ai": true,
+  "file_types": {
+    "json": ["*.xcstrings"]
+  },
+  "auto_install_extensions": {
+    "catppuccin": true,
+    "catppuccin-icons": true,
+    "csv": true,
+    "fish": true,
+    "html": true,
+    "git-firefly": true,
+    "swift": true
+  },
+  "lsp": {
+    "sourcekit-lsp": {
+      "binary": {
+        "path": "/var/db/xcode_select_link/Toolchains/XcodeDefault.xctoolchain/usr/bin/sourcekit-lsp"
+      }
+    }
+  },
+  "debugger": {
+    "dock": "left"
+  }
+}
