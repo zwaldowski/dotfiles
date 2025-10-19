@@ -6,7 +6,8 @@ end
 
 fish_add_path $HOME/bin
 fish_add_path $HOMEBREW_PREFIX/opt/ruby/bin
-fish_add_path $HOMEBREW_PREFIX/lib/ruby/gems/3.3.0/bin
+fish_add_path $HOMEBREW_PREFIX/lib/ruby/gems/3.4.0/bin
+fish_add_path $HOMEBREW_PREFIX/opt/rustup/bin
 alias docker="podman"
 set -gx EDITOR "code -w"
 
