@@ -3,7 +3,7 @@
 	co = checkout
 [core]
 	attributesfile = ~/.dotfiles/git/attributes
-	editor = code --wait
+	editor = zed -w
 	excludesfile = ~/.dotfiles/git/ignore
 [credential]
 	helper = osxkeychain

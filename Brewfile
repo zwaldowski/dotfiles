@@ -45,6 +45,8 @@ cask "visual-studio-code"
 cask "vmware-fusion"
 # Feature-rich command-line audio/video downloader
 cask "yt-dlp@lite", args: { no_quarantine: true }
+# Multiplayer code editor
+cask "zed"
 # Video communication and virtual meeting platform
 cask "zoom"
 

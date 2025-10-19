@@ -1,6 +1,8 @@
 Brewfile.lock.json
 symlinks/fish/.config/fish/*
 !symlinks/fish/.config/fish/fish_plugins
+symlinks/zed/.config/zed/*
+!symlinks/zed/.config/zed/settings.json
 symlinks/ssh/.ssh/id_*
 symlinks/ssh/.ssh/known_hosts
 Gemfile.lock
