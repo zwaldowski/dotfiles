@@ -12,6 +12,8 @@ brew "fisher"
 brew "gh"
 # Mac App Store command-line interface
 brew "mas"
+# Platform built on V8 to build network applications
+brew "node"
 # Identify unused code in Swift projects
 brew "periphery"
 # Search tool like grep and The Silver Searcher
@@ -20,6 +22,8 @@ brew "ripgrep"
 brew "ruby"
 # Rust toolchain installer
 brew "rustup"
+# Tool to enforce Swift style and conventions
+brew "swiftlint"
 # Convert audio and video
 brew "zwaldowski/tap/ffmpeg-lite"
 
@@ -63,5 +67,4 @@ mas "Pages", id: 409201541
 mas "Pixelmator Pro", id: 1289583905
 mas "Tot", id: 1491071483
 mas "Vinegar", id: 1591303229
-mas "Xcode", id: 497799835
 mas "xScope", id: 889428659
