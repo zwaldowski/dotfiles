@@ -24,6 +24,9 @@ com.apple.dt.Xcode:
   IDESuppressStopExecutionWarning: true
   # Don't create a Git repository for new projects by default
   IDEDisableGitSupportForNewProjects: true
+  # Don’t index docs for a few releases until it gets better
+  # https://developer.apple.com/documentation/xcode-release-notes/xcode-16_3-release-notes#Developer-Documentation-Window
+  IDEDocumentationSpotlightIndexDisable: true
   # Inhibit Xcode Cloud onboarding
   XcodeCloudUserHasDismissedGetStartedPrompt: true
 # Finder, the Macintosh Desktop Experience
