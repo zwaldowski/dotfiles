@@ -5,6 +5,8 @@
 	attributesfile = ~/.dotfiles/git/attributes
 	editor = code --wait
 	excludesfile = ~/.dotfiles/git/ignore
+[credential]
+	helper = osxkeychain
 [fetch]
 	prune = true
 [init]
