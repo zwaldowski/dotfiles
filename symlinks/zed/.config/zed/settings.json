@@ -16,7 +16,7 @@
   "buffer_font_weight": 540.0,
   "ui_font_family": ".SystemUIFont",
   "ui_font_size": 17,
-  "restore_on_startup": "last_workspace",
+  "restore_on_startup": "none",
   "zoomed_padding": false,
   "calls": {
     "mute_on_join": true
