@@ -63,8 +63,9 @@
     "catppuccin-icons": true,
     "csv": true,
     "fish": true,
-    "html": true,
     "git-firefly": true,
+    "html": true,
+    "pbxproj": true,
     "swift": true
   },
   "lsp": {
