@@ -7,7 +7,11 @@
     "light": "One Light",
     "dark": "Catppuccin Macchiato"
   },
-  "icon_theme": "Catppuccin Macchiato",
+  "icon_theme": {
+    "mode": "system",
+    "light": "Catppuccin Macchiato",
+    "dark": "Catppuccin Macchiato"
+  },
   "features": {
     "edit_prediction_provider": "none"
   },
