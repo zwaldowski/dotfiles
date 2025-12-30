@@ -1,2 +1,2 @@
--f "bestvideo*[vcodec~='^((he|a)vc|h26[45])']+bestaudio[ext=m4a]"
---merge-output-format mp4
+-f "bestvideo*[vcodec~='^((he|a)vc|h26[45])']+bestaudio[ext=m4a]/best[ext=mp4]/bestvideo*+bestaudio/best"
+--merge-output-format mp4/mov
