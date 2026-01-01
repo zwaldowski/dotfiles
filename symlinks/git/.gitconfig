@@ -1,6 +1,8 @@
 # Basic
 [alias]
 	co = checkout
+[commit]
+	gpgsign = true
 [core]
 	attributesfile = ~/.dotfiles/git/attributes
 	editor = zed -w
@@ -64,6 +66,10 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	allowedSignersFile = ~/.dotfiles/git/allowed_signers
 [merge]
 	tool = code
 [merge "kintsugi"]
