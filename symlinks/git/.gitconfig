@@ -57,10 +57,13 @@
 	xfuncname = "^[ \\t]*((\\w+ +)*((class|struct|enum|actor|protocol|extension|func) +|(de?)init\\b).+)$"
 [difftool]
 	prompt = false
+	tool = zed
 [difftool "code"]
-    cmd = code --wait --diff \"$LOCAL\" \"$REMOTE\"
+    cmd = "code --wait --diff \"$LOCAL\" \"$REMOTE\""
 [difftool "Kaleidoscope"]
-	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+	cmd = "ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\""
+[difftool "zed"]
+	cmd = "zed --wait --diff \"$LOCAL\" \"$REMOTE\""
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
@@ -71,7 +74,7 @@
 [gpg "ssh"]
 	allowedSignersFile = ~/.dotfiles/git/allowed_signers
 [merge]
-	tool = code
+	tool = zed
 [merge "kintsugi"]
 	name = Kintsugi driver
 	driver = kintsugi driver %O %A %B %P
@@ -79,6 +82,8 @@
 	keepBackup = false
 	prompt = false
 [mergetool "code"]
-	cmd = code --wait --merge \"$REMOTE\" \"$LOCAL\" \"$BASE\" \"$MERGED\"
+	cmd = "code --wait --merge \"$REMOTE\" \"$LOCAL\" \"$BASE\" \"$MERGED\""
 [mergetool "Kaleidoscope"]
-	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" \"$REMOTE\"
+	cmd = "ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" \"$REMOTE\""
+[mergetool "zed"]
+  cmd = "code --wait \"$MERGED\""

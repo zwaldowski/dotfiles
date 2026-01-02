@@ -14,7 +14,7 @@
 		<key>Identifier</key>
 		<string>zed</string>
 		<key>SupportsMergeTool</key>
-		<false/>
+		<true/>
 	</dict>
 </array>
 </plist>

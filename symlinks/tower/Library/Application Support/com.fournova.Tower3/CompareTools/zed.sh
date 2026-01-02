@@ -1,21 +1,6 @@
 #!/bin/sh
 
-LOCAL="$1"
-REMOTE="$2"
-
-# Sanitize LOCAL path
-if [[ ! "$LOCAL" =~ ^/ ]]; then
-	LOCAL=$(echo "$LOCAL" | sed -e 's/^\.\///')
-	LOCAL="$PWD/$LOCAL"
-fi
-
-# Sanitize REMOTE path
-if [[ ! "$REMOTE" =~ ^/ ]]; then
-	REMOTE=$(echo "$REMOTE" | sed -e 's/^\.\///')
-	REMOTE="$PWD/$REMOTE"
-fi
-
-CMD=/opt/homebrew/bin/zed
+CMD="/opt/homebrew/bin/zed"
 
 if [ ! -x "$CMD" ]; then
     CMD=/usr/local/bin/zed
@@ -26,4 +11,14 @@ if [ ! -x "$CMD" ]; then
 	exit 1
 fi
 
-"$CMD" --wait --diff "$LOCAL" "$REMOTE"
+if [[ $# -eq 4 ]]; then
+  # Invoked as merge tool
+  "$CMD" --wait "$4"
+elif [[ $# -eq 2 ]]; then
+  # Invoked as diff tool
+  "$CMD" --wait --diff "$1" "$2"
+else
+  # Error
+  echo "error: Number of arguments must be 4 or 2."
+  exit 1
+fi
