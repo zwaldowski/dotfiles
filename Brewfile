@@ -2,8 +2,9 @@
 
 # Custom formulae
 tap "zero-sh/tap"
-tap "zwaldowski/tap", "https://zwaldowski@github.com/zwaldowski/homebrew-tap"
 
+# Play, record, convert, and stream select audio and video codecs
+brew "ffmpeg"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
 # Plugin manager for the Fish shell
@@ -12,7 +13,7 @@ brew "fisher"
 brew "gh"
 # Mac App Store command-line interface
 brew "mas"
-# Platform built on V8 to build network applications
+# Open-source, cross-platform JavaScript runtime environment
 brew "node"
 # Identify unused code in Swift projects
 brew "periphery"
@@ -24,11 +25,9 @@ brew "ruby"
 brew "rustup"
 # Tool to enforce Swift style and conventions
 brew "swiftlint"
-# Convert audio and video
-brew "zwaldowski/tap/ffmpeg-lite"
+# Feature-rich command-line audio/video downloader
+brew "yt-dlp"
 
-# Voice and text chat software
-cask "discord"
 # Monospaced variant of "San Francisco" by Apple
 cask "font-sf-mono"
 # Web browser
@@ -43,12 +42,6 @@ cask "sf-symbols"
 cask "sketch"
 # Git client focusing on power and productivity
 cask "tower"
-# Open-source code editor
-cask "visual-studio-code"
-# Create, manage, and run virtual machines
-cask "vmware-fusion"
-# Feature-rich command-line audio/video downloader
-cask "yt-dlp@lite", args: { no_quarantine: true }
 # Multiplayer code editor
 cask "zed"
 # Video communication and virtual meeting platform
@@ -57,14 +50,15 @@ cask "zoom"
 mas "1Blocker", id: 1365531024
 mas "Baking Soda", id: 1601151613
 mas "DaisyDisk", id: 411643860
+mas "Folder Quick Look", id: 6753110395
 mas "Gifski", id: 1351639930
 mas "Hush", id: 1544743900
 mas "Kaleidoscope", id: 1575557335
-mas "Keynote", id: 409183694
+mas "Keynote", id: 361285480
 mas "Mela", id: 1568924476
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
-mas "Pixelmator Pro", id: 1289583905
+mas "Numbers", id: 361304891
+mas "Pages", id: 361309726
+mas "Pixelmator Pro", id: 6746662575
 mas "Tot", id: 1491071483
 mas "Vinegar", id: 1591303229
 mas "xScope", id: 889428659
