@@ -5,62 +5,59 @@
   "theme": {
     "mode": "dark",
     "light": "One Light",
-    "dark": "Catppuccin Macchiato"
+    "dark": "Catppuccin Macchiato",
   },
   "icon_theme": {
     "mode": "system",
     "light": "Catppuccin Macchiato",
-    "dark": "Catppuccin Macchiato"
-  },
-  "features": {
-    "edit_prediction_provider": "none"
+    "dark": "Catppuccin Macchiato",
   },
   "buffer_font_family": "SF Mono",
   "buffer_font_size": 12,
   "buffer_font_weight": 540.0,
   "ui_font_family": ".SystemUIFont",
   "ui_font_size": 17,
-  "restore_on_startup": "none",
+  "restore_on_startup": "empty_tab",
   "zoomed_padding": false,
   "calls": {
-    "mute_on_join": true
+    "mute_on_join": true,
   },
   "toolbar": {
     "breadcrumbs": true,
-    "quick_actions": false
+    "quick_actions": false,
   },
   "title_bar": {
     "show_onboarding_banner": false,
-    "show_user_picture": false
+    "show_user_picture": false,
   },
   "minimap": {
-    "show": "never"
+    "show": "never",
   },
   "indent_guides": {
-    "coloring": "indent_aware"
+    "coloring": "indent_aware",
   },
   "outline_panel": {
-    "button": false
+    "button": false,
   },
   "collaboration_panel": {
-    "button": false
+    "button": false,
   },
   "git_panel": {
-    "dock": "right"
+    "dock": "right",
   },
   "notification_panel": {
-    "button": false
+    "button": false,
   },
   "tabs": {
-    "close_position": "left"
+    "close_position": "left",
   },
   "ensure_final_newline_on_save": false,
   "telemetry": {
-    "metrics": false
+    "metrics": false,
   },
   "disable_ai": true,
-  "file_types": {
-    "json": ["*.xcstrings"]
+  "edit_predictions": {
+    "provider": "none",
   },
   "auto_install_extensions": {
     "catppuccin": true,
@@ -70,16 +67,16 @@
     "git-firefly": true,
     "html": true,
     "pbxproj": true,
-    "swift": true
+    "swift": true,
   },
   "lsp": {
     "sourcekit-lsp": {
       "binary": {
-        "path": "/var/db/xcode_select_link/Toolchains/XcodeDefault.xctoolchain/usr/bin/sourcekit-lsp"
-      }
-    }
+        "path": "/var/db/xcode_select_link/Toolchains/XcodeDefault.xctoolchain/usr/bin/sourcekit-lsp",
+      },
+    },
   },
   "debugger": {
-    "dock": "left"
-  }
+    "dock": "left",
+  },
 }
