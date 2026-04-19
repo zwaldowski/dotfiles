@@ -73,6 +73,9 @@ com.fournova.Tower3:
   GTUserDefaultsMergeToolIdentifier: code
   GTUserDefaultsMoveRevisionsSkipConfirmation: true
   GTUserDefaultsSquashRevisionsSkipConfirmation: true
+# Web browser
+com.google.Chrome:
+  GenAILocalFoundationalModelSettings: 1
 # Gifski: Convert videos to GIFs
 com.sindresorhus.Gifski:
   outputFPS: 8
