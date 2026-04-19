@@ -45,13 +45,11 @@
   "git_panel": {
     "dock": "right",
   },
-  "notification_panel": {
-    "button": false,
-  },
   "tabs": {
     "close_position": "left",
   },
   "ensure_final_newline_on_save": false,
+  "soft_wrap": "prefer_line",
   "telemetry": {
     "metrics": false,
   },
