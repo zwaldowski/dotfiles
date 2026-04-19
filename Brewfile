@@ -1,6 +1,7 @@
 # Partly auto-generated using `brew bundle dump --describe`.
 
 # Custom formulae
+tap "finnvoor/tools"
 tap "zero-sh/tap"
 
 # Play, record, convert, and stream select audio and video codecs
@@ -27,7 +28,11 @@ brew "rustup"
 brew "swiftlint"
 # Feature-rich command-line audio/video downloader
 brew "yt-dlp"
+# CLI for on-device speech transcription using Speech.framework
+brew "finnvoor/tools/yap"
 
+# Tool to run Windows software
+cask "crossover"
 # Monospaced variant of "San Francisco" by Apple
 cask "font-sf-mono"
 # Web browser
@@ -48,7 +53,9 @@ cask "zed"
 cask "zoom"
 
 mas "1Blocker", id: 1365531024
+mas "Aeronaut", id: 6670275450
 mas "Baking Soda", id: 1601151613
+mas "Balatro", id: 6502451661
 mas "DaisyDisk", id: 411643860
 mas "Folder Quick Look", id: 6753110395
 mas "Gifski", id: 1351639930
