@@ -2,6 +2,10 @@
 // - `zed: open default settings`
 // - <https://zed.dev/docs/configuring-zed>
 {
+  "cli_default_open_behavior": "existing_window",
+  "project_panel": {
+    "dock": "left",
+  },
   "theme": {
     "mode": "dark",
     "light": "One Light",
@@ -41,9 +45,6 @@
   },
   "collaboration_panel": {
     "button": false,
-  },
-  "git_panel": {
-    "dock": "right",
   },
   "tabs": {
     "close_position": "left",
