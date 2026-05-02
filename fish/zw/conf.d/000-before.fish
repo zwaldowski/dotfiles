@@ -4,10 +4,11 @@ else if test -x /usr/local/bin/brew
   eval (/usr/local/bin/brew shellenv)
 end
 
-fish_add_path $HOME/bin
-fish_add_path $HOMEBREW_PREFIX/opt/ruby/bin
-fish_add_path $HOMEBREW_PREFIX/lib/ruby/gems/4.0.0/bin
-fish_add_path $HOMEBREW_PREFIX/opt/rustup/bin
+fish_add_path -g \
+    ~/bin \
+    /opt/homebrew/opt/ruby/bin \
+    $(gem env gemdir)/bin \
+    /opt/homebrew/opt/rustup/bin
 alias docker="podman"
 set -gx EDITOR "zed -w"
 
