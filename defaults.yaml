@@ -13,8 +13,9 @@ com.apple.CoreSimulator:
   EnableDefaultSetCreation: false
 # Beleaguered
 com.apple.dt.Xcode:
-  # Xcode > Preferences > Text Editing > While editing: Automatically trim
-  # trailing whitespace > Including whitespace-only lines.
+  # Editing > When Editing > Automatically trim trailing whitespace
+  DVTTextEditorTrimTrailingWhitespace: true
+  # Editing > When Editing > Trim whitespace-only lines
   DVTTextEditorTrimWhitespaceOnlyLines: true
   # Hide minimap
   DVTTextShowMinimap: false
@@ -22,11 +23,6 @@ com.apple.dt.Xcode:
   IDEAlwaysShowCompressedStackFrames: false
   # Don't warn about re-running a process
   IDESuppressStopExecutionWarning: true
-  # Don't create a Git repository for new projects by default
-  IDEDisableGitSupportForNewProjects: true
-  # Don’t index docs for a few releases until it gets better
-  # https://developer.apple.com/documentation/xcode-release-notes/xcode-16_3-release-notes#Developer-Documentation-Window
-  IDEDocumentationSpotlightIndexDisable: true
   # Inhibit Xcode Cloud onboarding
   XcodeCloudUserHasDismissedGetStartedPrompt: true
 # Finder, the Macintosh Desktop Experience
@@ -39,14 +35,26 @@ com.apple.finder:
   NewWindowTarget: PfHm
 # Safari, the WebKit-based browser for macOS
 com.apple.Safari:
+  # Open "safe" files after downloading
+  AutoOpenSafeDownloads: 0
   # Developer settings
   IncludeDevelopMenu: 1
+  # New tabs open with: Empty Page
+  NewTabBehavior: 1
+  # New windows open with: Start Page
+  NewWindowBehavior: 4
   # Inhibit Spotlight onboarding
   UniversalSearchFeatureNotificationHasBeenDisplayed: true
 # Safari, but, like, better
 com.apple.SafariTechnologyPreview:
+  # Open "safe" files after downloading
+  AutoOpenSafeDownloads: 0
   # Developer settings
   IncludeDevelopMenu: 1
+  # New tabs open with: Empty Page
+  NewTabBehavior: 1
+  # New windows open with: Start Page
+  NewWindowBehavior: 4
   # Inhibit Spotlight onboarding
   UniversalSearchFeatureNotificationHasBeenDisplayed: true
 # Screen Capture: screenshotting functionality in macOS
@@ -61,21 +69,27 @@ com.apple.Spotlight:
 # Tower: Professional Git UI
 com.fournova.Tower3:
   GTUserDefaultsAlwaysFetchAllRemotes: true
-  GTUserDefaultsDarkTheme: Twilight
   GTUserDefaultsDefaultCloningDirectory: "/Users/zw/Developer"
   GTUserDefaultsDialogueOptionCheckoutCreatedBranch: true
   GTUserDefaultsDialogueOptionPullUseRebase: true
   GTUserDefaultsDiffToolCompareDirectory: true
-  GTUserDefaultsDiffToolIdentifier: code
+  GTUserDefaultsDiffToolIdentifier: kaleidoscope
   GTUserDefaultsFixupRevisionsSkipConfirmation: true
   GTUserDefaultsGitBinary: "/opt/homebrew/bin/git"
   GTUserDefaultsKeepBackupFilesForMergeConflicts: false
-  GTUserDefaultsMergeToolIdentifier: code
+  GTUserDefaultsMergeToolIdentifier: kaleidoscope
   GTUserDefaultsMoveRevisionsSkipConfirmation: true
   GTUserDefaultsSquashRevisionsSkipConfirmation: true
 # Web browser
 com.google.Chrome:
   GenAILocalFoundationalModelSettings: 1
+# Tot: Tint text companion
+com.iconfactory.Tot:
+  detachedWindow: 1
+  fontFixedSpacing: 1
+  hideTout: 1
+  hideToutIOS: 1
+  windowOnTop: 1
 # Gifski: Convert videos to GIFs
 com.sindresorhus.Gifski:
   outputFPS: 8
