@@ -73,6 +73,7 @@
 	format = ssh
 [gpg "ssh"]
 	allowedSignersFile = ~/.dotfiles/git/allowed_signers
+	defaultKeyCommand = ssh-add -L
 [merge]
 	tool = zed
 [merge "kintsugi"]
