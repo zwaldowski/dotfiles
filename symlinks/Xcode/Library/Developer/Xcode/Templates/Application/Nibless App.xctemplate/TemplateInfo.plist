@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+    "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Kind</key>
+    <string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+    <key>Identifier</key>
+    <string>me.waldowski.unit.cocoaTouchApplication.nibless</string>
+    <key>Ancestors</key>
+    <array>
+        <string>com.apple.dt.unit.sceneLifecycleApplication</string>
+    </array>
+    <key>Concrete</key>
+    <true />
+    <key>Description</key>
+    <string>A starting point for a UIKit app without storyboards.</string>
+    <key>SortOrder</key>
+    <integer>1</integer>
+    <key>NameOfInitialFileForEditor</key>
+    <string>ViewController.swift</string>
+    <key>Targets</key>
+    <array>
+        <dict>
+            <key>SharedSettings</key>
+            <dict>
+                <key>SUPPORTS_MACCATALYST</key>
+                <string>YES</string>
+                <key>SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD</key>
+                <string>NO</string>
+                <key>TARGETED_DEVICE_FAMILY</key>
+                <string>1,2,6</string>
+                <key>INFOPLIST_KEY_UILaunchScreen_Generation</key>
+                <string>YES</string>
+            </dict>
+        </dict>
+    </array>
+    <key>Options</key>
+    <array>
+        <dict>
+            <key>Identifier</key>
+            <string>languageChoice</string>
+            <key>Override</key>
+            <string>Swift</string>
+        </dict>
+        <dict>
+            <key>Identifier</key>
+            <string>appLifecycle</string>
+            <key>Override</key>
+            <string>Cocoa</string>
+        </dict>
+        <dict>
+            <key>Identifier</key>
+            <string>storageType</string>
+            <key>Override</key>
+            <string>None</string>
+        </dict>
+    </array>
+    <key>Nodes</key>
+	<array>
+		<string>ViewController.swift:comments</string>
+		<string>ViewController.swift:imports:importCocoa</string>
+		<string
+            >ViewController.swift:implementation(___FILEBASENAME___: UIViewController)</string>
+		<string
+            >ViewController.swift:implementation:methods:viewDidLoad(override func viewDidLoad(\))</string>
+		<string>ViewController.swift:implementation:methods:viewDidLoad:super</string>
+	</array>
+    <key>Definitions</key>
+    <dict>
+        <key
+            >AppDelegate.swift:implementation:methods:applicationdidFinishLaunchingWithOptions:body</key>
+        <string />
+        <key
+            >AppDelegate.swift:implementation:methods:applicationconfigurationForConnectingSceneSession:comment</key>
+        <string />
+        <key
+            >AppDelegate.swift:implementation:methods:applicationdidDiscardSceneSessions</key>
+        <string />
+        <key
+            >AppDelegate.swift:implementation:methods:applicationdidDiscardSceneSessions:comment</key>
+        <string />
+        <key
+            >SceneDelegate.swift:implementation:methods:sceneWillConnectToSession:comments</key>
+        <string />
+        <key
+            >SceneDelegate.swift:implementation:methods:sceneWillConnectToSession:body</key>
+        <string>guard let windowScene = scene as? UIWindowScene else { return }
+
+let rootViewController = ViewController()
+
+let window = UIWindow(windowScene: windowScene)
+window.rootViewController = rootViewController
+self.window = window
+
+window.makeKeyAndVisible()
+</string>
+        <key>SceneDelegate.swift:implementation:methods:sceneDidDisconnect</key>
+        <string />
+        <key
+            >SceneDelegate.swift:implementation:methods:sceneDidDisconnect:comments</key>
+        <string />
+        <key
+            >SceneDelegate.swift:implementation:methods:sceneDidBecomeActive</key>
+        <string />
+        <key
+            >SceneDelegate.swift:implementation:methods:sceneDidBecomeActive:comments</key>
+        <string />
+        <key
+            >SceneDelegate.swift:implementation:methods:sceneWillResignActive</key>
+        <string />
+        <key
+            >SceneDelegate.swift:implementation:methods:sceneWillResignActive:comments</key>
+        <string />
+        <key
+            >SceneDelegate.swift:implementation:methods:sceneWillEnterForeground</key>
+        <string />
+        <key
+            >SceneDelegate.swift:implementation:methods:sceneWillEnterForeground:comments</key>
+        <string />
+        <key
+            >SceneDelegate.swift:implementation:methods:sceneDidEnterBackground</key>
+        <string />
+        <key
+            >SceneDelegate.swift:implementation:methods:sceneDidEnterBackground:comments</key>
+        <string />
+        <key>ViewController.swift:implementation:methods:viewDidLoad:super</key>
+        <string>super.viewDidLoad()</string>
+        </dict>
+	<key>Image</key>
+	<dict>
+		<key>BundleImageName</key>
+		<string>app</string>
+		<key>BundleIdentifier</key>
+		<string>com.apple.dt.IDEKit</string>
+	</dict>
+</dict>
+</plist>
